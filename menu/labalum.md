@@ -1,3 +1,10 @@
+---
+layout: page
+title: Lab Alumni
+permalink: /menu/labalum.html
+---
+
+
 Below are previous Lab Alum:      
 Elena Bewick - Lab assistant - 2024-2025          
 Cody Ellis - Lab assistant - 2024          
