@@ -20,7 +20,8 @@ sections:
           alt: A photo of Ernesto conducting field work
           style: right
       content: |
-            Hello! I'm Ernesto. I'm a natural resources graduate student. I'm broadly interested in  restoration, grasslands, plant ecology, botany, and ecosystem management. I grew up near the coast in Santa Barbara county where I developed an appreciation for spending time outside but I fell in love with grasslands, restoration, and fieldwork as an undergrad at UC Santa Cruz. When I'm not working, you can catch me hunting for wildflowers on iNat in the spring or cheffing it up at home. I'm also constantly trying out new hobbies! My favorite forbs are any and all heterotrophic plants, Lillies, and _Leptosyne gigantea_; my favorite grasses are _Danthonia californica_ and _Poa douglasii_.          
+            Hello! I'm Ernesto. I'm a natural resources graduate student. I'm broadly interested in  restoration, grasslands, plant ecology, botany, and ecosystem management. I grew up near the coast in Santa Barbara county where I developed an appreciation for spending time outside but I fell in love with grasslands, restoration, and fieldwork as an undergrad at UC Santa Cruz. When I'm not working, you can catch me hunting for wildflowers on iNat in the spring or cheffing it up at home. I'm also constantly trying out new hobbies! My favorite forbs are any and all heterotrophic plants, Lillies, and _Leptosyne gigantea_; my favorite grasses are _Danthonia californica_ and _Poa douglasii_.   
+---
 <hr>
 
     - title: "Angelina Garcia (M.S. Student)"
