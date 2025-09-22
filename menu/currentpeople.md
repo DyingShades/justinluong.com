@@ -11,7 +11,6 @@ sections:
           style: right 
       content: |
             Dr. Luong is an Assistant Professor of Rangeland Resource Science in the Forestry, Fire, and Rangeland Department at Cal Poly Humboldt, where he works     with rangeland ecosystems, particularly in conservation and ecological restoration of California habitats, focused but not limited to grasslands with direct land manager engagement. His research interests center around climate-ready and invasion resistant restoration practices and incorporating management perspectives to understand restoration outcomes. Dr. Luong is particularly dedicated to promoting multi-use landscapes that balance range productivity and conserve native plant biodiversity. Dr. Luong completed his Bachelor's at the University of California (UC) Santa Barbara, and worked as an undergraduate researcher in the D'Antonio lab. He earned his PhD at UC Santa Cruz working with Dr. Michael Loik and Dr. Karen Holl in the Environmental Studies Department and worked as a USDA postdoctoral researcher at UC Davis with Dr. Jennifer Funk. Prior, Dr. Luong worked as a restoration coordinator at The Cheadle Center for Biodiversity and Ecological Restoration. Dr. Luong actively currently contributes to the broader conservation community through various leadership positions in various professional societies and advisory committees and serves as a board member and the Science and Education Committee Chair of the California Native Grassland Association. Dr. Luong is deeply invested in mentorship and actively fosters the growth of aspiring ecologists and works to train undergraduate and masters students. My favorite grasses are _Festuca californica_ and _Danthonia californica_.           
----
 <hr>
 
     - title: "Ernesto Chavez-Velasco (M.S. Candidate)"
@@ -21,7 +20,7 @@ sections:
           style: right
       content: |
             Hello! I'm Ernesto. I'm a natural resources graduate student. I'm broadly interested in  restoration, grasslands, plant ecology, botany, and ecosystem management. I grew up near the coast in Santa Barbara county where I developed an appreciation for spending time outside but I fell in love with grasslands, restoration, and fieldwork as an undergrad at UC Santa Cruz. When I'm not working, you can catch me hunting for wildflowers on iNat in the spring or cheffing it up at home. I'm also constantly trying out new hobbies! My favorite forbs are any and all heterotrophic plants, Lillies, and _Leptosyne gigantea_; my favorite grasses are _Danthonia californica_ and _Poa douglasii_.   
----
+
 <hr>
 
     - title: "Angelina Garcia (M.S. Student)"
@@ -165,6 +164,7 @@ sections:
       content: |
             Hello my name is Tyvone Wilkey-Burrell but my friends call me Ty. I am currently a sophomore at Cal Poly Humboldt and my major is Forestry (Wildland and Fire Management). I also currently have two jobs on campus so if you ever happen to be in Nelson Hall come stop by The Umoja center located on the second floor and say hi. Finally in my free time I like to explore places I haven't been, go to the beach, and hangout with friends.                  
 <hr>
+---
     - title: "Lab Alum"
     - content: |
             [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
