@@ -152,7 +152,7 @@ sections:
     - content: |
             [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
 
----
+
 
 <span style="font-size:1em;">*Undergrad researchers are undertaking directed rangeland research.</span>
 
