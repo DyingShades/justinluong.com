@@ -39,6 +39,7 @@ permalink: /menu/presentations.html
     .yt-wrap iframe { position: absolute; inset: 0; height: 100%; }
   }
 </style>
----
+
 <!-- (Optional) Privacy-enhanced mode:
      swap the iframe src to https://www.youtube-nocookie.com/embed/videoseries?list=... -->
+---
