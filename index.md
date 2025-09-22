@@ -18,7 +18,7 @@ Research in Dr. Luong's lab focuses on adapting restoration practices for changi
 </div>  
 ---
 # Quick Links:  
-
+<hr>
 We are part of the [Department of Forestry, Fire and Rangeland Management](https://ffrm.humboldt.edu/why-forestry) at [Cal Poly Humboldt College of Natural Resources & Sciences](https://cnrs.humboldt.edu/)  
 <hr>
 
