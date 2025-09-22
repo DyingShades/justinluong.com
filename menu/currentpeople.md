@@ -168,5 +168,7 @@ sections:
             [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
 ---
 
-<span style="font-size:1em;">*Undergrad researchers are undertaking directed rangeland research.</span>
+<div style="text-align:left; font-size:1em; margin: 1.5em 0 1.5em 0;">
+  *Undergrad researchers are undertaking directed rangeland research.
+</div>
 
