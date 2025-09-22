@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /menu/presentations.html
-
+---
 <!-- Responsive YouTube playlist embed -->
 <div class="yt-wrap" role="region" aria-label="Video playlist">
   <iframe
@@ -13,7 +13,7 @@ permalink: /menu/presentations.html
     referrerpolicy="strict-origin-when-cross-origin">
   </iframe>
 </div>
----
+
 <style>
   /* Make the iframe keep a 16:9 aspect ratio and scale nicely */
   .yt-wrap {
