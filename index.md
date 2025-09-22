@@ -1,6 +1,7 @@
 ---
 layout: home
 image: lab.png
+permalink: /index.html
 image: LuongLabPotluckNov2024.jpg
 ---
   
