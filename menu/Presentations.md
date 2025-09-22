@@ -40,6 +40,4 @@ permalink: /menu/presentations.html
   }
 </style>
 
-<!-- (Optional) Privacy-enhanced mode:
-     swap the iframe src to https://www.youtube-nocookie.com/embed/videoseries?list=... -->
----
+
