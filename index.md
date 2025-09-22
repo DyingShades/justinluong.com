@@ -26,9 +26,9 @@ Check out the [Luong Lab DEI Action Plan](https://docs.google.com/document/d/1RV
 <div align="center">
   <img src="/assets/img/KneelandDroughtNet.jpg" alt="Graduate Students and Lab Manager setting up a drought structure" width="750">
 </div>  
-
+<br>
 <div align="center">
   <img src="/assets/img/about-page.jpg" alt="Description" width="750">
 </div>  
-
+<br>
 
