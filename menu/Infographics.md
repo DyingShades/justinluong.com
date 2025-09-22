@@ -4,7 +4,7 @@ title: Infographics
 permalink: /menu/infographics
 
 ---
-# Infographics
+<hr>
 
 ### Selecting coastal California prairie species for climate-smart grassland restoration  
 [Published in Grasslands](https://justinluong.com/assets/pdf/Luong&Loik2021Grasslands.pdf)  
