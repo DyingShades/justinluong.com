@@ -6,7 +6,7 @@ permalink: /menu/illustratedsummaries.html
 ---
 <hr>
 
-# Illustrated Scientific Summaries
+# What is this about?
 To provide different modes of communicating science, I work with artists that create graphical illustrations of completed research to help reach new audiences.
 
 ###  Leaf traits and phylogeny explain plant survival and community dynamics in response to extreme drought in a restored coastal grassland  
