@@ -139,7 +139,7 @@ sections:
       content: |
             Hello! My name is J.J. I am a senior undergraduate studying Rangeland Resource Science with a minor in Sustainable Food Systems. My interests include food sovereignty, gardening, and ethnobotany. Cooking with family was a very important aspect of my growing up and inspired my passion for sustainable food systems. One of my favorite plants recently has been one my grandma introduced me to outside her house in Michoacan, Mexico. She called it cinco llagas: Tagetes lunulata. I enjoy spending time in the sun and making fiber arts and other crafts.          
 <hr>
----
+
     - title: "Max Shea (Lab Assistant and Undergrad Researcher)"
       image:
           name: maxshea.JPG
@@ -168,8 +168,7 @@ sections:
     - content: |
             [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
 
----
 
 <span style="font-size:1em;">*Undergrad researchers are undertaking directed rangeland research.</span>
 
----
+
