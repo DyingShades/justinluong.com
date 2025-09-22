@@ -49,8 +49,8 @@ menu:
     submenu:
       - name: 'Current People'
         url:  'currentpeople.html'
-      - name: 'Past People'
-        url:  'pastpeople.html'
+      - name: 'Lab Alum'
+        url:  'labalum.html'
 
     
   - name: 'Art & Science'
