@@ -1,9 +1,8 @@
 ---
 layout: current-research
 permalink: /menu/currentpeople.html
----
+
 sections: 
----
     - title: "Dr. Justin Luong (Principal Investigator)"
       image:
           name: JustinWillits.jpg
@@ -164,12 +163,12 @@ sections:
       content: |
             Hello my name is Tyvone Wilkey-Burrell but my friends call me Ty. I am currently a sophomore at Cal Poly Humboldt and my major is Forestry (Wildland and Fire Management). I also currently have two jobs on campus so if you ever happen to be in Nelson Hall come stop by The Umoja center located on the second floor and say hi. Finally in my free time I like to explore places I haven't been, go to the beach, and hangout with friends.                  
 <hr>
----
+
     - title: "Lab Alum"
     - content: |
             [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
 
-
+---
 <span style="font-size:1em;">*Undergrad researchers are undertaking directed rangeland research.</span>
 
-
+---
