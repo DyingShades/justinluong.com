@@ -30,7 +30,7 @@ menu:
     - name: 'Current Research'
       url:  'currentresearch.html'
     - name: 'Past Research'
-      url:  'pastresearch'
+      url:  'pastresearch.html'
 
    
   - name: 'California GRASS-Net'
