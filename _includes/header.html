@@ -1,7 +1,24 @@
 <header class="masthead">
-  <h3 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <small class="masthead-subtitle">{{ site.description }}</small>
+  <div class="masthead-wrap">
+    <div class="masthead-text">
+      <a class="site-title-link" href="{{ site.baseurl }}/">{{ site.title | strip }}</a>
+
+      <span class="site-tagline">
+        <small class="masthead-subtitle">{{ site.description | strip }}</small>
+        {%- assign badge_src = page.header_image | default: site.logo.src -%}
+        {%- if badge_src %}
+          <img
+            class="desc-badge"
+            src="{{ badge_src | relative_url }}"
+            alt="{{ site.logo.alt | default: 'Site badge' }}"
+            width="{{ site.logo.width | default: 40 }}"
+            height="{{ site.logo.height | default: 40 }}"
+            loading="lazy"
+            decoding="async">
+        {%- endif %}
+      </span>
+    </div>
+
     {% include menu.html %}
-  </h3>
+  </div>
 </header>
