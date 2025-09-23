@@ -29,7 +29,7 @@ description:	         'University of California, Berkeley - Environmental Scienc
 author:              'Justin Luong'
 # Header image (logo/badge) next to the description
 logo:
-  src: /assets/img/Seal_of_University_of_California,_Berkeley.svg.png
+  src: /assets/img/UCB-Seal.png
   alt: "Luong Lab badge"
   width: 40
   height: 40
