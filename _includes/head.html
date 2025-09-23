@@ -9,27 +9,70 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   {%- comment -%}
-  Resolve a usable logo URL whether site.logo is a string or a hash.
+  SAFE IMAGE/ICON RESOLVER
+  - Accepts page.og_image or page.header_image as string or object with .src
+  - Falls back to site.logo.src (or site.logo if it's a string)
+  - Only ever pipes STRINGs to relative_url / absolute_url
   {%- endcomment -%}
-  {% assign _logo_url =
-      site.logo.src | default: site.logo | default: '' %}
+  {%- assign __og = nil -%}
+  {%- assign __fav = nil -%}
 
-  {% if _logo_url %}
-    <link rel="preload" as="image" href="{{ _logo_url | relative_url }}">
-    <meta property="og:image" content="{{ _logo_url | relative_url }}">
-  {% endif %}
+  {%- if page.og_image -%}
+    {%- if page.og_image.src -%}
+      {%- assign __og = page.og_image.src -%}
+    {%- elsif page.og_image contains '/' or page.og_image contains '.' -%}
+      {%- assign __og = page.og_image -%}
+    {%- endif -%}
+  {%- endif -%}
 
-  {% if site.description %}
+  {%- if __og == nil and page.header_image -%}
+    {%- if page.header_image.src -%}
+      {%- assign __og = page.header_image.src -%}
+    {%- elsif page.header_image contains '/' or page.header_image contains '.' -%}
+      {%- assign __og = page.header_image -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} Fallback to site logo {%- endcomment -%}
+  {%- if __og == nil and site.logo -%}
+    {%- if site.logo.src -%}
+      {%- assign __og = site.logo.src -%}
+    {%- elsif site.logo contains '/' or site.logo contains '.' -%}
+      {%- assign __og = site.logo -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} Use the same fallback for favicon if you don't have a dedicated icon {%- endcomment -%}
+  {%- if site.logo -%}
+    {%- if site.logo.src -%}
+      {%- assign __fav = site.logo.src -%}
+    {%- elsif site.logo contains '/' or site.logo contains '.' -%}
+      {%- assign __fav = site.logo -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if __fav -%}
+    <link rel="icon" href="{{ __fav | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ __fav | relative_url }}">
+  {%- endif -%}
+
+  {%- if __og -%}
+    {#- Preload as an image (optional) -#}
+    <link rel="preload" as="image" href="{{ __og | relative_url }}">
+    <meta property="og:image" content="{{ __og | absolute_url }}">
+    <meta name="twitter:image" content="{{ __og | absolute_url }}">
+  {%- endif -%}
+
+  {%- if site.description -%}
     <meta name="description" content="{{ site.description | escape }}">
     <meta property="og:description" content="{{ site.description | escape }}">
-  {% endif %}
+  {%- endif -%}
 
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | relative_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
 
-  {% if site.plugins contains 'jekyll-seo-tag' %}
+  {%- if site.plugins contains 'jekyll-seo-tag' -%}
     {% seo %}
-  {% endif %}
+  {%- endif -%}
 </head>
-
