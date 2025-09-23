@@ -1,3 +1,6 @@
+---
+permalink: slideshow.html
+---
 {%- assign slides = include.slides | default: page.slides -%}
 {%- assign interval = include.interval | default: 5000 -%}
 <div class="slideshow" data-interval="{{ interval }}" aria-roledescription="carousel">
