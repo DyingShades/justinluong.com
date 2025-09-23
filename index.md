@@ -1,13 +1,22 @@
 ---
 layout: home
-image: lab.png
 permalink: /index.html
 image: LuongLabPotluckNov2024.jpg
 ---
   
-<div align="center">
-  <img src="/assets/img/LabWork.jpg" alt="Luong Lab working on various tasks" width="800">
-</div>  
+---
+layout: page
+title: Gallery
+slides:
+  - src: /assets/img/labwork.jpg
+    alt: Lab Work
+    caption: People working in lab
+  - src: /assets/img/lab.png
+    alt: Lab
+    caption: Lab
+  
+---
+
   
 Welcome! 
 ---
