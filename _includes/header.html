@@ -6,41 +6,51 @@
       <span class="site-tagline">
         <small class="masthead-subtitle">{{ site.description | strip }}</small>
 
-       {% comment %}
-Safe logo resolver:
-- Works if page.header_image is a string path
-- Works if page.header_image is an object with src/alt/width/height
-- Falls back to site.logo.*
-- Never passes a Hash to filters
-{% endcomment %}
+        {%- comment -%}
+        Safe logo resolver:
+        - Accepts page.header_image as a string or an object with src/alt/width/height
+        - Falls back to site.logo.*
+        - Never pipes a Hash into filters
+        {%- endcomment -%}
 
-{% assign logo_src = page.header_image.src | default: page.header_image | default: site.logo.src %}
-{% assign logo_alt = page.header_image.alt | default: site.logo.alt | default: 'Site badge' %}
-{% assign logo_w   = page.header_image.width  | default: site.logo.width  | default: 40 %}
-{% assign logo_h   = page.header_image.height | default: site.logo.height | default: 40 %}
+        {%- assign logo_src = nil -%}
+        {%- assign logo_alt = nil -%}
+        {%- assign logo_w   = nil -%}
+        {%- assign logo_h   = nil -%}
 
-{% if logo_src and logo_src != '' %}
-  <img
-    class="desc-badge"
-    src="{{ logo_src | relative_url | escape }}"
-    alt="{{ logo_alt }}"
-    width="{{ logo_w }}"
-    height="{{ logo_h }}"
-    loading="lazy"
-    decoding="async">
-{% endif %}
+        {%- if page.header_image -%}
+          {%- if page.header_image.src -%}
+            {%- assign logo_src = page.header_image.src -%}
+            {%- assign logo_alt = page.header_image.alt | default: logo_alt -%}
+            {%- assign logo_w   = page.header_image.width  | default: logo_w -%}
+            {%- assign logo_h   = page.header_image.height | default: logo_h -%}
+          {%- elsif page.header_image contains '/' or page.header_image contains '.' -%}
+            {%- comment -%} page.header_image is a string path {%- endcomment -%}
+            {%- assign logo_src = page.header_image -%}
+          {%- endif -%}
+        {%- endif -%}
 
+        {%- if logo_src == nil and site.logo -%}
+          {%- assign logo_src = site.logo.src -%}
+          {%- assign logo_alt = site.logo.alt | default: logo_alt -%}
+          {%- assign logo_w   = site.logo.width  | default: logo_w -%}
+          {%- assign logo_h   = site.logo.height | default: logo_h -%}
+        {%- endif -%}
 
-        {% if logo_src and logo_src != '' %}
+        {%- assign logo_alt = logo_alt | default: 'Site badge' -%}
+        {%- assign logo_w   = logo_w   | default: 40 -%}
+        {%- assign logo_h   = logo_h   | default: 40 -%}
+
+        {%- if logo_src and logo_src != '' -%}
           <img
             class="desc-badge"
             src="{{ logo_src | relative_url | escape }}"
-            alt="{{ logo_alt | default: 'Site badge' }}"
-            width="{{ logo_w  | default: 40 }}"
-            height="{{ logo_h | default: 40 }}"
+            alt="{{ logo_alt }}"
+            width="{{ logo_w }}"
+            height="{{ logo_h }}"
             loading="lazy"
             decoding="async">
-        {% endif %}
+        {%- endif -%}
       </span>
     </div>
 
