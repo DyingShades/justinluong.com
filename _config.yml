@@ -27,12 +27,17 @@ plugins:             [
 title:		           'Luong Restoration & Rangeland Ecology Lab       '  
 description:	         'University of California, Berkeley - Environmental Science, Policy and Management'
 author:              'Justin Luong'
-# Header image (logo/badge) next to the description
-logo:
+# _config.yml
+
+# Use a STRING here so plugins like jekyll-seo-tag are happy
+logo: /assets/img/ucb-seal.png
+
+header_logo:
   src: /assets/img/ucb-seal.png
   alt: "Luong Lab badge"
   width: 40
   height: 40
+
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
