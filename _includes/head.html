@@ -1,37 +1,35 @@
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} | {{ site.description }}
-    {% else %}
-      {{ page.title }} | {{ site.title }}
-    {% endif %}
+    {% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | default: "Site" | escape }}
   </title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
-  <!-- Use Atom -->
-  {% feed_meta %}
-  <!-- Use RSS-2.0 -->
-  <!--<link href="{{ site.baseurl }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
-  //-->
+  {%- comment -%}
+  Resolve a usable logo URL whether site.logo is a string or a hash.
+  {%- endcomment -%}
+  {% assign _logo_url =
+      site.logo.src | default: site.logo | default: '' %}
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  {% if _logo_url %}
+    <link rel="preload" as="image" href="{{ _logo_url | relative_url }}">
+    <meta property="og:image" content="{{ _logo_url | relative_url }}">
+  {% endif %}
 
-  <script type="text/javascript" async
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
+  {% if site.description %}
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+  {% endif %}
 
-  <!-- Google Analytics -->
-  {% include google-analytics.html %}
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | relative_url }}">
 
-  <!-- Use Jekyll SEO plugin -->
-  {% seo %}
-
+  {% if site.plugins contains 'jekyll-seo-tag' %}
+    {% seo %}
+  {% endif %}
 </head>
+
