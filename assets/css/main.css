@@ -67,6 +67,70 @@ hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
 .footer a{ color:#999; padding:10px; text-decoration:none; }
 .footer a:hover{ color:#333; }
 
+
+/* ========================================================
+   Header: title + description + small badge image
+   (works whether the menu include is inside the header or not)
+   ======================================================== */
+
+/* Flex the header content (title/tagline left, menu right if present) */
+.masthead .masthead-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap; /* keeps things tidy on narrow screens */
+}
+
+/* Group title + tagline */
+.masthead .masthead-text{
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+/* If you switched the title link to .site-title-link, style it;
+   otherwise your existing .masthead-title a rule still works */
+.site-title-link{
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #505050;
+}
+
+/* Put description text and image on one line */
+.site-tagline{
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+/* Keep your existing .masthead-subtitle look, just ensure good line-height */
+.masthead-subtitle{
+  line-height: 1.25;
+}
+
+/* The image sitting next to the description */
+.desc-badge{
+  display: inline-block;
+  height: 1.5rem;     /* scales nicely with text */
+  width: auto;
+  vertical-align: middle;
+  border-radius: 6px; /* optional softness */
+}
+
+/* If menu.html is inside the header, push it to the right
+   (scoped so it won’t affect the full-width .nav-band menu) */
+header.masthead .menu{ margin-left: auto; }
+
+/* Responsive tweaks */
+@media (max-width: 40em){
+  .site-title-link{ font-size: 1.2rem; }
+  .masthead-subtitle{ font-size: .9rem; }
+  .desc-badge{ height: 1.25rem; }
+}
+
 /* ========================================================
    NAV: full-bleed band + overlay dropdowns (no layout shift)
    - mobile: text toggle on left; desktop: toggle hidden
