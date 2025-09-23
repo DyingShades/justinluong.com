@@ -1,21 +1,39 @@
 <header class="masthead">
   <div class="masthead-wrap">
     <div class="masthead-text">
-      <a class="site-title-link" href="{{ site.baseurl }}/">{{ site.title | strip }}</a>
+      <a class="site-title-link" href="{{ '/' | relative_url }}">{{ site.title | strip }}</a>
 
       <span class="site-tagline">
         <small class="masthead-subtitle">{{ site.description | strip }}</small>
-        {%- assign badge_src = page.header_image | default: site.logo.src -%}
-        {%- if badge_src %}
+
+        {% comment %}
+        Accepts page.header_image as a string or an object; falls back to site.logo.*
+        Prevents "Can't convert Hash into String" when applying filters.
+        {% endcomment %}
+        {% assign header_obj = page.header_image | default: site.logo %}
+
+        {% if header_obj.src %}
+          {% assign logo_src = header_obj.src %}
+          {% assign logo_alt = header_obj.alt    | default: site.logo.alt %}
+          {% assign logo_w   = header_obj.width  | default: site.logo.width %}
+          {% assign logo_h   = header_obj.height | default: site.logo.height %}
+        {% else %}
+          {% assign logo_src = header_obj %}
+          {% assign logo_alt = site.logo.alt %}
+          {% assign logo_w   = site.logo.width %}
+          {% assign logo_h   = site.logo.height %}
+        {% endif %}
+
+        {% if logo_src and logo_src != '' %}
           <img
             class="desc-badge"
-            src="{{ badge_src | relative_url }}"
-            alt="{{ site.logo.alt | default: 'Site badge' }}"
-            width="{{ site.logo.width | default: 40 }}"
-            height="{{ site.logo.height | default: 40 }}"
+            src="{{ logo_src | relative_url | escape }}"
+            alt="{{ logo_alt | default: 'Site badge' }}"
+            width="{{ logo_w  | default: 40 }}"
+            height="{{ logo_h | default: 40 }}"
             loading="lazy"
             decoding="async">
-        {%- endif %}
+        {% endif %}
       </span>
     </div>
 
