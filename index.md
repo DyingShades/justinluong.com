@@ -4,13 +4,11 @@ permalink: /index.html
 slides:
   - src: /assets/img/labwork.jpg
     alt: Lab Work
-    caption: People working in lab
   - src: /assets/img/lab.png
     alt: Lab
-    caption: Lab
   
 ---
-{% include _includes/slideshow.html interval=6000 %}
+{% include /_includes/slideshow.html interval=6000 %}
 
   
 Welcome! 
