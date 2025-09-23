@@ -35,8 +35,8 @@ logo: /assets/img/ucbseal.png
 header_logo:
   src: /assets/img/ucbseal.png
   alt: "Luong Lab badge"
-  width: 60
-  height: 60
+  width: 100
+  height: 100
 
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
