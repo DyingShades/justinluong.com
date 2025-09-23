@@ -1,10 +1,8 @@
 ---
 layout: home
 permalink: /index.html
-image: LuongLabPotluckNov2024.jpg
----
+
   
----
 layout: page
 title: Gallery
 slides:
