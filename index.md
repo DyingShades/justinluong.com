@@ -2,8 +2,16 @@
 layout: home
 permalink: /index.html
 slides:
-  - src: /assets/img/labwork.jpg
-    alt: Lab Work
+- src: /assets/img/lab_kneeland2024.jpg
+    alt: Lab
+- src: /assets/img/ylr-shelter.jpg
+    alt: Drought Structures for Graduate Projects
+- src: /assets/img/LabWork.jpg
+    alt: Lab
+- src: /assets/img/LAEP-Justin2024.jpg
+    alt: Kneeland Solar Pannels
+  - src: /assets/img/IMG_7271.jpeg
+    alt: Justin
   - src: /assets/img/lab.png
     alt: Lab
   
