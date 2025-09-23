@@ -6,23 +6,30 @@
       <span class="site-tagline">
         <small class="masthead-subtitle">{{ site.description | strip }}</small>
 
-        {% comment %}
-        Accepts page.header_image as a string or an object; falls back to site.logo.*
-        Prevents "Can't convert Hash into String" when applying filters.
-        {% endcomment %}
-        {% assign header_obj = page.header_image | default: site.logo %}
+       {% comment %}
+Safe logo resolver:
+- Works if page.header_image is a string path
+- Works if page.header_image is an object with src/alt/width/height
+- Falls back to site.logo.*
+- Never passes a Hash to filters
+{% endcomment %}
 
-        {% if header_obj.src %}
-          {% assign logo_src = header_obj.src %}
-          {% assign logo_alt = header_obj.alt    | default: site.logo.alt %}
-          {% assign logo_w   = header_obj.width  | default: site.logo.width %}
-          {% assign logo_h   = header_obj.height | default: site.logo.height %}
-        {% else %}
-          {% assign logo_src = header_obj %}
-          {% assign logo_alt = site.logo.alt %}
-          {% assign logo_w   = site.logo.width %}
-          {% assign logo_h   = site.logo.height %}
-        {% endif %}
+{% assign logo_src = page.header_image.src | default: page.header_image | default: site.logo.src %}
+{% assign logo_alt = page.header_image.alt | default: site.logo.alt | default: 'Site badge' %}
+{% assign logo_w   = page.header_image.width  | default: site.logo.width  | default: 40 %}
+{% assign logo_h   = page.header_image.height | default: site.logo.height | default: 40 %}
+
+{% if logo_src and logo_src != '' %}
+  <img
+    class="desc-badge"
+    src="{{ logo_src | relative_url | escape }}"
+    alt="{{ logo_alt }}"
+    width="{{ logo_w }}"
+    height="{{ logo_h }}"
+    loading="lazy"
+    decoding="async">
+{% endif %}
+
 
         {% if logo_src and logo_src != '' %}
           <img
