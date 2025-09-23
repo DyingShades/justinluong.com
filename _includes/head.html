@@ -57,7 +57,6 @@
   {%- endif -%}
 
   {%- if __og -%}
-    {#- Preload as an image (optional) -#}
     <link rel="preload" as="image" href="{{ __og | relative_url }}">
     <meta property="og:image" content="{{ __og | absolute_url }}">
     <meta name="twitter:image" content="{{ __og | absolute_url }}">
