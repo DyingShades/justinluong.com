@@ -16,6 +16,7 @@ slides:
     caption: Lab
   
 ---
+{% include slideshow.html interval=6000 %}
 
   
 Welcome! 
