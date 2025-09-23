@@ -8,7 +8,7 @@ slides:
     alt: Lab
   
 ---
-{% include /_includes/slideshow.html interval=6000 %}
+{% include slideshow.html slide=page.slides interval=6000 %}
 
   
 Welcome! 
