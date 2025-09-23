@@ -8,10 +8,7 @@ slides:
   - src: /assets/img/lab.png
     alt: Lab
     caption: Lab
----
-
   
-
 ---
 {% include slideshow.html interval=6000 %}
 
