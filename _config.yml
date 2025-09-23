@@ -30,10 +30,10 @@ author:              'Justin Luong'
 # _config.yml
 
 # Use a STRING here so plugins like jekyll-seo-tag are happy
-logo: /assets/img/ucb-seal.png
+logo: /assets/img/ucbseal.png
 
 header_logo:
-  src: /assets/img/ucb-seal.png
+  src: /assets/img/ucbseal.png
   alt: "Luong Lab badge"
   width: 40
   height: 40
