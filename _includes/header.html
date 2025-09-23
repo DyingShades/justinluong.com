@@ -30,11 +30,11 @@
           {%- endif -%}
         {%- endif -%}
 
-        {%- if logo_src == nil and site.logo -%}
-          {%- assign logo_src = site.logo.src -%}
-          {%- assign logo_alt = site.logo.alt | default: logo_alt -%}
-          {%- assign logo_w   = site.logo.width  | default: logo_w -%}
-          {%- assign logo_h   = site.logo.height | default: logo_h -%}
+        {%- if logo_src == nil and site.header_logo -%}
+          {%- assign logo_src = site.header_logo.src -%}
+          {%- assign logo_alt = site.header_logo.alt | default: logo_alt -%}
+          {%- assign logo_w   = site.header_logo.width  | default: logo_w -%}
+          {%- assign logo_h   = site.header_logo.height | default: logo_h -%}
         {%- endif -%}
 
         {%- assign logo_alt = logo_alt | default: 'Site badge' -%}
