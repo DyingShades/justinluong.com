@@ -375,4 +375,31 @@ th, td{ padding:15px; text-align:left; }
 @media (prefers-reduced-motion: reduce){
   .slideshow .slides, .slideshow .slide{ transition: none !important; }
 }
+/* Mobile: make all menu items left-aligned, full-width */
+.nav-band .menu-content{
+  flex-direction: column;
+  align-items: stretch;           /* was center */
+  width: 100%;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.nav-band .menu-content > a,
+.nav-band .menu-content > .dropdown{
+  width: 100%;
+}
+
+/* Ensure both plain links and dropdown parents align left */
+.nav-band .menu-link,
+.nav-band .dropdown > .menu-link,
+.nav-band .dropdown > .parent-link,
+.nav-band .dropdown > span.menu-link{
+  justify-content: flex-start;    /* left-align the inline-flex content */
+  text-align: left;               /* override earlier center text */
+  width: 100%;
+  display: inline-flex;           /* force span.parent to behave like links */
+}
+
+/* Keep the dropdown container full width too */
+.nav-band .dropdown{ width:100%; }
 
