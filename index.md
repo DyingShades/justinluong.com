@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /index.html
-slides: false
+slides: 
   - src: /assets/img/lab_kneeland2024.jpg
     alt: Lab
   - src: /assets/img/ylr-shelter.jpg
