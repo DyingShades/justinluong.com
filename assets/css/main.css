@@ -416,4 +416,18 @@ th, td{ padding:15px; text-align:left; }
 .masthead .site-title-link:visited{
   text-shadow: none !important;
 }
+/* Full-bleed header + (optionally) gold nav band, without touching layout */
+.container .masthead,
+.container .nav-band{
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+/* Prevent any accidental horizontal scrollbars from rounding issues */
+html, body { overflow-x: hidden; }
 
