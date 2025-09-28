@@ -1,11 +1,15 @@
 ---
 layout: page
 ---
-<div style="display: flex;">
-	<div style="flex: 1; margin-right: 2em">
+<div class="home">
+  <div class="home-content">
+    {{ content }}
+  </div>
 
-    <div style="flex: 2.5;">
-        {{ content | markdownify }}
+  
+  {% if page.slides and page.show_slideshow != false %}
+    <div class="home-slideshow">
+      {% include slideshow.html slides=page.slides interval=page.interval | default: 6000 %}
     </div>
-
+  {% endif %}
 </div>
