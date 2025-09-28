@@ -82,11 +82,7 @@ hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
   border-bottom: 1px solid rgba(255,255,255,.18);
   font-family:"Quattrocento Sans",sans-serif;
 }
-.masthead .masthead-wrap{
-  display:flex; align-items:center; justify-content:space-between;
-  gap: 1rem; flex-wrap: wrap;
-  padding: 1.1rem clamp (12px, 2vw, 28px) ;
-}
+
 .masthead a{ color:#fff; }
 .masthead a:hover{ color:#fff; }
 
