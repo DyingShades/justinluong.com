@@ -1,15 +1,22 @@
 ---
 layout: page
 ---
+
 <div class="home">
   <div class="home-content">
     {{ content }}
   </div>
 
-  
+  {% comment %}
+  Auto-add slideshow BELOW the content if page.slides exists.
+  Disable per-page with: show_slideshow: false
+  Override speed per-page with: interval: 6000
+  {% endcomment %}
   {% if page.slides and page.show_slideshow != false %}
+    {% assign interval = page.interval | default: 6000 %}
     <div class="home-slideshow">
-      {% include slideshow.html slides=page.slides interval=page.interval | default: 6000 %}
+      {% include slideshow.html slides=page.slides interval=interval %}
     </div>
   {% endif %}
 </div>
+
