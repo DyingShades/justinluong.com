@@ -1,6 +1,11 @@
 ---
 layout: home
 permalink: /index.html
+
+Welcome! 
+---
+Research in Dr. Luong's lab focuses on adapting restoration practices for changing climates and integrating management and socio-economic perspectives to understand rangeland ecology. Lab members engage in hands-on learning opportunities in the field, greenhouse and with practitioners that inform real-world rangeland restoration and management projects to cultivate a diverse and inclusive learning environment. 
+
 slides:
   - src: /assets/img/lab_kneeland2024.jpg
     alt: Lab
@@ -19,11 +24,6 @@ slides:
 {% include slideshow.html slide=page.slides interval=6000 %}
 
   
-Welcome! 
----
-Research in Dr. Luong's lab focuses on adapting restoration practices for changing climates and integrating management and socio-economic perspectives to understand rangeland ecology. Lab members engage in hands-on learning opportunities in the field, greenhouse and with practitioners that inform real-world rangeland restoration and management projects to cultivate a diverse and inclusive learning environment. 
-
-
 <div align="center">
   <img src="/assets/img/lab.png" alt="Luong Lab from Jan 2024 after Geode training" width="500">
 </div>  
