@@ -1,17 +1,26 @@
 /* -------------------------------------------------------
-   Site CSS — clean nav + one-true highlight
+   Site CSS — UC Berkeley theme (Blue header / Gold menu)
    ------------------------------------------------------- */
 
-/* Base */
+/* ===== Base / tokens ===== */
 html { scrollbar-gutter: stable both-edges; }
 :root{
-  --accent: #0a66ff;
-  --accent-bg: rgba(10,102,255,.12);
+  /* UC Berkeley palette */
+  --ucb-blue: #003262;           /* Berkeley Blue */
+  --ucb-blue-600:#01264c;        /* hover/deeper */
+  --ucb-gold: #FDB515;           /* California Gold */
+  --ucb-gold-700:#d49a10;        /* hover/darker */
+
+  /* App tokens */
+  --accent: var(--ucb-blue);
+  --accent-bg: rgba(0, 50, 98, .10);
   --text: #333;
+  --ink: #1b1b1b;                /* dark text on gold */
   --muted: #999;
   --border: #e6e6e6;
-  --band-bg: #f8fbff;
+  --band-bg: #f8fbff;            /* legacy (used in tables, etc.) */
   --band-border: #e6efff;
+
   --h1: clamp(1.75rem, 1.2rem + 1.2vw, 2.25rem);
   --body: clamp(16px, 15px + .4vw, 18px);
 }
@@ -39,13 +48,9 @@ blockquote{
 }
 hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
 
-/* Container, masthead, posts, footer */
+/* ===== Layout primitives ===== */
 .container{ width: min(100%, 68rem); padding: 0 1rem; margin: 0 auto; }
 @media (max-width: 768px){ .container{ width: 90vw; } }
-.masthead{ padding:.5rem 0; margin-bottom: 2.5rem; font-family:"Quattrocento Sans",sans-serif; }
-.masthead a:hover{ color:#000; }
-.masthead-title a{ font-size:2rem; text-decoration:none; color:#505050; }
-.masthead-subtitle{ color:#999; }
 .post-container{ margin-bottom:4rem; }
 .posts{ margin-bottom:5rem; padding:0; list-style:none; }
 .post-date{
@@ -67,100 +72,100 @@ hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
 .footer a{ color:#999; padding:10px; text-decoration:none; }
 .footer a:hover{ color:#333; }
 
-
 /* ========================================================
-   Header: title + description + small badge image
-   (works whether the menu include is inside the header or not)
+   HEADER (masthead): Blue bar + title feather + subtitle badge
    ======================================================== */
-
-/* Flex the header content (title/tagline left, menu right if present) */
+.masthead{
+  background: var(--ucb-blue);
+  color: #fff;
+  margin: 0 0 2rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.18);
+  font-family:"Quattrocento Sans",sans-serif;
+}
 .masthead .masthead-wrap{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap; /* keeps things tidy on narrow screens */
+  display:flex; align-items:center; justify-content:space-between;
+  gap: 1rem; flex-wrap: wrap;
+  padding: 1.1rem clamp(12px, 2vw, 28px);
 }
+.masthead a{ color:#fff; }
+.masthead a:hover{ color:#fff; }
 
-/* Group title + tagline */
 .masthead .masthead-text{
-  display: flex;
-  align-items: center;
-  gap: .75rem;
-  flex-wrap: wrap;
+  display:flex; align-items:center; gap:.75rem; flex-wrap:wrap;
 }
 
-/* If you switched the title link to .site-title-link, style it;
-   otherwise your existing .masthead-title a rule still works */
+/* Big title link with “white feather” glow so it pops on blue */
 .site-title-link{
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing:.2px;
   text-decoration: none;
-  color: #505050;
+  color: #fff;
+  text-shadow:
+    0 0 2px rgba(255,255,255,.80),
+    0 0 10px rgba(255,255,255,.40),
+    0 2px 14px rgba(0,0,0,.28);
+}
+.site-title-link:hover,
+.site-title-link:focus{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-/* Put description text and image on one line */
+/* Tagline + small crest/badge */
 .site-tagline{
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
+  display:inline-flex; align-items:center; gap:.5rem;
 }
-
-/* Keep your existing .masthead-subtitle look, just ensure good line-height */
 .masthead-subtitle{
-  line-height: 1.25;
+  color: rgba(255,255,255,.9);
+  line-height:1.25;
+  font-size: clamp(.9rem, .82rem + .3vw, 1.05rem);
 }
-
-/* The image sitting next to the description */
 .desc-badge{
-  display: inline-block;
-  height: 1.5rem;     /* scales nicely with text */
-  width: auto;
-  vertical-align: middle;
-  border-radius: 6px; /* optional softness */
+  border-radius:50%;
+  width:auto; height: 40px;
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,.9),
+    0 0 10px rgba(0,0,0,.25);
 }
 
-/* If menu.html is inside the header, push it to the right
-   (scoped so it won’t affect the full-width .nav-band menu) */
-header.masthead .menu{ margin-left: auto; }
+/* If menu.html is placed inside header, push it right */
+header.masthead .menu{ margin-left:auto; }
 
-/* Responsive tweaks */
-@media (max-width: 40em){
-  .site-title-link{ font-size: 1.2rem; }
-  .masthead-subtitle{ font-size: .9rem; }
-  .desc-badge{ height: 1.25rem; }
+@media (max-width: 760px){
+  .masthead .masthead-wrap{ flex-direction:column; align-items:flex-start; gap:.4rem; }
+  .desc-badge{ height:34px; }
 }
 
 /* ========================================================
-   NAV: full-bleed band + overlay dropdowns
+   MENU BAND: Gold bar with dark-blue text, clean dropdowns
    ======================================================== */
-
 .nav-band{
-  width:100vw; position:relative; left:50%; right:50%;
-  margin-left:-50vw; margin-right:-50vw;
-  background:var(--band-bg);
-  border-top:1px solid var(--band-border);
-  border-bottom:1px solid var(--band-border);
+  background: var(--ucb-gold);
+  border-bottom: 1px solid var(--ucb-gold-700);
 }
-
 .nav-band .menu{
-  max-width:1200px; margin:0 auto; padding:10px 16px;
-  display:flex; align-items:center; gap:10px 12px; flex-wrap:wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: .35rem clamp(12px, 2vw, 28px);
+  display:flex; align-items:center; justify-content:space-between;
+  gap: 1rem; flex-wrap: wrap;
 }
 
-/* Collapsible control (mobile shows, desktop hides) */
+/* Collapsible control (mobile) */
 .menu-collapsible{ order:0; }
 .menu-summary{
-  display:inline-flex; gap:6px; align-items:center; /* fix from 'left' */
-  cursor:pointer; background:transparent; border:none; padding:2px 0; margin:0;
-  font-weight:600; color:#444; user-select:none; line-height:1.2;
+  display:inline-flex; gap:6px; align-items:center;
+  cursor:pointer; background:transparent; border:none; padding:.45rem .7rem; margin:0;
+  font-weight:800; color: var(--ink); user-select:none; line-height:1.2; border-radius:8px;
 }
 .menu-summary::marker{ content:""; }
 .menu-summary::-webkit-details-marker{ display:none; }
 .menu-collapsible[open] .menu-summary::after{ content:"▲"; font-size:.8em; opacity:.8; }
 .menu-collapsible:not([open]) .menu-summary::after{ content:"▼"; font-size:.8em; opacity:.8; }
+.menu-summary:hover{ background: rgba(0,0,0,.06); }
 
-/* Main nav line: centered links on wide screens */
+/* Main nav row */
 .nav-band .menu-content{
   order:2; display:flex; flex-wrap:wrap; align-items:center;
   gap:8px 12px; justify-content:center; flex:1 1 auto; min-width:260px;
@@ -171,89 +176,79 @@ header.masthead .menu{ margin-left: auto; }
   order:1; margin-left:auto; display:flex; gap:8px;
 }
 
-/* Top-level links (uniform sizing) */
+/* Top-level links */
 .nav-band .menu-link,
 .nav-band .dropdown > .menu-link,
 .nav-band .dropdown > .parent-link{
   display:inline-flex; align-items:center; gap:4px;
-  padding:6px 10px; border-radius:8px; color:#444;
+  padding:.45rem .6rem; border-radius:8px;
+  color: var(--ink);
   text-decoration:none; cursor:pointer; user-select:none;
-  font-size:1.1rem; line-height:1.6; font-weight:600;
+  font-size:1.05rem; line-height:1.35; font-weight:800;
 }
+.caret{ font-size:.8em; opacity:.75; }
 
-/* Hover = underline only */
 .nav-band .menu-link:hover,
 .nav-band .dropdown > .menu-link:hover,
 .nav-band .dropdown > .parent-link:hover{
-  text-decoration: underline;
-  background: transparent;
-  color: inherit;
+  background: rgba(0,0,0,.08);
 }
 
-.caret{ font-size:.8em; opacity:.75; }
+/* Active page highlight */
+.nav-band .menu-link[aria-current="page"],
+.nav-band .dropdown > .parent-link[aria-current="page"],
+.nav-band .dropdown-content a[aria-current="page"]{
+  background: var(--ucb-blue);
+  color: #fff;
+}
 
-/* Dropdown overlays (no layout shift) */
+/* Dropdowns */
 .nav-band .dropdown{ position:relative; }
 .nav-band .dropdown-content{
   position:absolute; top:calc(100% + 6px); left:0; display:none;
   min-width:220px; background:#fff; border:1px solid var(--border);
-  border-radius:8px; padding:6px; box-shadow:0 8px 18px rgba(0,0,0,.06); z-index:1000;
+  border-radius:10px; padding:6px; box-shadow:0 10px 25px rgba(0,0,0,.12); z-index:1000;
 }
 .nav-band .dropdown-content a{
-  display:block; padding:8px 10px; border-radius:6px; color:var(--text);
-  text-decoration:none; font-weight:400; font-size:1rem;
+  display:block; padding:8px 10px; border-radius:8px; color:#222;
+  text-decoration:none; font-weight:600; font-size:1rem;
 }
-.nav-band .dropdown-content a:hover{
-  text-decoration: underline;
-  background: transparent;
-  color: inherit;
-}
+.nav-band .dropdown-content a:hover{ background:#f3f3f3; }
 
-/* Open states */
+/* Open behaviors */
 @media (hover:hover) and (pointer:fine){
   .nav-band .dropdown:hover > .dropdown-content{ display:block; }
 }
 .nav-band .dropdown:focus-within > .dropdown-content{ display:block; }
 
-/* Active page highlight via aria-current */
-.nav-band .menu-link[aria-current="page"],
-.nav-band .dropdown > .parent-link[aria-current="page"],
-.nav-band .dropdown-content a[aria-current="page"]{
-  color: var(--accent);
-  background: var(--accent-bg);
-  border-radius: 8px;
-}
-
-/* -------- Desktop -------- */
+/* Desktop only: show the line, hide the summary */
 @media (min-width:761px){
   .menu-summary{ display:none !important; }
   .menu-collapsible + .menu-content{ display:flex !important; }
 }
 
-/* -------- Mobile (<=760px): LEFT-ALIGNED STACK -------- */
+/* ===== Mobile menu (<=760px): FULL-WIDTH, LEFT-ALIGNED ===== */
 @media (max-width:760px){
   .nav-band .menu{ justify-content:stretch; }
 
-  /* hide the list when collapsed */
+  /* hide list when collapsed */
   .nav-band details.menu-collapsible:not([open]) .menu-content{
     display:none !important;
   }
 
-  /* make the list a full-width vertical stack */
+  /* vertical stack */
   .nav-band .menu-content{
     flex-direction: column;
-    align-items: stretch;          /* <<< key: left edges line up */
+    align-items: stretch;          /* left edges line up */
     width: 100%;
     gap: 8px;
     padding-top: 8px;
-    justify-content: flex-start;   /* no centering */
+    justify-content: flex-start;
   }
 
   /* give each item full width */
   .nav-band .menu-content > a,
-  .nav-band .menu-content > .dropdown{
-    width: 100%;
-  }
+  .nav-band .menu-content > .dropdown{ width:100%; }
 
   /* ensure the label text itself is left-aligned */
   .nav-band .menu-link,
@@ -261,32 +256,38 @@ header.masthead .menu{ margin-left: auto; }
   .nav-band .dropdown > .parent-link,
   .nav-band .dropdown > span.menu-link{
     display: inline-flex;
-    justify-content: flex-start;   /* text to the left inside the pill */
+    justify-content: flex-start;
     text-align: left;
     width: 100%;
   }
 
-  /* dropdown container also full width */
+  /* dropdown container full width; flyout centered and readable */
   .nav-band .dropdown{ width:100%; }
-
-  /* center the flyout under the parent, keep it readable on phones */
   .nav-band .dropdown-content{
     left:50%; transform:translateX(-50%);
     width:min(92vw, 28rem);
+    box-shadow: 0 6px 18px rgba(0,0,0,.10);
   }
 
   /* hide socials only while the menu is open */
   .menu-collapsible[open] ~ .social-icons{ display:none !important; }
 }
 
-
-/* A11y helper */
-.sr-only{
-  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
-  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+/* Social icons on gold */
+.social-icons a{
+  color: var(--ink);
+  opacity:.9;
+  padding:.35rem .45rem;
+  border-radius:8px;
 }
+.social-icons a:hover{ background: rgba(0,0,0,.08); }
 
-/* Code / tables / gist */
+/* Optional subtle divider below header */
+.masthead + .nav-band{ box-shadow: inset 0 1px 0 rgba(255,255,255,.25); }
+
+/* ========================================================
+   Code / tables / gist
+   ======================================================== */
 code, pre { font-family: "Source Code Pro", monospace; }
 code{ padding:.25em .5em; font-size:.8rem; background:#f5f5f5; border-radius:3px; }
 pre{
@@ -321,6 +322,7 @@ th, td{ padding:15px; text-align:left; }
 .fa-medium:hover{ color:#00AB6C; }
 .fa-codepen:hover{ color:#000; }
 .fa-rss-square:hover{ color:#f60; }
+
 /* ========================================================
    Slideshow (reusable)
    ======================================================== */
@@ -369,9 +371,7 @@ th, td{ padding:15px; text-align:left; }
   cursor: pointer;
 }
 .slideshow .nav:hover,
-.slideshow .nav:focus{
-  background: rgba(0,0,0,.7);
-}
+.slideshow .nav:focus{ background: rgba(0,0,0,.7); }
 .slideshow .prev{ left: .5rem; }
 .slideshow .next{ right: .5rem; }
 
@@ -409,31 +409,10 @@ th, td{ padding:15px; text-align:left; }
 @media (prefers-reduced-motion: reduce){
   .slideshow .slides, .slideshow .slide{ transition: none !important; }
 }
-/* Mobile: make all menu items left-aligned, full-width */
-.nav-band .menu-content{
-  flex-direction: column;
-  align-items: stretch;           /* was center */
-  width: 100%;
-  gap: 8px;
-  padding-top: 8px;
-}
 
-.nav-band .menu-content > a,
-.nav-band .menu-content > .dropdown{
-  width: 100%;
+/* ===== A11y helper ===== */
+.sr-only{
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
 }
-
-/* Ensure both plain links and dropdown parents align left */
-.nav-band .menu-link,
-.nav-band .dropdown > .menu-link,
-.nav-band .dropdown > .parent-link,
-.nav-band .dropdown > span.menu-link{
-  justify-content: flex-start;    /* left-align the inline-flex content */
-  text-align: left;               /* override earlier center text */
-  width: 100%;
-  display: inline-flex;           /* force span.parent to behave like links */
-}
-
-/* Keep the dropdown container full width too */
-.nav-band .dropdown{ width:100%; }
 
