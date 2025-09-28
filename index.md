@@ -16,7 +16,6 @@ slides:
     alt: Lab
   
 ---
-{% include slideshow.html slide=page.slides interval=6000 %}
 
   
 Welcome! 
