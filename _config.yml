@@ -26,7 +26,7 @@ plugins:             [
 
 title:		           'Luong Restoration & Rangeland Ecology Lab       '  
 description:	         'University of California, Berkeley - Environmental Science, Policy and Management'
-author:              'Design by Eli at Eliengine.com, Currated by Justin Luong'
+author:              'Design by Eli at Eliengine.com, Curated by Justin Luong'
 # _config.yml
 
 # Use a STRING here so plugins like jekyll-seo-tag are happy
