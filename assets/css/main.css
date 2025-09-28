@@ -217,11 +217,10 @@ header.masthead .menu{ margin-left:auto; }
 }
 .nav-band .dropdown:focus-within > .dropdown-content{ display:block; }
 
-/* Desktop only: show the line, hide the summary */
-@media (min-width:761px){
-  .menu-summary{ display:none !important; }
-  .menu-collapsible + .menu-content{ display:flex !important; }
-}
+/* Always keep the toggle visible and control visibility via [open] */
+details.menu-collapsible .menu-content{ display:none; }
+details.menu-collapsible[open] .menu-content{ display:flex; }
+
 
 /* ===== Mobile menu (<=760px): FULL-WIDTH, LEFT-ALIGNED ===== */
 @media (max-width:760px){
