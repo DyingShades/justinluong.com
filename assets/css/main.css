@@ -132,10 +132,9 @@ header.masthead .menu{ margin-left: auto; }
 }
 
 /* ========================================================
-   NAV: full-bleed band + overlay dropdowns (no layout shift)
-   - mobile: text toggle on left; desktop: toggle hidden
-   - uniform top-level sizing (parents & plain links)
+   NAV: full-bleed band + overlay dropdowns
    ======================================================== */
+
 .nav-band{
   width:100vw; position:relative; left:50%; right:50%;
   margin-left:-50vw; margin-right:-50vw;
@@ -149,11 +148,11 @@ header.masthead .menu{ margin-left: auto; }
   display:flex; align-items:center; gap:10px 12px; flex-wrap:wrap;
 }
 
-/* Collapsible control on mobile only */
+/* Collapsible control (mobile shows, desktop hides) */
 .menu-collapsible{ order:0; }
 .menu-summary{
-  display:inline-flex; gap:6px; align-items:left; cursor:pointer;
-  background:transparent; border:none; padding:2px 0; margin:0;
+  display:inline-flex; gap:6px; align-items:center; /* fix from 'left' */
+  cursor:pointer; background:transparent; border:none; padding:2px 0; margin:0;
   font-weight:600; color:#444; user-select:none; line-height:1.2;
 }
 .menu-summary::marker{ content:""; }
@@ -161,18 +160,18 @@ header.masthead .menu{ margin-left: auto; }
 .menu-collapsible[open] .menu-summary::after{ content:"▲"; font-size:.8em; opacity:.8; }
 .menu-collapsible:not([open]) .menu-summary::after{ content:"▼"; font-size:.8em; opacity:.8; }
 
-/* Main nav line: centered links */
+/* Main nav line: centered links on wide screens */
 .nav-band .menu-content{
   order:2; display:flex; flex-wrap:wrap; align-items:center;
   gap:8px 12px; justify-content:center; flex:1 1 auto; min-width:260px;
 }
 
-/* Socials on right (visible) */
+/* Socials on right */
 .nav-band .social-icons{
   order:1; margin-left:auto; display:flex; gap:8px;
 }
 
-/* Top-level links (same size for all, incl. parents) */
+/* Top-level links (uniform sizing) */
 .nav-band .menu-link,
 .nav-band .dropdown > .menu-link,
 .nav-band .dropdown > .parent-link{
@@ -182,7 +181,7 @@ header.masthead .menu{ margin-left: auto; }
   font-size:1.1rem; line-height:1.6; font-weight:600;
 }
 
-/* Hover = underline only (no bg tint, no color swap) */
+/* Hover = underline only */
 .nav-band .menu-link:hover,
 .nav-band .dropdown > .menu-link:hover,
 .nav-band .dropdown > .parent-link:hover{
@@ -193,7 +192,7 @@ header.masthead .menu{ margin-left: auto; }
 
 .caret{ font-size:.8em; opacity:.75; }
 
-/* Dropdown overlays (no reflow) */
+/* Dropdown overlays (no layout shift) */
 .nav-band .dropdown{ position:relative; }
 .nav-band .dropdown-content{
   position:absolute; top:calc(100% + 6px); left:0; display:none;
@@ -216,7 +215,7 @@ header.masthead .menu{ margin-left: auto; }
 }
 .nav-band .dropdown:focus-within > .dropdown-content{ display:block; }
 
-/* ---- Active page highlight: ONLY via aria-current ---- */
+/* Active page highlight via aria-current */
 .nav-band .menu-link[aria-current="page"],
 .nav-band .dropdown > .parent-link[aria-current="page"],
 .nav-band .dropdown-content a[aria-current="page"]{
@@ -225,26 +224,61 @@ header.masthead .menu{ margin-left: auto; }
   border-radius: 8px;
 }
 
-/* Responsive */
+/* -------- Desktop -------- */
 @media (min-width:761px){
   .menu-summary{ display:none !important; }
   .menu-collapsible + .menu-content{ display:flex !important; }
 }
+
+/* -------- Mobile (<=760px): LEFT-ALIGNED STACK -------- */
 @media (max-width:760px){
   .nav-band .menu{ justify-content:stretch; }
-  .nav-band details.menu-collapsible:not([open]) .menu-content{ display:none !important; }
+
+  /* hide the list when collapsed */
+  .nav-band details.menu-collapsible:not([open]) .menu-content{
+    display:none !important;
+  }
+
+  /* make the list a full-width vertical stack */
   .nav-band .menu-content{
-    flex-direction:column; align-items:center; width:100%; gap:8px; padding-top:8px;
+    flex-direction: column;
+    align-items: stretch;          /* <<< key: left edges line up */
+    width: 100%;
+    gap: 8px;
+    padding-top: 8px;
+    justify-content: flex-start;   /* no centering */
   }
+
+  /* give each item full width */
   .nav-band .menu-content > a,
-  .nav-band .menu-content > .dropdown{ width:100%; text-align:center; }
-  .nav-band .dropdown{ width:100%; }
-  .nav-band .dropdown-content{
-    left:50%; transform:translateX(-50%); width:min(92vw, 28rem);
+  .nav-band .menu-content > .dropdown{
+    width: 100%;
   }
-  /* Keep socials visible; hide only when menu open to avoid wrap jitter */
+
+  /* ensure the label text itself is left-aligned */
+  .nav-band .menu-link,
+  .nav-band .dropdown > .menu-link,
+  .nav-band .dropdown > .parent-link,
+  .nav-band .dropdown > span.menu-link{
+    display: inline-flex;
+    justify-content: flex-start;   /* text to the left inside the pill */
+    text-align: left;
+    width: 100%;
+  }
+
+  /* dropdown container also full width */
+  .nav-band .dropdown{ width:100%; }
+
+  /* center the flyout under the parent, keep it readable on phones */
+  .nav-band .dropdown-content{
+    left:50%; transform:translateX(-50%);
+    width:min(92vw, 28rem);
+  }
+
+  /* hide socials only while the menu is open */
   .menu-collapsible[open] ~ .social-icons{ display:none !important; }
 }
+
 
 /* A11y helper */
 .sr-only{
