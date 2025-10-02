@@ -17,12 +17,7 @@ menu:
   - name: 'Publications'
     path: 'menu'   # = /menu/publications.html
     url: 'publications.html'
-    
-    
-  - name: 'Presentations'
-    path: 'menu'
-    url:  'presentations.html'
-
+ 
 
   - name: 'Current Research'
     path: 'menu'
