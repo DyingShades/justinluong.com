@@ -189,14 +189,18 @@ header.masthead .menu{ margin-left:auto; }
 .nav-band .dropdown > .parent-link:hover{
   background: rgba(0,0,0,.08);
 }
-
-/* Active page highlight */
-.nav-band .menu-link[aria-current="page"],
-.nav-band .dropdown > .parent-link[aria-current="page"],
-.nav-band .dropdown-content a[aria-current="page"]{
+/* Active page highlight (class-based) */
+.nav-band a.is-active,
+.nav-band .parent-link.is-active {
   background: var(--ucb-blue);
   color: #fff;
 }
+.nav-band .dropdown-content a.is-active {
+  background: var(--ucb-blue);
+  color: #fff;
+}
+
+
 
 /* Dropdowns */
 .nav-band .dropdown{ position:relative; }
