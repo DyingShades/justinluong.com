@@ -138,6 +138,15 @@ sections:
             Hello! My name is J.J. I am a senior undergraduate studying Rangeland Resource Science with a minor in Sustainable Food Systems. My interests include food sovereignty, gardening, and ethnobotany. Cooking with family was a very important aspect of my growing up and inspired my passion for sustainable food systems. One of my favorite plants recently has been one my grandma introduced me to outside her house in Michoacan, Mexico. She called it cinco llagas: Tagetes lunulata. I enjoy spending time in the sun and making fiber arts and other crafts.          
             <hr>
 
+    - title: "Elias Sandoval (Lab Assistant)"
+      image:
+         name: EliasS.jpg
+         alt: A photo of Elias Sandoval
+         style: right
+      content: |
+            Hi, I am Eli! I am the editor of this website and like many wonderful people around me I am finishing up my Range Resource Science degree. I have a passion for anything analytical and enjoy a healthy mix of plants on the range and electronics. I enjoy things like tissue culture, watch movement repair and audio engineering and am intrested broadly in using parallel computing, desgin + fabrication, and opensource concepts in areas that still rely on aging infrastructure. If you want to see more of my work you can learn more at eliengine.com - While grasses are cool carnivorous pitcher plants are my favourous especially _Nepenthesis Edwardsiana_
+            <hr>
+
     - title: "Max Shea (Lab Assistant and Undergrad Researcher)"
       image:
           name: maxshea.JPG
