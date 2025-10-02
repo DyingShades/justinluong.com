@@ -455,26 +455,20 @@ th, td{ padding:15px; text-align:left; }
   color:#000 !important;             /* Font Awesome */
 }
 
-/* If any icon is SVG or IMG in the future: make sure it’s black, too */
-.nav-band .social-icons a svg,
-.nav-band .social-icons a svg *{
-  fill:#000 !important;
-  stroke:#000 !important;
-}
-.nav-band .social-icons a img{
-  filter: brightness(0) saturate(100%) !important;  /* turn to black */
+/* Social icons: solid black on the gold menu */
+.nav-band .social-icons a,
+.nav-band .social-icons a:visited {
+  color:#000 !important;
   opacity:1 !important;
 }
-
-/* Slightly darker hover so the black icons pop */
-.nav-band .social-icons a:hover{
+.nav-band .social-icons a i.fa,
+.nav-band .social-icons a .fa {
+  color:#000 !important; /* Font Awesome v4 */
+}
+.nav-band .social-icons a:hover {
   background: rgba(0,0,0,.12) !important;
 }
 
-/* Masthead: solid blue, full-bleed */
-.masthead{
-  background: var(--ucb-blue) !important;
-  box-shadow: none !important;
-}
-
+/* Ensure masthead stays a solid blue bar */
+.masthead { background: var(--ucb-blue) !important; box-shadow:none !important; }
 
