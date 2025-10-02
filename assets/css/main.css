@@ -471,23 +471,10 @@ th, td{ padding:15px; text-align:left; }
   background: rgba(0,0,0,.12) !important;
 }
 
-
-/* === 2) Masthead: full-bleed blue with thin white side runners === */
-/* Your header is already full-width; these insets draw white rails above children */
+/* Masthead: solid blue, full-bleed */
 .masthead{
   background: var(--ucb-blue) !important;
-  /* White “runners” on left/right that remain visible over the gold band */
-  box-shadow:
-    inset 12px 0 0 #fff,
-    inset -12px 0 0 #fff !important;
-}
-
-@media (max-width: 760px){
-  .masthead{
-    box-shadow:
-      inset 8px 0 0 #fff,
-      inset -8px 0 0 #fff !important;
-  }
+  box-shadow: none !important;
 }
 
 
