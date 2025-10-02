@@ -472,3 +472,37 @@ th, td{ padding:15px; text-align:left; }
 /* Ensure masthead stays a solid blue bar */
 .masthead { background: var(--ucb-blue) !important; box-shadow:none !important; }
 
+/* === HEADER + MENU: align with .container (68rem) === */
+.masthead .masthead-wrap,
+.nav-band .menu{
+  max-width: 68rem;         /* match .container */
+  margin: 0 auto;           /* center within full-bleed blue/gold bars */
+  padding-left: 1rem;       /* match .container side padding */
+  padding-right: 1rem;
+}
+
+/* === Stack subtitle under title and keep badge with it === */
+.masthead .masthead-text{
+  flex-direction: column;      /* title on one line, subtitle/badge below */
+  align-items: flex-start;
+  gap: .35rem;
+}
+.site-title-link{ line-height: 1.1; }
+.site-tagline{
+  display: flex;               /* keep subtitle + crest on same row */
+  align-items: center;
+  gap: .5rem;
+}
+.masthead-subtitle{
+  font-size: clamp(.95rem, .88rem + .25vw, 1.05rem);
+  line-height: 1.25;
+  color: rgba(255,255,255,.95);
+}
+
+/* Keep the gold "Menu" block aligned with the same grid */
+header.masthead .menu{ margin-left: 0; }
+
+/* Tiny mobile polish */
+@media (max-width:760px){
+  .masthead .masthead-wrap{ padding-top: .9rem; padding-bottom: .9rem; }
+}
