@@ -3,11 +3,14 @@
   <div class="menu" role="navigation" aria-label="Site">
 
     {%- comment -%}
-    Normalize current page URL once:
-    - remove "index.html" if present
-    (No endswith / trailing-slash logic so it works on older Liquid)
+    Normalize current page for comparison:
+    - remove site.baseurl if present
+    - remove "index.html"
+    (No 'endswith' needed)
     {%- endcomment -%}
-    {% assign current = page.url | replace:'index.html','' %}
+    {% assign base = site.baseurl | default: '' %}
+    {% assign current_raw = page.url %}
+    {% assign current = current_raw | replace: base, '' | replace: 'index.html','' %}
 
     <details class="menu-collapsible" data-autotoggle>
       <summary class="menu-summary" aria-label="Open main menu">Menu</summary>
@@ -22,24 +25,26 @@
             <div class="dropdown">
 
               {% if item.url %}
-                {%- comment -%} Parent with own landing page {%- endcomment -%}
+                {%- comment -%} Parent with its own landing page {%- endcomment -%}
                 {% capture href_raw %}{{ base_href }}/{{ item.url }}{% endcapture %}
-                {% assign href = href_raw | relative_url | replace:'index.html','' %}
-                {% assign parent_active = (current == href) %}
+                {%- comment -%} compare WITHOUT baseurl and without index.html {%- endcomment -%}
+                {% assign href_compare = href_raw | replace:'index.html','' %}
+                {% assign parent_active = (current == href_compare) %}
 
                 <a class="menu-link parent-link has-sub{% if parent_active %} is-active{% endif %}"
-                   href="{{ href | relative_url }}"
+                   href="{{ href_raw | relative_url }}"
                    {% if parent_active %}aria-current="page"{% endif %}>
                   {{ item.name }} <span class="caret" aria-hidden="true">▾</span>
                 </a>
+
               {% else %}
                 {%- comment -%} Parent with NO landing page: active if any child matches {%- endcomment -%}
                 {% assign parent_active = false %}
                 {% for subitem in item.submenu %}
                   {% assign subpath = subitem.path | default: path %}
                   {% capture subhref_raw %}{% if subpath != '' %}/{{ subpath }}{% endif %}/{{ subitem.url }}{% endcapture %}
-                  {% assign subhref = subhref_raw | relative_url | replace:'index.html','' %}
-                  {% if current == subhref %}
+                  {% assign subhref_compare = subhref_raw | replace:'index.html','' %}
+                  {% if current == subhref_compare %}
                     {% assign parent_active = true %}
                   {% endif %}
                 {% endfor %}
@@ -54,12 +59,12 @@
                 {% for subitem in item.submenu %}
                   {% assign subpath = subitem.path | default: path %}
                   {% capture subhref_raw %}{% if subpath != '' %}/{{ subpath }}{% endif %}/{{ subitem.url }}{% endcapture %}
-                  {% assign subhref = subhref_raw | relative_url | replace:'index.html','' %}
-                  {% assign child_active = (current == subhref) %}
+                  {% assign subhref_compare = subhref_raw | replace:'index.html','' %}
+                  {% assign child_active = (current == subhref_compare) %}
 
                   <a role="menuitem"
                      class="{% if child_active %}is-active{% endif %}"
-                     href="{{ subhref | relative_url }}"
+                     href="{{ subhref_raw | relative_url }}"
                      {% if child_active %}aria-current="page"{% endif %}>
                     {{ subitem.name }}
                   </a>
@@ -70,11 +75,11 @@
           {% else %}
             {% if item.url %}
               {% capture href_raw %}{{ base_href }}/{{ item.url }}{% endcapture %}
-              {% assign href = href_raw | relative_url | replace:'index.html','' %}
-              {% assign is_active = (current == href) %}
+              {% assign href_compare = href_raw | replace:'index.html','' %}
+              {% assign is_active = (current == href_compare) %}
 
               <a class="menu-link{% if is_active %} is-active{% endif %}"
-                 href="{{ href | relative_url }}"
+                 href="{{ href_raw | relative_url }}"
                  {% if is_active %}aria-current="page"{% endif %}>
                 {{ item.name }}
               </a>
@@ -106,6 +111,7 @@
   apply();
   (mq.addEventListener ? mq.addEventListener('change', apply) : mq.addListener(apply));
 
+  // Close mobile menu after selecting a link
   document.addEventListener('click', function (e) {
     if (e.target.closest('.menu-content a') && window.matchMedia('(max-width: 760px)').matches) {
       d.open = false;
