@@ -415,4 +415,46 @@ th, td{ padding:15px; text-align:left; }
 .masthead .site-title-link:visited{
   text-shadow: none !important;
 }
+/* === OVERRIDES: Social icons = solid black on gold === */
+.nav-band .social-icons a,
+.nav-band .social-icons a:visited{
+  color:#000 !important;     /* covers font icons */
+  opacity:1 !important;
+}
+
+/* Covers SVG, FontAwesome <i>, and other icon elements */
+.nav-band .social-icons a svg,
+.nav-band .social-icons a i,
+.nav-band .social-icons a .fa{
+  color:#000 !important;
+  fill:#000 !important;
+  stroke:#000 !important;
+}
+
+/* If your icons are images, force them to black */
+.nav-band .social-icons img{
+  filter: brightness(0) saturate(100%) !important; /* turns any icon to black */
+  opacity:1 !important;
+}
+
+/* Slightly darker hover so the black icons still pop */
+.nav-band .social-icons a:hover{
+  background: rgba(0,0,0,.12) !important;
+}
+
+
+/* === OVERRIDE: Masthead full-bleed blue with white side runners === */
+/* Leaves the inner layout exactly as you have it; only changes the banner edges */
+.masthead{
+  background: var(--ucb-blue) !important;
+  /* “Runners”: thin white rails at left & right inside the blue bar */
+  box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff !important;
+}
+
+/* Make the side runners a touch thinner on small screens */
+@media (max-width: 760px){
+  .masthead{
+    box-shadow: inset 6px 0 0 #fff, inset -6px 0 0 #fff !important;
+  }
+}
 
