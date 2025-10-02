@@ -2,18 +2,22 @@
 <div class="nav-band">
   <div class="menu" role="navigation" aria-label="Site">
 
+    {% comment %}
+    Normalize the current page URL once:
+    - strip index.html
+    - strip a trailing slash (except for "/")
+    {% endcomment %}
+    {% assign current = page.url | replace:'index.html','' %}
+    {% if current != '/' and current endswith: '/' %}
+      {% assign cur_len = current | size %}
+      {% assign cur_len = cur_len | minus: 1 %}
+      {% assign current = current | slice: 0, cur_len %}
+    {% endif %}
+
     <details class="menu-collapsible" data-autotoggle>
       <summary class="menu-summary" aria-label="Open main menu">Menu</summary>
 
       <nav class="menu-content" aria-label="Main">
-        {% comment %}
-        Normalize current page URL:
-        - relative to site
-        - strip index.html
-        - compare both with and without trailing slash
-        {% endcomment %}
-        {% assign current = page.url | relative_url | replace:'index.html','' %}
-        {% assign current_slash = current | append:'/' %}
 
         {% for item in site.data.settings.menu %}
           {% assign path = item.path | default: '' %}
@@ -21,18 +25,42 @@
 
           {% if item.submenu %}
             <div class="dropdown">
+
               {% if item.url %}
+                {%- comment -%} Parent with its own landing page {%- endcomment -%}
                 {% capture href_raw %}{{ base_href }}/{{ item.url }}{% endcapture %}
                 {% assign href = href_raw | relative_url | replace:'index.html','' %}
-                {% assign href_slash = href | append:'/' %}
-                {% assign parent_is_exact = current == href or current == href_slash or current_slash == href or current_slash == href_slash %}
-                <a class="menu-link parent-link has-sub"
+                {% if href != '/' and href endswith: '/' %}
+                  {% assign hlen = href | size %}
+                  {% assign hlen = hlen | minus: 1 %}
+                  {% assign href = href | slice: 0, hlen %}
+                {% endif %}
+                {% assign parent_active = (current == href) %}
+
+                <a class="menu-link parent-link has-sub{% if parent_active %} is-active{% endif %}"
                    href="{{ href | relative_url }}"
-                   {% if parent_is_exact %}aria-current="page"{% endif %}>
+                   {% if parent_active %}aria-current="page"{% endif %}>
                   {{ item.name }} <span class="caret" aria-hidden="true">▾</span>
                 </a>
               {% else %}
-                <span class="menu-link has-sub" tabindex="0">
+                {%- comment -%} Parent with NO landing page; active if any child matches {%- endcomment -%}
+                {% assign parent_active = false %}
+                {% for subitem in item.submenu %}
+                  {% assign subpath = subitem.path | default: path %}
+                  {% capture subhref_raw %}{% if subpath != '' %}/{{ subpath }}{% endif %}/{{ subitem.url }}{% endcapture %}
+                  {% assign subhref = subhref_raw | relative_url | replace:'index.html','' %}
+                  {% if subhref != '/' and subhref endswith: '/' %}
+                    {% assign slen = subhref | size %}
+                    {% assign slen = slen | minus: 1 %}
+                    {% assign subhref = subhref | slice: 0, slen %}
+                  {% endif %}
+                  {% if current == subhref %}
+                    {% assign parent_active = true %}
+                  {% endif %}
+                {% endfor %}
+
+                <span class="menu-link has-sub{% if parent_active %} is-active{% endif %}" tabindex="0"
+                      {% if parent_active %}aria-current="page"{% endif %}>
                   {{ item.name }} <span class="caret" aria-hidden="true">▾</span>
                 </span>
               {% endif %}
@@ -42,11 +70,17 @@
                   {% assign subpath = subitem.path | default: path %}
                   {% capture subhref_raw %}{% if subpath != '' %}/{{ subpath }}{% endif %}/{{ subitem.url }}{% endcapture %}
                   {% assign subhref = subhref_raw | relative_url | replace:'index.html','' %}
-                  {% assign subhref_slash = subhref | append:'/' %}
-                  {% assign is_child_exact = current == subhref or current == subhref_slash or current_slash == subhref or current_slash == subhref_slash %}
+                  {% if subhref != '/' and subhref endswith: '/' %}
+                    {% assign slen2 = subhref | size %}
+                    {% assign slen2 = slen2 | minus: 1 %}
+                    {% assign subhref = subhref | slice: 0, slen2 %}
+                  {% endif %}
+                  {% assign child_active = (current == subhref) %}
+
                   <a role="menuitem"
+                     class="{% if child_active %}is-active{% endif %}"
                      href="{{ subhref | relative_url }}"
-                     {% if is_child_exact %}aria-current="page"{% endif %}>
+                     {% if child_active %}aria-current="page"{% endif %}>
                     {{ subitem.name }}
                   </a>
                 {% endfor %}
@@ -57,11 +91,16 @@
             {% if item.url %}
               {% capture href_raw %}{{ base_href }}/{{ item.url }}{% endcapture %}
               {% assign href = href_raw | relative_url | replace:'index.html','' %}
-              {% assign href_slash = href | append:'/' %}
-              {% assign is_exact = current == href or current == href_slash or current_slash == href or current_slash == href_slash %}
-              <a class="menu-link"
+              {% if href != '/' and href endswith: '/' %}
+                {% assign hlen2 = href | size %}
+                {% assign hlen2 = hlen2 | minus: 1 %}
+                {% assign href = href | slice: 0, hlen2 %}
+              {% endif %}
+              {% assign is_active = (current == href) %}
+
+              <a class="menu-link{% if is_active %} is-active{% endif %}"
                  href="{{ href | relative_url }}"
-                 {% if is_exact %}aria-current="page"{% endif %}>
+                 {% if is_active %}aria-current="page"{% endif %}>
                 {{ item.name }}
               </a>
             {% endif %}
@@ -70,7 +109,7 @@
       </nav>
     </details>
 
-    <!-- Social icons (kept) -->
+    <!-- Social icons  -->
     <nav class="social-icons" aria-label="Social">
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" target="_blank" rel="noopener">
