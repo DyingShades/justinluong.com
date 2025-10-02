@@ -476,3 +476,32 @@ th, td{ padding:15px; text-align:left; }
 /* Ensure masthead stays a solid blue bar */
 .masthead { background: var(--ucb-blue) !important; box-shadow:none !important; }
 
+/* ===== NAV HIGHLIGHT: hard reset + scoped re-enable ===== */
+
+/* 1) Kill ANY accidental highlight from old rules or aria-current */
+.nav-band .menu-content a,
+.nav-band .dropdown-content a,
+.nav-band .parent-link,
+.nav-band [aria-current="page"],
+.nav-band .menu-link[aria-current="page"],
+.nav-band .dropdown > .parent-link[aria-current="page"],
+.nav-band .dropdown-content a[aria-current="page"]{
+  background: transparent !important;
+  color: var(--ink) !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+/* 2) Only highlight links we purposely mark as active (.is-active) */
+.nav-band .menu-content a.is-active,
+.nav-band .parent-link.is-active,
+.nav-band .dropdown-content a.is-active{
+  background: var(--ucb-blue) !important;
+  color: #fff !important;
+}
+
+/* 3) Ensure visited state doesn't override the white text */
+.nav-band .menu-content a.is-active:visited,
+.nav-band .dropdown-content a.is-active:visited{
+  color: #fff !important;
+}
