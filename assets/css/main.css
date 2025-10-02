@@ -441,5 +441,53 @@ th, td{ padding:15px; text-align:left; }
 .nav-band .social-icons a:hover{
   background: rgba(0,0,0,.12) !important;
 }
+/* === 1) Social icons: force solid black on the gold bar === */
+.nav-band .social-icons a,
+.nav-band .social-icons a:visited{
+  color:#000 !important;
+  opacity:1 !important;
+  display:inline-flex;
+  align-items:center;
+}
+
+.nav-band .social-icons a i.fa,
+.nav-band .social-icons a .fa{
+  color:#000 !important;             /* Font Awesome */
+}
+
+/* If any icon is SVG or IMG in the future: make sure it’s black, too */
+.nav-band .social-icons a svg,
+.nav-band .social-icons a svg *{
+  fill:#000 !important;
+  stroke:#000 !important;
+}
+.nav-band .social-icons a img{
+  filter: brightness(0) saturate(100%) !important;  /* turn to black */
+  opacity:1 !important;
+}
+
+/* Slightly darker hover so the black icons pop */
+.nav-band .social-icons a:hover{
+  background: rgba(0,0,0,.12) !important;
+}
+
+
+/* === 2) Masthead: full-bleed blue with thin white side runners === */
+/* Your header is already full-width; these insets draw white rails above children */
+.masthead{
+  background: var(--ucb-blue) !important;
+  /* White “runners” on left/right that remain visible over the gold band */
+  box-shadow:
+    inset 12px 0 0 #fff,
+    inset -12px 0 0 #fff !important;
+}
+
+@media (max-width: 760px){
+  .masthead{
+    box-shadow:
+      inset 8px 0 0 #fff,
+      inset -8px 0 0 #fff !important;
+  }
+}
 
 
