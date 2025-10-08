@@ -42,6 +42,8 @@ menu:
   - name: 'People'
     path: 'menu'
     submenu:
+      - name: 'Justin Luong'
+        url:  'justinluong.html'
       - name: 'Current People'
         url:  'currentpeople.html'
       - name: 'Lab Alum'
