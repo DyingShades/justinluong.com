@@ -10,8 +10,6 @@ slides:
     alt: Drought Structures for Graduate Projects
   - src: /assets/img/LabWork.jpg
     alt: Lab
-  - src: /assets/img/LAEP-Justin2024.jpg
-    alt: Kneeland Solar Pannels
   - src: /assets/img/IMG_7271.jpeg
     alt: Justin
   - src: /assets/img/lab.png
