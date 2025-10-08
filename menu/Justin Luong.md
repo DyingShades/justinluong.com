@@ -3,7 +3,7 @@ layout: page
 title: Justin Luong
 Permalink: /menu/justinluong.html
 
-
+---
 sections: 
     - title: "Dr. Justin Luong (Principal Investigator)"
       image:
