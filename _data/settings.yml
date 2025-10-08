@@ -33,7 +33,7 @@ menu:
     submenu: 
     - name: 'About GrassNet'     #Home and first subpage
       url:  'aboutgrassnet.html'
-    - name: 'get Involved'       #Middle subpage
+    - name: 'Get Involved'       #Middle subpage
       url:  'getinvolved.html'
     - name: 'Resources'          #Last subpage
       url:  'resources.html'
