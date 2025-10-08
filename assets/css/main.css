@@ -543,3 +543,63 @@ th, td{ padding:15px; text-align:left; }
     right: 0; left: auto;
   }
 }
+
+/* ========================================================
+   Bio page: image float + favorite grass / contact split
+   ======================================================== */
+
+/* Float the top portrait on the bio page */
+.person-img.right {
+  float: right;
+  margin-left: 1rem;
+  max-width: 320px;
+}
+.person:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Favorite grass (left) + contact text (right) */
+.favorite-split {
+  display: grid;
+  grid-template-columns: 1fr 2fr;  /* image left, text right */
+  gap: 1rem;
+  align-items: start;
+  margin: 1.5rem 0 0;
+}
+
+.favorite-plant {
+  margin: 0;
+  text-align: center;
+}
+
+.favorite-plant img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 360px;                 /* keep it small-ish */
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  margin-inline: auto;              /* center if narrower than column */
+}
+
+.favorite-plant figcaption {
+  font-size: .9rem;
+  color: var(--muted, #666);
+  margin-top: .5rem;
+}
+
+.contact-card {
+  background: var(--accent-bg, rgba(0,50,98,.10));
+  border: 1px solid var(--border, rgba(0,0,0,.06));
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+}
+
+/* Stack neatly on phones */
+@media (max-width: 760px){
+  .favorite-split { grid-template-columns: 1fr; }
+  .favorite-plant img { margin: 0 auto; }
+}
+
