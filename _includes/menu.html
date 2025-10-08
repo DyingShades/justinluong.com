@@ -83,35 +83,63 @@
 </script>
 <script>
 (function () {
-  // Auto-flip dropdowns on hover/focus so they never clip the viewport
-  const DROPDOWNS = document.querySelectorAll('.nav-band .dropdown');
+  const isDesktop = () => window.matchMedia('(min-width: 761px)').matches &&
+                         window.matchMedia('(hover:hover) and (pointer:fine)').matches;
 
-  function maybeFlip(el){
-    const panel = el.querySelector('.dropdown-content');
-    if (!panel) return;
-    // Reset to default (left) before measuring
-    el.classList.remove('align-right');
-    // Only do this on desktop (hover/fine pointer)
-    if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
-
-    const rect = panel.getBoundingClientRect();
-    const pad = 12; // safety margin from the edge
-    const overflowRight = rect.right > (window.innerWidth - pad);
-    const overflowLeft  = rect.left < pad;
-
-    if (overflowRight) el.classList.add('align-right');
-    else if (overflowLeft) el.classList.remove('align-right'); // already left
+  function measureShown(el){
+    // Temporarily show the panel to measure if it's hidden
+    const prevVis = el.style.visibility;
+    const prevDisp = el.style.display;
+    el.style.visibility = 'hidden';
+    el.style.display = 'block';
+    const rect = el.getBoundingClientRect();
+    el.style.display = prevDisp || '';
+    el.style.visibility = prevVis || '';
+    return rect;
   }
 
-  DROPDOWNS.forEach(dd => {
-    // Recalculate when the dropdown is about to open
-    dd.addEventListener('mouseenter', () => maybeFlip(dd));
-    dd.addEventListener('focusin',    () => maybeFlip(dd));
+  function positionPanel(drop){
+    const panel = drop.querySelector('.dropdown-content');
+    if (!panel || !isDesktop()) return;
+
+    // Reset alignment before measuring
+    drop.classList.remove('align-right');
+    panel.style.right = ''; panel.style.left = '';
+
+    // Measure (works even if hidden)
+    const rect = measureShown(panel);
+    const pad = 12; // margin from viewport edge
+
+    const overflowRight = rect.right > (window.innerWidth - pad);
+    const overflowLeft  = rect.left  < pad;
+
+    if (overflowRight) {
+      drop.classList.add('align-right');        // CSS pins to right
+    } else if (overflowLeft) {
+      drop.classList.remove('align-right');     // keep left
+      panel.style.left = pad + 'px';            // nudge inside viewport
+    }
+
+    // Vertical safety: if panel would go off the bottom, cap height & scroll
+    const maxH = Math.min(window.innerHeight * 0.7, 520);
+    if (rect.height > maxH) {
+      panel.style.maxHeight = maxH + 'px';
+      panel.style.overflow = 'auto';
+    } else {
+      panel.style.maxHeight = '';
+      panel.style.overflow = '';
+    }
+  }
+
+  const DROPS = document.querySelectorAll('.nav-band .dropdown');
+
+  // Reposition right before it opens (hover/focus)
+  DROPS.forEach(dd => {
+    dd.addEventListener('mouseenter', () => positionPanel(dd));
+    dd.addEventListener('focusin',    () => positionPanel(dd));
   });
 
-  // Re-check on resize (e.g., rotating a phone, snapping window)
-  window.addEventListener('resize', () => {
-    DROPDOWNS.forEach(maybeFlip);
-  });
+  // Re-check on resize/orientation change
+  window.addEventListener('resize', () => DROPS.forEach(positionPanel));
 })();
 </script>
