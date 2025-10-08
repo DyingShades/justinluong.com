@@ -16,11 +16,12 @@ menu:
     
   - name: 'Publications'
     path: 'menu'   # = /menu/publications.html
-    url: 'publications.html'
+    url:  'publications.html'
  
 
   - name: 'Current Research'
     path: 'menu'
+    url:  'currentresearch.html'
     submenu:
     - name: 'Current Research'
       url:  'currentresearch.html'
@@ -30,7 +31,7 @@ menu:
    
   - name: 'California GRASS-Net'
     path: 'menu'
-    url: 'aboutgrassnet.html'
+    url:  'aboutgrassnet.html'
     submenu: 
     - name: 'About GrassNet'     #Home and first subpage
       url:  'aboutgrassnet.html'
@@ -42,6 +43,7 @@ menu:
     
   - name: 'People'
     path: 'menu'
+    url:  'justinluong.html'
     submenu:
       - name: 'Justin Luong'
         url:  'justinluong.html'
@@ -53,6 +55,7 @@ menu:
     
   - name: 'Art & Science'
     path: 'menu'
+    url:  'illsutratedsummaries.html'
     submenu:
       - name: 'Illustrated Summaries'
         url: 'illustratedsummaries.html'
