@@ -602,4 +602,38 @@ th, td{ padding:15px; text-align:left; }
   .favorite-split { grid-template-columns: 1fr; }
   .favorite-plant img { margin: 0 auto; }
 }
+/* --- Bio: tighten image sizing/spacing and style the img itself --- */
+.person-img.right{
+  float: right;
+  /* size that stays small on wide screens and doesn’t shrink too tiny */
+  width: clamp(220px, 28vw, 340px);
+  margin: 0 0 .85rem 1.25rem;  /* bottom + left gap from paragraphs */
+}
+.person-img img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+article.person p:first-of-type{ margin-top: 0; }
+
+/* ensure the rule inside the article doesn't overlap the float */
+article.person hr{ clear: both; }
+
+/* stack the portrait nicely on phones */
+@media (max-width: 800px){
+  .person-img.right{
+    float:none;
+    margin: 0 auto 1rem;
+    width: min(92%, 420px);
+  }
+}
+
+/* --- Favorite plant  --- */
+.favorite-split{
+  grid-template-columns: 1fr 1.25fr;   /* slightly wider text column */
+  gap: 1.25rem;
+}
+.favorite-plant{ justify-self: start; } /* no auto-centering in grid */
 
