@@ -31,6 +31,8 @@ Dr. Luong invites potential postdoctoral scholars to develop and submit USDA or 
 [Blue Sky](https://bsky.app/profile/justincluong.bsky.social)  
 
 # GO BEARS!
+{% include slideshow.html interval=6000 %}
+
 <script>
 (function () {
   const ss = document.querySelector('.slideshow');
@@ -100,4 +102,13 @@ Dr. Luong invites potential postdoctoral scholars to develop and submit USDA or 
     }
     p ? stop() : start();
   }
+  ss.addEventListener('mouseenter', stop);
+  ss.addEventListener('mouseleave', () => { if (!paused) start(); });
+  ss.addEventListener('focusin',  stop);
+  ss.addEventListener('focusout', () => { if (!paused) start(); });
+  btnPause && btnPause.addEventListener('click', () => setPaused(!paused));
 
+  syncDots();
+  start();
+})();
+</script>
