@@ -1,7 +1,7 @@
 ---
 layout: page
-image: lab_kneeland2024.jpg
 ---
+# Contact
 
 ORC-ID = [0000-0003-2118-4788](https://orcid.org/0000-0003-2118-4788)
 
