@@ -487,6 +487,44 @@ th, td{ padding:15px; text-align:left; }
 .nav-band .social-icons a:hover {
   background: rgba(0,0,0,.12) !important;
 }
+/* --- Dropdown: wider hit-area on parent --- */
+.nav-band .dropdown {
+  position: relative;
+  padding-block: 2px;                 /* tiny cushion around the parent */
+}
+.nav-band .dropdown > .menu-link,
+.nav-band .dropdown > .parent-link {
+  padding: .6rem .8rem;               /* bigger target */
+}
+
+/* --- Desktop: default left align; auto-flip class aligns to right --- */
+@media (min-width: 761px){
+  .nav-band .dropdown-content{
+    left: 0; right: auto;             /* normal (left-aligned) */
+    top: calc(100% + 8px);
+    margin: 0;
+  }
+  /* when JS adds .align-right, pin to the right so it doesn't overflow */
+  .nav-band .dropdown.align-right > .dropdown-content{
+    left: auto; right: 0;
+  }
+
+  /* keep menu open while mouse passes the 8px gap */
+  .nav-band .dropdown-content::before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: -8px; height: 8px;
+  }
+}
+
+/* --- Mobile (you already center and size nicely) — tiny tweak: max-height with scroll --- */
+@media (max-width:760px){
+  .nav-band .dropdown-content{
+    max-height: min(70vh, 28rem);
+    overflow: auto;                    /* prevent off-screen on very small phones */
+  }
+}
+
 
 /* Ensure masthead stays a solid blue bar */
 .masthead { background: var(--ucb-blue) !important; box-shadow:none !important; }
