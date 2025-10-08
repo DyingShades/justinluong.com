@@ -81,3 +81,37 @@
   });
 })();
 </script>
+<script>
+(function () {
+  // Auto-flip dropdowns on hover/focus so they never clip the viewport
+  const DROPDOWNS = document.querySelectorAll('.nav-band .dropdown');
+
+  function maybeFlip(el){
+    const panel = el.querySelector('.dropdown-content');
+    if (!panel) return;
+    // Reset to default (left) before measuring
+    el.classList.remove('align-right');
+    // Only do this on desktop (hover/fine pointer)
+    if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+
+    const rect = panel.getBoundingClientRect();
+    const pad = 12; // safety margin from the edge
+    const overflowRight = rect.right > (window.innerWidth - pad);
+    const overflowLeft  = rect.left < pad;
+
+    if (overflowRight) el.classList.add('align-right');
+    else if (overflowLeft) el.classList.remove('align-right'); // already left
+  }
+
+  DROPDOWNS.forEach(dd => {
+    // Recalculate when the dropdown is about to open
+    dd.addEventListener('mouseenter', () => maybeFlip(dd));
+    dd.addEventListener('focusin',    () => maybeFlip(dd));
+  });
+
+  // Re-check on resize (e.g., rotating a phone, snapping window)
+  window.addEventListener('resize', () => {
+    DROPDOWNS.forEach(maybeFlip);
+  });
+})();
+</script>
