@@ -20,7 +20,7 @@ permalink: /menu/justinluong.html
 <div class="favorite-split">
   <figure class="favorite-plant">
     <img
-      src="{{ '/assets/img/DCalifonica.jpeg' | relative_url }}"
+      src="{{ '/assets/img/DCalifornica.jpeg' | relative_url }}"
       alt="Danthonia californica (California oatgrass)">
     <figcaption><em>Danthonia californica</em> (California oatgrass)</figcaption>
   </figure>
