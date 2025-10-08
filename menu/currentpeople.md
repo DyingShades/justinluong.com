@@ -144,7 +144,7 @@ sections:
          alt: A photo of Elias Sandoval
          style: right
       content: |
-            Hi, I am Eli! I am the editor of this website and like many wonderful people around me I am finishing up my Range Resource Science degree. I have a passion for anything analytical and enjoy a healthy mix of plants on the range and electronics. I enjoy things like tissue culture, watch movement repair and audio engineering and am intrested broadly in using parallel computing, design + fabrication, and opensource concepts in areas that still rely on aging infrastructure. If you want to see more of my work you can learn more at eliengine.com - While grasses are cool carnivorous pitcher plants are my favourous especially _Nepenthesis Edwardsiana_
+            Hi, I am Eli! I am the editor of this website and like many wonderful people around me I am finishing up my Range Resource Science degree. I have a passion for anything analytical and enjoy a healthy mix of plants on the range and electronics. I enjoy things like tissue culture, watch movement repair and audio engineering and am intrested broadly in using parallel computing, design + fabrication, and opensource concepts in areas that still rely on aging infrastructure. If you want to see more of my work you can learn more at eliengine.com - While grasses are cool carnivorous pitcher plants are my favorite especially _Nepenthesis Edwardsiana_
             <hr>
 
     - title: "Max Shea (Lab Assistant and Undergrad Researcher)"
