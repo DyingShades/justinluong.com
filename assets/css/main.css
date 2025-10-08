@@ -459,7 +459,6 @@ th, td{ padding:15px; text-align:left; }
   stroke:#000 !important;
 }
 
-/* If your icons are images, force them to black */
 .nav-band .social-icons img{
   filter: brightness(0) saturate(100%) !important; /* turns any icon to black */
   opacity:1 !important;
@@ -517,7 +516,7 @@ th, td{ padding:15px; text-align:left; }
   }
 }
 
-/* --- Mobile (you already center and size nicely) — tiny tweak: max-height with scroll --- */
+/* --- Mobile  --- */
 @media (max-width:760px){
   .nav-band .dropdown-content{
     max-height: min(70vh, 28rem);
@@ -529,3 +528,18 @@ th, td{ padding:15px; text-align:left; }
 /* Ensure masthead stays a solid blue bar */
 .masthead { background: var(--ucb-blue) !important; box-shadow:none !important; }
 
+/* Ensure dropdowns can escape their parents */
+.nav-band,
+.nav-band .menu { overflow: visible; }
+
+/* Let panels be wide but never exceed viewport */
+@media (min-width:761px){
+  .nav-band .dropdown-content{
+    max-width: min(92vw, 32rem);
+    z-index: 1000;                 /* stay on top */
+  }
+  /* When JS adds .align-right, pin to right edge of the parent */
+  .nav-band .dropdown.align-right > .dropdown-content{
+    right: 0; left: auto;
+  }
+}
