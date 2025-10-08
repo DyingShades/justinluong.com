@@ -44,7 +44,7 @@ menu:
     submenu:
       - name: 'Justin Luong'
         url:  'justinluong.html'
-      - name: 'Current People'
+      - name: 'Current Lab Associates'
         url:  'currentpeople.html'
       - name: 'Lab Alum'
         url:  'labalum.html'
