@@ -32,7 +32,6 @@ slides:
   </figure>
 </div>
 
-{% include slideshow.html interval=6000 %}
 
 
 ---
@@ -43,6 +42,9 @@ We are part of the [Environmental Science, Policy & Management Department](https
 
 Check out the [Luong Lab DEI Action Plan](https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?usp=sharing)  
 <hr>
+
+{% include slideshow.html interval=6000 %}
+
 <!-- Responsive YouTube playlist embed -->
 <div class="yt-wrap" role="region" aria-label="Video playlist">
   <iframe
