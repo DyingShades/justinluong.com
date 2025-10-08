@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Justin Luong
-Permalink: /menu/justinluong.html
+permalink: /menu/justinluong.html
 
 
 sections: 
