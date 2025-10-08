@@ -3,7 +3,7 @@ layout: page
 title: Justin Luong
 permalink: /menu/justinluong.html
 ---
-
+<hr>
 <article class="person max-w-3xl mx-auto px-4 py-8">
   <figure class="person-img right">
     <img src="{{ '/assets/img/JustinWillits.jpg' | relative_url }}"
