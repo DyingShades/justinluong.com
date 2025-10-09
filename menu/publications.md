@@ -6,15 +6,19 @@ permalink: /menu/publications.html
 
 [Google Scholar](https://scholar.google.com/citations?user=YSOJb-wAAAAJ&hl=en)  
 
-**Luong JC**, Mejia-Muñoz J, & Krone P. 2025. Compost and Native Seeding Interactively Increase Bulk Soil Carbon, but Compost Addition Favors Nonnative Plants. *Rangeland Ecology & Management*, 103, 104-112. <https://doi.org/10.1016/j.rama.2025.07.010>  
+**Compost and Native Seeding Interactively Increase Bulk Soil Carbon, but Compost Addition Favors Nonnative Plants.** *Rangeland Ecology & Management*, 103, 104-112. (Luong JC, Mejia-Muñoz J, & Krone P. 2025.)
+<https://doi.org/10.1016/j.rama.2025.07.010>  
 
-Byrne KM, **Luong JC**, Kaczynski KM. 2025. Divergent drought response in two cold desert shrublands. 2025. Ecosphere 16(3):e70211. <https://doi.org/10.1002/ecs2.70211>  
+**Divergent drought response in two cold desert shrublands.** 2025. Ecosphere 16(3):e70211. Byrne KM, Luong JC, Kaczynski KM. 2025. 
+<https://doi.org/10.1002/ecs2.70211>  
 
-Nguyen PV, **Luong JC**, Wishingrad V, Stratton LC, Loik ME, Meyer RS. 2025. Soil Biome Variation of Lupinus nipomensis Eastw. in Wet-Cool vs. Dry-Warm Microhabitats and Greenhouse Conditions. *American Journal of Botany* e70020. <https://doi.org/10.1002/ajb2.70020>  
+**Soil Biome Variation of Lupinus nipomensis Eastw. in Wet-Cool vs. Dry-Warm Microhabitats and Greenhouse Conditions.** *American Journal of Botany* e70020. Nguyen PV, Luong JC, Wishingrad V, Stratton LC, Loik ME, Meyer RS. 2025. 
+<https://doi.org/10.1002/ajb2.70020>  
 
-Zhu K, Song Y, Lesage JC, **Luong JC**, Bartolome J, Chiariello N, Dudney J, Field C, Hallett L, Hammond M, Harrison S, Hayes G, Hobbs R, Holl KD, Hopkinson P, Larios L, Loik ME, Prugh L. 2024. Rapid shifts in grassland communities driven by climate change. *Nature Ecology & Evolution*. <https://doi.org/10.1038/s41559-024-02552-z>  
+**Rapid shifts in grassland communities driven by climate change.** *Nature Ecology & Evolution*. Zhu K, Song Y, Lesage JC, Luong JC, Bartolome J, Chiariello N, Dudney J, Field C, Hallett L, Hammond M, Harrison S, Hayes G, Hobbs R, Holl KD, Hopkinson P, Larios L, Loik ME, Prugh L. 2024. 
+<https://doi.org/10.1038/s41559-024-02552-z>  
 
-Muramoto J, Flores R, Jones A, **Luong J**. 2024. Utilizing Traditional Ecological Knowledge to Tend Geophytes on the Central Coast of California. In J. Habu (Eds.) Agroecology, Sustainable Food Production and Landscape Conservation: International Collaborations between Japan and the Americas (98-105).  
+**Utilizing Traditional Ecological Knowledge to Tend Geophytes on the Central Coast of California.** In J. Habu (Eds.) Agroecology, Sustainable Food Production and Landscape Conservation: International Collaborations between Japan and the Americas (98-105). Muramoto J, Flores R, Jones A, Luong J. 2024.  
 [View pdf]({{site.baseurl}}/assets/pdf/Utilizing Traditional Ecological Knowledge to Tend Geophytes on the Central Coast of California.pdf)   
 
 Yang X, Loik ME, Wu X, **Luong JC**, Wei X, Li L. 2024. Drought and vegetation restoration lead to shifts in soil microbial diversity and co‐occurrence networks in California coastal prairie. *Plant and Soil*. <https://doi.org/10.1007/s11104-024-06625-7>  
