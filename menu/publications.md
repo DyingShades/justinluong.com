@@ -22,7 +22,7 @@ permalink: /menu/publications.html
     </p>
   </div>
 </section>
----
+
 
 
 **Compost and Native Seeding Interactively Increase Bulk Soil Carbon, but Compost Addition Favors Nonnative Plants.** 
