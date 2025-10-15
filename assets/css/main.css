@@ -695,12 +695,7 @@ article.person hr{ clear: both; }
   grid-template-columns: 1fr 1.25fr;   /* slightly wider text column */
   gap: 1.25rem;
 }
-.favorite-plant{ justify-self: start; } /* no auto-centering in grid */
-/* Current Research — center only the section titles */
-.layout-current-research .section > h2,
-.layout-current-research .section > h3,
-.layout-current-research .section .section-title{
-  text-align: center;
-  margin-inline: auto;   /* keeps underline/borders centered if any */
-}
+.favorite-plant{ justify-self: start; } 
+
+.section-title { text-align: center; }
 
