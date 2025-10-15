@@ -697,12 +697,13 @@ article.person hr{ clear: both; }
 }
 .favorite-plant{ justify-self: start; } 
 
-/* Center a section's first heading only */
-section > :is(h2,h3,h4):first-child,
-.section > :is(h2,h3,h4):first-child,
-.research-section > :is(h2,h3,h4):first-child {
+/* Center only the Current Research section titles */
+.section-title{
   text-align: center;
-  margin-inline: auto;
+  font-family: "Quattrocento Sans", sans-serif; 
+  font-weight: 800;
+  margin: .25rem 0 .6rem;
 }
+
 
 
