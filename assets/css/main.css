@@ -697,5 +697,12 @@ article.person hr{ clear: both; }
 }
 .favorite-plant{ justify-self: start; } 
 
-.section-title { text-align: center; }
+/* Center a section's first heading only */
+section > :is(h2,h3,h4):first-child,
+.section > :is(h2,h3,h4):first-child,
+.research-section > :is(h2,h3,h4):first-child {
+  text-align: center;
+  margin-inline: auto;
+}
+
 
