@@ -696,6 +696,65 @@ article.person hr{ clear: both; }
   gap: 1.25rem;
 }
 .favorite-plant{ justify-self: start; } 
+/* Current Research sections */
+.research-section{ margin: 2rem 0; }
+
+.section-title{
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 800;
+  margin: .25rem 0 .9rem;
+}
+
+/* Two-column layout: text + image */
+.section-grid{
+  display: grid;
+  grid-template-columns: 1.8fr minmax(220px, 28%);
+  gap: clamp(14px, 2.2vw, 28px);
+  align-items: start;                  /* top-align image with text */
+}
+
+/* Right-aligned image (default request) */
+.section-grid.right .section-text{ grid-column: 1; }
+.section-grid.right .section-img{ grid-column: 2; justify-self: end; }
+
+/* Center style: image above, text below (optional) */
+.section-grid.center{
+  grid-template-columns: 1fr;
+}
+.section-grid.center .section-img{
+  justify-self: center;
+  max-width: min(460px, 92%);
+  margin-bottom: .75rem;
+}
+
+.section-text p:first-child{ margin-top: 0; }
+
+.section-img{
+  width: 100%;
+  height: auto;
+  max-width: 340px;                    /* keeps the photo from ballooning */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.10);
+}
+
+/* Full-width divider that visually centers under the title & grid */
+.section-divider{
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1.5rem 0 2rem;
+}
+
+/* Stack on smaller screens */
+@media (max-width: 900px){
+  .section-grid{
+    grid-template-columns: 1fr;
+  }
+  .section-grid.right .section-img{
+    justify-self: center;              /* center the photo below text on mobile */
+    max-width: min(420px, 92%);
+  }
+}
 
 /* Center only the Current Research section titles */
 .section-title{
