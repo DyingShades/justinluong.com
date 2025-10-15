@@ -40,11 +40,15 @@ slides:
 
 _"Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover." (Dr. Justin Luong Et. Al)_
 <hr>
+___
 
-# Projects and highlights
+# Projects and Highlights
+Subject matter about both Dr. Luongs independent work as well as Humboldt lab work. with buttons that lead to respective pages in submenus
 
+Berkley
 GrassNet
----
+Range and Resource Lab
+
 # Quick Links:  
 <hr>
 We are part of the [Environmental Science, Policy & Management Department](https://ourenvironment.berkeley.edu/) at [Rausser College of Natural Resources](https://nature.berkeley.edu/)  
