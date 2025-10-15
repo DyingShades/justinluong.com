@@ -2,6 +2,7 @@
 layout: current-research
 title: Current Research
 sections:
+<hr>
     - title: "Assessing Restoration Outcomes to Inform Climate-Readiness and Invasion Resistance for Ecological Restoration"
       image:
           name: JustinUmbrella.jpg
