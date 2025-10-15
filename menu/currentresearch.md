@@ -9,7 +9,8 @@ sections:
           style: right
       content: |
           We use an interdisciplinary approach, integrating restoration ecology, ecophysiology, greenhouse, fieldwork, and social science methodologies to engage local ecological knowledge and generated applied ecological knowledge. Dr. Luong's work focuses on assessment of restoration projects while integrating management perspectives to ensure engagement of end-use partners. Our work focuses on diverse flora and ecosystems of California as case studies that can be more broadly applicable elsewhere. Current work evaluates the resilience and resistance of native California flora to climate stressors such as plant invasions, drought, fire, and warming to help inform plant selection and context-specific management strategies by assessing functional trait and plant community responses. Current projects work to understand the drivers of reinvasion after targeted weed management (secondary invasion) across California rangelands using field and greenhouse approaches and common garden studies related to plant local adaptation.
-<hr>
+          <hr>
+
 
     - title: "Rangeland multiuse and grazing management"
       image:
