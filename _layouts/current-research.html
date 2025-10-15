@@ -4,12 +4,15 @@ layout: page
 {{ content }}
 
 {% for section in page.sections %}
-    <strong>{{ section.title | markdownify }}</strong>
+    <div class="section-title">
+  {{ section.title | markdownify }}
+</div>
+
     {% if section.image %}
         {% if section.image.style == 'center' %}
             <img src="{{ site.baseurl }}/assets/img/{{ section.image.name }}" style="display: flex; margin: auto;">
             {{ section.content | markdownify }}
-        {% else if section.image.style == 'right' %}
+        {% elsif section.image.style == 'right' %}
             <div style="display: flex; flex-direction:row-reverse;">
                 <img src="{{ site.baseurl }}/assets/img/{{ section.image.name }}" style="flex: 1; max-width: 20%; margin-left:2em; align-self: center"/>
                 <div style="flex: 4;">
