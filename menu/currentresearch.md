@@ -19,7 +19,8 @@ sections:
           style: right
       content: |
           We assess practices for optimizing rangeland multiuse to support grazing and various ecosystem services. We currently work with the Mendocinco Resource Conservation District to understand the role of grazing in the Willits Wet Meadows on soil properties, fire risk and vegetation communities including Baker's Meadowfoam (_Limnanthes bakeri_) and North Coast Semaphore Grass (_Pleuropogon hooverianus_). Other current projects focus on investigating soil and vegetation recovery on working lands following fire staging in the central CA coast areas. Additionally, we work to understand disturbances such as grazing and trampling on rangeland plant species and communities to provide guidance for land management, restoration plant selection and rare species conservation.    
-<hr>    
+          <hr>
+ 
 
     - title: "Rare plant conservation"
       image:
@@ -28,7 +29,8 @@ sections:
           style: right
       content: |
           Ecological restoration projects often use the same species across large spatial scales because those species are known to work well and are easy to access and no one wants to fail at achieving their (project) goals. For example in coastal California, grassland restoration practitioners commonly use 7 (or less) of the same species out of 6500 existing native CA species. Our lab takes an integrative approach to study a diverse array of California species, threathened, endangered, culturally important, but also common species that are not-special status but are not studied. We also work to address this issue across multi-institutional collaborations through a program called GRASS-NET (Grasslation Restoration Action Science and Stewardship Network), which is a community-based approach working to establish a statewide network aimed at sharing risks in using new restoration species, information on restoration practices, and seed knowledge. We use ecophysiological approaches to further examine drought responses to characterize less commonly used biodiversity, often annual species. Dr. Luong has worked for over a decade on the conservation of the endangered _Lupinus nipomensis_ and continues to lead research to understand best practices for reintroduction. More currently the lab has also begun work on the threathened _Pleuropogon hooverianus_. 
-<hr>
+          <hr>
+
 
     - title: "Regenerative Agrivoltaics"
       image:
