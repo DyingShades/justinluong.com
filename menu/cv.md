@@ -26,11 +26,11 @@ Focus: Restoration Ecology
 --------------------
 ## Awards and Grants
 * University of California Office of the President Climate Action Seed Fund, 2023 ($1.5M)
-* California Farm Bureau Conservation Grazing Fund, 2023 ($520,000)
+* California Farm Bureau Conservation Grazing Fund, 2023 ($520k)
 * UCSC Environmental Studies Experiential Learning & Research Grant, 2022
-* National Science Foundation PRFB (Declined to accept USDA), 2022	($138,000)
+* National Science Foundation PRFB (Declined to accept USDA), 2022	($138k)
 * UCSC Graduate Dean’s Travel and Research Grant , 2022	
-* U.S. Department of Agriculture – Agricultural and Food Initiative Postdoctoral Fellowship, 2022	($216,900)
+* U.S. Department of Agriculture – Agricultural and Food Initiative Postdoctoral Fellowship, 2022	($216.9k)
 *	UCSC Graduate Student Cultivation Grant, 2021
 *	Building Better Belongings Program Undergraduate Research, 2021
 *	UCSC Graduate Student Association Cultivation Grant, 2021
@@ -40,30 +40,30 @@ Focus: Restoration Ecology
 *	Hardman Native Plant Award, 2020
 * UC Santa Cruz Plant Sciences Student Greenhouse Award, 2020
 * Radical Resilience Initiative Grant, 2020
-* Chancellors Graduate Internship Program, 2019 – 2020
+* Chancellors Graduate Internship Program, 2019,20
 * Jean H. Langenheim Graduate Fellowship in Ecology and Evolution, 2019
 * Golden Gate Science into Action Fund, 2019
 * Northern California Botanists Botany Research Scholarship Program, 2019
 * Benjamin and Ruth Hammett Fellowship, UCSC, 2019
-* Student Research Grant, California Native Grassland Society, 2019, 2020
+* Student Research Grant, California Native Grassland Society, 2019,20
 * California Native Plant Society Education Research Grant, 2019
 * University of California Matthias Fellowship, 2019
-* Northern California Botanist Botany Research Scholarship Program, 2018, 2019
-* UCSC Graduate Student Travel and Research Award, 2018, 2019
+* Northern California Botanist Botany Research Scholarship Program, 2018,19
+* UCSC Graduate Student Travel and Research Award, 2018,19
 * David Gaines Award, 2018
-* UC Regents Fellowship, 2017, 2018, 2019
+* UC Regents Fellowship, 2017,18,19
 * California Native Plant Society, San Luis Obispo Rare Plant Fund, 2017
-* Minor Grant, the Coastal Fund, UCSB 2012, 2013, 2016, 2019
+* Minor Grant, the Coastal Fund, UCSB 2012,13,16,19
 
 
 UNDERGRAD GRANTS RECEIVED BY MENTEES
 * Earth Futures Institute Frontier Fellowship, 2022		
-* UCSC Plant Sciences Student Greenhouse Award, 2020, 2021
+* UCSC Plant Sciences Student Greenhouse Award, 2020,21
 * California Native Grassland Association Student Research Grant, 2021
 * Paul Silva Student Award, California Botanical Society, 2020
 * USDA SUPERDAR 2.0, UCSC, 2020
-* Minor Grant, the Coastal Fund, UCSB 2017, 2018
-* Cooley Environmental Research Award, UCSC, 2019 (×2), 2020
+* Minor Grant, the Coastal Fund, UCSB 2017,18
+* Cooley Environmental Research Award, UCSC, 2019(×2),20
 * Keeley Coastal Scholars Award, UCSC, 2019
 
 
