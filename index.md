@@ -4,6 +4,8 @@ permalink: /index.html
 title: Welcome!
 show_slideshow: false
 slides: 
+  - src: /assets/img/burningluong.heic
+    alt: Justin On Fire
   - src: /assets/img/lab_kneeland2024.jpg
     alt: Lab
   - src: /assets/img/ylr-shelter.jpg
