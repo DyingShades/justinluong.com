@@ -1,7 +1,6 @@
 ---
 layout: current-research
 title: Current Research
-<br>
 sections:
 
     - title: "Assessing Restoration Outcomes to Inform Climate-Readiness and Invasion Resistance for Ecological Restoration"
