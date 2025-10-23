@@ -5,47 +5,47 @@ field_image: IMG_7271.jpeg
 ---
 --------------------
 ## Academic History and Appointments
-**Assistant Professor**, *California Polytechnic University Humboldt, Arcata, CA*  2023-**Present**   
- *Department of Forestry, Fire and Rangeland Management*  
+**Assistant Professor**, *California Polytechnic University Humboldt, Arcata, CA*  (2023-Present)  
+ Department of Forestry, Fire and Rangeland Management  
+<br>
 
-
-**USDA AFRI Postdoctoral Scholar**, *University of California, Davis, CA* 2022-2023  
+**USDA AFRI Postdoctoral Scholar**, *University of California, Davis, CA* (2022-2023) 
 Focus: Invasion Ecology & Secondary Invasions  
+<br>
 
-
-**Doctor of Philosophy in Environmental Studies**, *University of California Santa Cruz, CA*  2017-2022  
+**Doctor of Philosophy in Environmental Studies**, *University of California Santa Cruz, CA*  (2017-2022) 
 Research Focus: Novel strategies for understanding restoration outcomes facing climate change  
 Advising Committee: Dr. Michael Loik (Co-PI), Dr. Karen Holl (Co-PI), Dr. Daniel Press                     
 External Committee: Dr. Katharine Suding (University of Colorado, Boulder)
+<br>
 
-
-**Bachelor of Science in Environmental Studies**,*University of California, Santa Barbara, CA*  2010-2014  
+**Bachelor of Science in Environmental Studies**,*University of California, Santa Barbara, CA*  (2010-2014)  
 Focus: Restoration Ecology
 
 --------------------
 ## Professional Experience
 
-**Luong Restoration and Ecology Internship Program**  Cal Poly Humboldt, CA 2018-Present  
+**Luong Restoration and Ecology Internship Program**  Cal Poly Humboldt, CA (2018-Present)  
 *Research Mentor and Program Administer*  
 Duties: Mentor 3-15 undergraduate students any given school quarter about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting; assist students in completing thesis projects and apply for small grants to complete independent research
 
-**Humboldt State University**  Arcata, CA 2021-2023  
+**Humboldt State University**  Arcata, CA (2021-2023)  
 *Research Analyst*  
 Duties: Analyze multiyear plant community data from Great Basin Sage Scrub and write and generate a research publication.  
 
-**Netflix Animation**  Los Angeles, CA 2021-2022  
+**Netflix Animation**  Los Angeles, CA (2021-2022)  
 *Consulting Botanist*  
 Duties: Consult on California coastal botany and its relevance to the animation film project and intersection with queer identities.   
 
-**California Marine Sanctuary Foundation**  Monterey, CA 2020-Present  
+**California Marine Sanctuary Foundation**  Monterey, CA (2020-Present)  
 *Consulting Ecologist*  
 Duties: Create and implement a vegetation monitoring plan for a newly designed grassland restoration project that will be used in conjunction with ranching and public access; conduct annual vegetation monitoring of restoration project; analyze soil samples taken using Loss on Ignition to determine soil organic and inorganic carbon
 
-**UC Santa Cruz Science Internship Program**  UC Santa Cruz, CA 2019-2022 (summers only)  
+**UC Santa Cruz Science Internship Program**  UC Santa Cruz, CA (2019-2022 summers)  
 *Research Mentor*  
 Duties: Mentor 3-4 high school students about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting
 
-**Norris Center for Natural History**  UC Santa Cruz, CA 2018-2021  
+**Norris Center for Natural History**  UC Santa Cruz, CA (2018-2021)  
 *Graduate Student Researcher*  
 Duties: Worked on various projects and tasks; for 3 months, I took high-quality macro-photos of insects for databasing and digitization; for 6 months I assisted in developing a public exhibit focused on “Santa Cruz Naturalists” with a specific focus on diversity, equity and inclusion within the Santa Cruz Naturalist community; for 3 months I managed two internship programs: one based on researching sensitive species within the local bioregion and another focused on decolonizing natural history museum practices
 
