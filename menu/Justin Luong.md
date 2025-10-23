@@ -46,7 +46,7 @@ permalink: /menu/justinluong.html
     <li><strong>Environmental Studies Grant Review Committee</strong> <span class="text-gray-600">2018–2020</span></li>
     <li><strong>USFWS Nipomo Lupine Endangered Species Recovery Team</strong> <span class="text-gray-600">2019–Present</span></li>
     <li><strong>Mark’s Ranch Technical Advisory Committee</strong> <span class="text-gray-600">2020–Present</span></li>
-    <li><strong>UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee</strong>strong> <span class="text-gray-600">2020–2023</span></li>
+    <li><strong>UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee</strong> <span class="text-gray-600">2020–2023</span></li>
     <li><strong>UCSC Environmental Studies BIPOC Resilience Graduate Committee</strong> <span class="text-gray-600">2020–2022</span></li>
     <li><strong>California Native Grassland Association</strong> — Research, Science &amp; Education Committee Chair <span class="text-gray-600">2021–Present</span></li>
   </ul>
