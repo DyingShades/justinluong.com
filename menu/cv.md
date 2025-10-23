@@ -119,35 +119,37 @@ UNDERGRAD GRANTS RECEIVED BY MENTEES
 
 --------------------
 ## Mentorship
-* Peter Nguyen, undergrad, (2021-2023)  
-* Jennifer Valadez, undergrad, (2021-2023)  
+* Peter Nguyen, (*)(2021-2023)  
+* Jennifer Valadez, (*)(2021-2023)  
 * Leisha Devisetti, high schooler, (2021-Present)  
-* Nick Mazzotti, undergrad, (2021-2023)  
-* Elisha Villanueva, undergrad, (2021-2023)  
-* Emma Houle, undergrad, (2020-2022)  
-* Ernesto Chavez-Velasco, undergrad and professional, (2020-Present)  
+* Nick Mazzotti, (*)(2021-2023)  
+* Elisha Villanueva(*), (2021-2023)  
+* Emma Houle, (*)(2020-2022)  
+* Ernesto Chavez-Velasco, (*)(+)(!)(2020-Present)  
  *senior thesis: "Responses of Functional Leaf Traits to Fog & Drought are Greater  
   for Native Coastal California Grassland than Coastal Agricultural Species"*
   *masters thesis: *Integrating plant traits with site characterizations to support biodiverse California coastal grassland restoration.*
-* Carina Motta, undergrad and master's, (2020-2022)  
-* Tori Bauman, undergrad, (2020)  
+* Carina Motta,  (*)(!)(2020-2022)  
+* Tori Bauman, (*)(2020)  
  *senior thesis: "Coastal Prairie Bunchgrass Response to Trail Disturbance"*
-* Hallie Holmes, undergrad, (2018-2020)  
+* Hallie Holmes, (*)(2018-2020)  
  *senior thesis: "The Effects of Coastal Prairie Restoration and Experimental  
   Drought on Soil Carbon Content"*  
-* Justin Xie, undergrad, (2019-2020)  
-* Juan Carlos Moso, undergrad (2019-2020)  
-* Emma Clabby, undergrad (2019-2020)  
-* Janine Anne Tan, undergrad, (2018-2022)  
-* Eric Kim, undergrad and professional, (2017-2021)  
-* Chris Orozco, undergrad and professional, (2017-2021)  
-* Katie Lefley, undergrad and professional, (2017-2021)  
-* Barry Lao, undergrad, (2017-2018)  
-* Chelsea Chung, undergrad, (2017-2018)  
-* Elijah Baker, undergrad and professional, (2016-2021)  
-* Celina Phillipson, undergrad and professional, (2016-2021)  
+* Justin Xie, (*)(2019-2020)  
+* Juan Carlos Moso, (*)(2019-2020)  
+* Emma Clabby, (*)(2019-2020)  
+* Janine Anne Tan,  (*)(2018-2022)  
+* Eric Kim, (*)(+)(2017-2021)  
+* Chris Orozco, (*)(+)(2017-2021)  
+* Katie Lefley, (*)(+)(2017-2021)  
+* Barry Lao, (*)(2017-2018)  
+* Chelsea Chung, (*)(2017-2018)  
+* Elijah Baker, (*)(+)(2016-2021)  
+* Celina Phillipson, (*)(+)(2016-2021)  
 
-
+(* Undergrad)
+(+ Professional)
+(! Masters)
 
 --------------------
 ## Professional and Technical Reports (Grey and White Lit; available upon request)
