@@ -122,28 +122,6 @@ Positions: *Student Worker* (1.5 yrs) – *Restoration Assistant* (0.5 yrs) – 
 Duties: Oversee grassland and wetland restoration activities; coordinate and train students and volunteers; teach non- and native plant ID; conduct endangered species research (Lupinus nipomensis); collect annual vegetation monitoring data; generate reports on grassland restoration and endangered species recovery 
 
 
---------------------
-## Boards and Committees
-
-**Environmental Studies Grant Review Committee**  
-2018 – 2020  
-
-**USFWS Nipomo Lupine Endangered Species Recovery Team**  
-2019 – Present  
-
-**Mark’s Ranch Technical Advisory Committee**  
-2020 – Present  
-
-**UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee**  
-2020 – 2023  
-
-**UCSC Environmental Studies BIPOC Resilience Graduate Committee**  
-2020 – 2022  
-
-**California Native Grassland Association**  
-*Research, Science & Education Committee Chair*  
-2021 - Present
-
 
 --------------------
 ## Affiliations
