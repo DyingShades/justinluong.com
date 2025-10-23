@@ -20,8 +20,6 @@ Dr. Luong invites potential postdoctoral scholars to develop and submit USDA or 
 
 [Google Scholar](https://scholar.google.com/citations?user=YSOJb-wAAAAJ&hl=en)  
 
-[Cal Poly Humboldt Page](https://ffrm.humboldt.edu/people/justin-luong)
-
 [ResearchGate Profile](https://www.researchgate.net/profile/Justin_Luong)
 
 [California Native Grassland Association](https://cnga.org)
