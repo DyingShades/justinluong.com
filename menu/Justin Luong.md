@@ -40,7 +40,7 @@ permalink: /menu/justinluong.html
 
 # Boards and Committees
 
-*Environmental Studies Grant Review Committee*  2018 – 2020  
+**Environmental Studies Grant Review Committee**  2018 – 2020  
 
 *USFWS Nipomo Lupine Endangered Species Recovery Team*  2019 – Present  
 
@@ -53,3 +53,67 @@ permalink: /menu/justinluong.html
 *California Native Grassland Association* 
 Research, Science & Education Committee Chair 2021 - Present
 
+## Affiliations
+
+**USFWS Nipomo Lupine Endangered Species Recovery Team**
+[*Species Expert*]({{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf)
+2019-Present  
+
+**California Native Plant Society (CNPS)**
+*Member*  
+2015-Present  
+
+**The Cheadle Center for Biodiversity and Ecological Restoration (CCBER)**
+*Research Affiliate*  
+2017-Present  
+
+**California Botanical Society**
+*Member*  
+2017-Present  
+
+**California Native Grassland Association (CNGA)**
+*Member, Director-at-Large*  
+2018-Present  
+
+**Northern California Botanists (NCB)**
+*Member*  
+2018-Present  
+
+**Society for Ecological Restoration, California (SERCAL)**
+*Member*  
+2018-Present
+
+**Sigma Xi**
+*Member*  
+2019-Present
+
+**American Association for the Advancement of Science (AAAS)**
+*Member*  
+2019-Present
+
+**Ecological Society of America (ESA)**
+*Member*  
+2020-Present
+
+**Entomological Society of America (ESA)**
+*Member*  
+2020-Present
+
+# Professional Service
+
+*Ecological Society of America Ecological Restoration Section* 
+*Committee Member*  
+2020-Present  
+
+**Various Journals**  
+*Reviewer*  
+Publon ID - [AAK-2150-2020](https://publons.com/researcher/3532491/justin-luong/)  
+*American Journal of Botany, Conservation Physiology, Ecology and Evolution, Ecological Solutions and Evidence, Journal of Plant and Soil Science, Journal of Arid Environments, Journal of Ecology, Land Degradation and Development, Madroño, New Phytologist, Plant Ecology, Restoration Ecology*
+
+**Restoration Ecology**  
+*Coordinating Editor*  
+2022-Present  
+
+**Madroño**  
+*Coordinating Editor*  
+2022-Present  
