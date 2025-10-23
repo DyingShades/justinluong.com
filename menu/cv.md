@@ -147,57 +147,58 @@ Duties: Oversee grassland and wetland restoration activities; coordinate and tra
 
 --------------------
 ## Professional and Technical Reports (Grey and White Lit; available upon request)
-Stratton, L; Luong JC; Chapman DW. 2022. Nipomo Lupine (Lupinus nipomensis) 2021-22 Year Outplanting and Assessment Studies. Report Prepared for the USFWS – Ventura Office.  
+Nipomo Lupine (Lupinus nipomensis) 2021-22 Year Outplanting and Assessment Studies. Report Prepared for the USFWS – Ventura Office.  
+Stratton, L; Luong JC; Chapman DW. 2022. 
 
-Stratton, L; Luong JC. 2022. Outplanting Field Experiment for Lupinus nipomensis Year 8 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 8 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  2022. 
 
-Luong, JC. 2022. Vegetation and Soil Report from Restoration Seeding and Compost Blanketing at Big Sur Land Trust’s Mark’s Ranch. Monitoring Report Prepared for the California Marine Sanctuary Foundation.  
+Vegetation and Soil Report from Restoration Seeding and Compost Blanketing at Big Sur Land Trust’s Mark’s Ranch. Monitoring Report Prepared for the California Marine Sanctuary Foundation.  2022. 
 
-Luong, JC. 2022. Annual Report for California Endangered Species Act Scientific, Educational, or Management Permit (2081(a)-21-023-RP).  
+Annual Report for California Endangered Species Act Scientific, Educational, or Management Permit (2081(a)-21-023-RP).   2022.
 
-Luong, JC. 2021. Vegetation assessment of restored Watsonville Uplands prior to prescribed burning. Monitoring Report Prepared for the Watsonville Wetlands Watch.  
+Vegetation assessment of restored Watsonville Uplands prior to prescribed burning. Monitoring Report Prepared for the Watsonville Wetlands Watch.  2021. 
 
-Stratton, L; Luong JC; Chapman DW. 2021. Nipomo Lupine (Lupinus nipomensis) 2020-21 Year Outplanting and Assessment Studies. Report Prepared for the USFWS – Ventura Office.  
+Nipomo Lupine (Lupinus nipomensis) 2020-21 Year Outplanting and Assessment Studies. Report Prepared for the USFWS – Ventura Office.  2021. 
 
-Stratton, L; Luong JC. 2021. Outplanting Field Experiment for Lupinus nipomensis Year 7 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 7 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office. 2021.  
 
-Luong, JC; Chavez-Velasco E. 2021. Can temporal priority facilitate native forb establishment in a California coastal prairie?. Monitoring Report Prepared for Younger Lagoon Reserve.  
+Can temporal priority facilitate native forb establishment in a California coastal prairie?. Monitoring Report Prepared for Younger Lagoon Reserve.  2021. 
 
-Luong, JC. 2021. Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2021. Monitoring Report Prepared for the California Coastal Commission.  
+Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2021. Monitoring Report Prepared for the California Coastal Commission.  2021. 
 
-Luong, JC. 2021. Annual Research Report of On-going Research at Younger Lagoon Reserve 2021. Monitoring Report Prepared for the California Coastal Commission.  
+Annual Research Report of On-going Research at Younger Lagoon Reserve 2021. Monitoring Report Prepared for the California Coastal Commission.  2021. 
 
-Luong, JC. 2021. Vegetation and Soil Report from Restoration Seeding and Compost Blanketing at Big Sur Land Trust’s Mark’s Ranch. Monitoring Report Prepared for the California Marine Sanctuary Foundation.  
+Vegetation and Soil Report from Restoration Seeding and Compost Blanketing at Big Sur Land Trust’s Mark’s Ranch. Monitoring Report Prepared for the California Marine Sanctuary Foundation.  2021. 
 
-Stratton, L; Luong JC. 2020. Outplanting Field Experiment for Lupinus nipomensis Year 6 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 6 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  2020. 
 
-Luong, JC. 2020. Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2020. Monitoring Report Prepared for the California Coastal Commission.  
+Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2020. Monitoring Report Prepared for the California Coastal Commission.  2020. 
 
-Luong, JC. 2020. UC Santa Cruz Campus Grasslands Management Guidelines & Protection Prioritization Recommendations. UC Santa Cruz Chancellor’s Office.  
+UC Santa Cruz Campus Grasslands Management Guidelines & Protection Prioritization Recommendations. UC Santa Cruz Chancellor’s Office.  2020. 
 
-Luong, JC. 2020. Annual Research Report of On-going Research at Younger Lagoon Reserve 2020. Monitoring Report Prepared for the California Coastal Commission.  
+Annual Research Report of On-going Research at Younger Lagoon Reserve 2020. Monitoring Report Prepared for the California Coastal Commission.  2020. 
 
-Luong, JC. 2020. Vegetation at Hanson and Bryant Habert Wetlands in 2020. Monitoring Report Prepared for the Watsonville Wetlands Watch.   
+Vegetation at Hanson and Bryant Habert Wetlands in 2020. Monitoring Report Prepared for the Watsonville Wetlands Watch.   2020. 
 
-Stratton, L; Luong JC. 2019. Outplanting Field Experiment for Lupinus nipomensis Year 5 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 5 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  2019. 
 
-Luong, JC. 2019. Maternal Effects and Drought Sensitivity in Lupinus nipomensis. Research Report Prepared for California Department of Fish and Wildlife.  
+Maternal Effects and Drought Sensitivity in Lupinus nipomensis. Research Report Prepared for California Department of Fish and Wildlife.  2019. 
 
-Luong, JC. 2019. Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2019. Monitoring Report Prepared for the California Coastal Commission.  
+Compliance Monitoring Report for Coastal Prairie and Coastal Scrub Restoration Sites at Younger Lagoon Reserve Spring 2019. Monitoring Report Prepared for the California Coastal Commission.  2019. 
 
-Luong, JC. 2019. Power Analysis and Plant Communities at Hanson and Bryant Habert Wetlands in 2019. Monitoring Report Prepared for the Watsonville Wetlands Watch.  
+Power Analysis and Plant Communities at Hanson and Bryant Habert Wetlands in 2019. Monitoring Report Prepared for the Watsonville Wetlands Watch.  2019. 
 
-Luong, JC. 2019. Annual Research Report of On-going Research at Younger Lagoon Reserve 2019. Monitoring Report Prepared for the California Coastal Commission.  
+Annual Research Report of On-going Research at Younger Lagoon Reserve 2019. Monitoring Report Prepared for the California Coastal Commission.  2019. 
 
-Luong, JC. 2018. Annual Research Report of On-going Research at Younger Lagoon Reserve 2018. Monitoring Report Prepared for the California Coastal Commission.  
+Annual Research Report of On-going Research at Younger Lagoon Reserve 2018. Monitoring Report Prepared for the California Coastal Commission.  2018. 
 
-Luong, JC. 2018. Lupinus nipomensis Black Lake Ecological Area 4th Outplanting Report. Report Prepared for the California Native Plant Society – San Luis Obispo.  
+Lupinus nipomensis Black Lake Ecological Area 4th Outplanting Report. Report Prepared for the California Native Plant Society – San Luis Obispo.  2018. 
 
-Luong, JC; Nolan, MN, Stratton, L. 2017. Outplanting Field Experiment for Lupinus nipomensis Year 3 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 3 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  2017. 
 
-Reily, C; Luong, JC; Chapman, W; Stratton, L. 2017. Lupinus nipomensis seed bulking report. Report Prepared for the USFWS – Ventura Office.  
+Lupinus nipomensis seed bulking report. Report Prepared for the USFWS – Ventura Office.  2017. 
 
-Luong, JC; Stratton, L. 2016. Outplanting Field Experiment for Lupinus nipomensis Year 2 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  
+Outplanting Field Experiment for Lupinus nipomensis Year 2 at Black Lake Ecological Area, Land Conservancy of San Luis Obispo County. Report Prepared for the USFWS – Ventura Office.  2016. 
 
 
 
