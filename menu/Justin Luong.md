@@ -55,7 +55,7 @@ permalink: /menu/justinluong.html
   <ul class="list-disc pl-6 space-y-1">
     <li><strong>USFWS Nipomo Lupine Endangered Species Recovery Team</strong> — <a href="{{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf"><em>Species Expert</em></a> <span class="text-gray-600">2019–Present</span></li>
     <li><strong>California Native Plant Society (CNPS)</strong> — <em>Member</em> <span class="text-gray-600">2015–Present</span></li>
-    <li><strong>The Cheadle Center for Biodiversity and Ecological Restoration (CCBER)</strong> — <em>Research Affiliate</em> <span class="text-gray-600">2017–Present</span></li>
+    <li><strong>The Cheadle Center for Biodiversity and Ecological Restoration</strong> — <em>Research Affiliate</em> <span class="text-gray-600">2017–Present</span></li>
     <li><strong>California Botanical Society</strong> — <em>Member</em> <span class="text-gray-600">2017–Present</span></li>
     <li><strong>California Native Grassland Association</strong> — <em>Member, Director-at-Large</em> <span class="text-gray-600">2018–Present</span></li>
     <li><strong>Northern California Botanists</strong> — <em>Member</em> <span class="text-gray-600">2018–Present</span></li>
