@@ -37,10 +37,6 @@ permalink: /menu/justinluong.html
   </div>
 </div>
 <hr>
-<div markdown="1">
-# This will render as an H1
-*This will be italic*
-</div>
 
 # Boards and Committees
 
