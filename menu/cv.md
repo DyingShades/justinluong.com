@@ -71,8 +71,7 @@ UNDERGRAD GRANTS RECEIVED BY MENTEES
 --------------------
 ## Professional Experience
 
-**Luong Restoration and Ecology Internship Program**  
-Cal Poly Humboldt, CA 2018-Present  
+**Luong Restoration and Ecology Internship Program**  Cal Poly Humboldt, CA 2018-Present  
 *Research Mentor and Program Administer*  
 Duties: Mentor 3-15 undergraduate students any given school quarter about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting; assist students in completing thesis projects and apply for small grants to complete independent research
 
