@@ -53,22 +53,22 @@ permalink: /menu/justinluong.html
 
   <h2 class="text-2xl font-semibold mt-8 mb-3">Affiliations</h2>
   <ul class="list-disc pl-6 space-y-1">
-    <li><strong>USFWS Nipomo Lupine Endangered Species Recovery Team</strong> — <a href="{{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf"><em>Species Expert</em></a> <span class="text-gray-600">2019–Present</span></li>
-    <li><strong>California Native Plant Society (CNPS)</strong> — <em>Member</em> <span class="text-gray-600">2015–Present</span></li>
-    <li><strong>The Cheadle Center for Biodiversity and Ecological Restoration</strong> — <em>Research Affiliate</em> <span class="text-gray-600">2017–Present</span></li>
-    <li><strong>California Botanical Society</strong> — <em>Member</em> <span class="text-gray-600">2017–Present</span></li>
-    <li><strong>California Native Grassland Association</strong> — <em>Member, Director-at-Large</em> <span class="text-gray-600">2018–Present</span></li>
-    <li><strong>Northern California Botanists</strong> — <em>Member</em> <span class="text-gray-600">2018–Present</span></li>
-    <li><strong>Society for Ecological Restoration, California</strong> — <em>Member</em> <span class="text-gray-600">2018–Present</span></li>
-    <li><strong>Sigma Xi</strong> — <em>Member</em> <span class="text-gray-600">2019–Present</span></li>
-    <li><strong>American Association for the Advancement of Science</strong> — <em>Member</em> <span class="text-gray-600">2019–Present</span></li>
-    <li><strong>Ecological Society of America</strong> — <em>Member</em> <span class="text-gray-600">2020–Present</span></li>
-    <li><strong>Entomological Society of America</strong> — <em>Member</em> <span class="text-gray-600">2020–Present</span></li>
+    <li><strong>USFWS Nipomo Lupine Endangered Species Recovery Team</strong> — <a href="{{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf"><em>Species Expert</em></a> <span class="text-gray-600">(2019–Present)</span></li>
+    <li><strong>California Native Plant Society (CNPS)</strong> — <em>Member</em> <span class="text-gray-600">(2015–Present)</span></li>
+    <li><strong>The Cheadle Center for Biodiversity and Ecological Restoration</strong> — <em>Research Affiliate</em> <span class="text-gray-600">(2017–Present)</span></li>
+    <li><strong>California Botanical Society</strong> — <em>Member</em> <span class="text-gray-600">(2017–Present)</span></li>
+    <li><strong>California Native Grassland Association</strong> — <em>Member, Director-at-Large</em> <span class="text-gray-600">(2018–Present)</span></li>
+    <li><strong>Northern California Botanists</strong> — <em>Member</em> <span class="text-gray-600">(2018–Present)</span></li>
+    <li><strong>Society for Ecological Restoration, California</strong> — <em>Member</em> <span class="text-gray-600">(2018–Present)</span></li>
+    <li><strong>Sigma Xi</strong> — <em>Member</em> <span class="text-gray-600">(2019–Present)</span></li>
+    <li><strong>American Association for the Advancement of Science</strong> — <em>Member</em> <span class="text-gray-600">(2019–Present)</span></li>
+    <li><strong>Ecological Society of America</strong> — <em>Member</em> <span class="text-gray-600">(2020–Present)</span></li>
+    <li><strong>Entomological Society of America</strong> — <em>Member</em> <span class="text-gray-600">(2020–Present)</span></li>
   </ul>
 
   <h2 class="text-2xl font-semibold mt-8 mb-3">Professional Service</h2>
   <ul class="list-disc pl-6 space-y-1">
-    <li><strong>Ecological Society of America — Ecological Restoration Section</strong> — <em>Committee Member</em> <span class="text-gray-600">2020–Present</span></li>
+    <li><strong>Ecological Society of America — Ecological Restoration Section</strong> — <em>Committee Member</em> <span class="text-gray-600">(2020–Present)</span></li>
     <li>
       <strong>Peer Review</strong> — <em>Published Journals</em> 
       (<a href="https://publons.com/researcher/3532491/justin-luong/">Publons: AAK-2150-2020</a>)
@@ -89,8 +89,8 @@ permalink: /menu/justinluong.html
         </ul>
       </div>
     </li>
-    <li><strong>Restoration Ecology</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">2022–Present</span></li>
-    <li><strong>Madroño</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">2022–Present</span></li>
+    <li><strong>Restoration Ecology</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">(2022–Present)</span></li>
+    <li><strong>Madroño</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">(2022–Present)</span></li>
   </ul>
 </section>
 
