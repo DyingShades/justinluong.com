@@ -44,8 +44,7 @@ permalink: /menu/justinluong.html
 
 *USFWS Nipomo Lupine Endangered Species Recovery Team*  2019 – Present  
 
-*Mark’s Ranch Technical Advisory Committee*  
-2020 – Present  
+*Mark’s Ranch Technical Advisory Committee*  2020 – Present  
 
 *UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee*  2020 – 2023  
 
