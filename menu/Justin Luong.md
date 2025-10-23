@@ -38,82 +38,60 @@ permalink: /menu/justinluong.html
 </div>
 <hr>
 
-# Boards and Committees
+<hr>
 
-**Environmental Studies Grant Review Committee**  2018 – 2020  
+<section class="bio-lists max-w-3xl mx-auto px-4 py-6">
+  <h2 class="text-2xl font-semibold mb-3">Boards &amp; Committees</h2>
+  <ul class="list-disc pl-6 space-y-1">
+    <li><strong>Environmental Studies Grant Review Committee</strong> <span class="text-gray-600">2018–2020</span></li>
+    <li><em>USFWS Nipomo Lupine Endangered Species Recovery Team</em> <span class="text-gray-600">2019–Present</span></li>
+    <li><em>Mark’s Ranch Technical Advisory Committee</em> <span class="text-gray-600">2020–Present</span></li>
+    <li><em>UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee</em> <span class="text-gray-600">2020–2023</span></li>
+    <li><em>UCSC Environmental Studies BIPOC Resilience Graduate Committee</em> <span class="text-gray-600">2020–2022</span></li>
+    <li><strong>California Native Grassland Association</strong> — Research, Science &amp; Education Committee Chair <span class="text-gray-600">2021–Present</span></li>
+  </ul>
 
-*USFWS Nipomo Lupine Endangered Species Recovery Team*  2019 – Present  
+  <h2 class="text-2xl font-semibold mt-8 mb-3">Affiliations</h2>
+  <ul class="list-disc pl-6 space-y-1">
+    <li><strong>USFWS Nipomo Lupine Endangered Species Recovery Team</strong> — <a href="{{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf"><em>Species Expert</em></a> <span class="text-gray-600">2019–Present</span></li>
+    <li><strong>California Native Plant Society (CNPS)</strong> — <em>Member</em> <span class="text-gray-600">2015–Present</span></li>
+    <li><strong>The Cheadle Center for Biodiversity and Ecological Restoration (CCBER)</strong> — <em>Research Affiliate</em> <span class="text-gray-600">2017–Present</span></li>
+    <li><strong>California Botanical Society</strong> — <em>Member</em> <span class="text-gray-600">2017–Present</span></li>
+    <li><strong>California Native Grassland Association (CNGA)</strong> — <em>Member, Director-at-Large</em> <span class="text-gray-600">2018–Present</span></li>
+    <li><strong>Northern California Botanists (NCB)</strong> — <em>Member</em> <span class="text-gray-600">2018–Present</span></li>
+    <li><strong>Society for Ecological Restoration, California (SERCAL)</strong> — <em>Member</em> <span class="text-gray-600">2018–Present</span></li>
+    <li><strong>Sigma Xi</strong> — <em>Member</em> <span class="text-gray-600">2019–Present</span></li>
+    <li><strong>American Association for the Advancement of Science (AAAS)</strong> — <em>Member</em> <span class="text-gray-600">2019–Present</span></li>
+    <li><strong>Ecological Society of America (ESA)</strong> — <em>Member</em> <span class="text-gray-600">2020–Present</span></li>
+    <li><strong>Entomological Society of America (ESA)</strong> — <em>Member</em> <span class="text-gray-600">2020–Present</span></li>
+  </ul>
 
-*Mark’s Ranch Technical Advisory Committee*  2020 – Present  
+  <h2 class="text-2xl font-semibold mt-8 mb-3">Professional Service</h2>
+  <ul class="list-disc pl-6 space-y-1">
+    <li><strong>Ecological Society of America — Ecological Restoration Section</strong> — <em>Committee Member</em> <span class="text-gray-600">2020–Present</span></li>
+    <li>
+      <strong>Peer Review</strong> — <em>Various journals</em> 
+      (<a href="https://publons.com/researcher/3532491/justin-luong/">Publons: AAK-2150-2020</a>)
+      <div class="mt-1">
+        <ul class="list-disc pl-6">
+          <li>American Journal of Botany</li>
+          <li>Conservation Physiology</li>
+          <li>Ecology and Evolution</li>
+          <li>Ecological Solutions and Evidence</li>
+          <li>Journal of Plant and Soil Science</li>
+          <li>Journal of Arid Environments</li>
+          <li>Journal of Ecology</li>
+          <li>Land Degradation and Development</li>
+          <li>Madroño</li>
+          <li>New Phytologist</li>
+          <li>Plant Ecology</li>
+          <li>Restoration Ecology</li>
+        </ul>
+      </div>
+    </li>
+    <li><strong>Restoration Ecology</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">2022–Present</span></li>
+    <li><strong>Madroño</strong> — <em>Coordinating Editor</em> <span class="text-gray-600">2022–Present</span></li>
+  </ul>
+</section>
 
-*UCSC Ken Norris Natural History Center Diversity, Equity, and Inclusion Committee*  2020 – 2023  
-
-*UCSC Environmental Studies BIPOC Resilience Graduate Committee*  2020 – 2022  
-
-*California Native Grassland Association* 
-Research, Science & Education Committee Chair 2021 - Present
-
-## Affiliations
-
-**USFWS Nipomo Lupine Endangered Species Recovery Team**
-[*Species Expert*]({{site.baseurl}}/assets/pdf/2021RecoveryPlan.pdf)
-2019-Present  
-
-**California Native Plant Society (CNPS)**
-*Member*  
-2015-Present  
-
-**The Cheadle Center for Biodiversity and Ecological Restoration (CCBER)**
-*Research Affiliate*  
-2017-Present  
-
-**California Botanical Society**
-*Member*  
-2017-Present  
-
-**California Native Grassland Association (CNGA)**
-*Member, Director-at-Large*  
-2018-Present  
-
-**Northern California Botanists (NCB)**
-*Member*  
-2018-Present  
-
-**Society for Ecological Restoration, California (SERCAL)**
-*Member*  
-2018-Present
-
-**Sigma Xi**
-*Member*  
-2019-Present
-
-**American Association for the Advancement of Science (AAAS)**
-*Member*  
-2019-Present
-
-**Ecological Society of America (ESA)**
-*Member*  
-2020-Present
-
-**Entomological Society of America (ESA)**
-*Member*  
-2020-Present
-
-# Professional Service
-
-*Ecological Society of America Ecological Restoration Section* 
-*Committee Member*  
-2020-Present  
-
-**Various Journals**  
-*Reviewer*  
-Publon ID - [AAK-2150-2020](https://publons.com/researcher/3532491/justin-luong/)  
-*American Journal of Botany, Conservation Physiology, Ecology and Evolution, Ecological Solutions and Evidence, Journal of Plant and Soil Science, Journal of Arid Environments, Journal of Ecology, Land Degradation and Development, Madroño, New Phytologist, Plant Ecology, Restoration Ecology*
-
-**Restoration Ecology**  
-*Coordinating Editor*  
-2022-Present  
-
-**Madroño**  
-*Coordinating Editor*  
 2022-Present  
