@@ -70,7 +70,7 @@ permalink: /menu/justinluong.html
   <ul class="list-disc pl-6 space-y-1">
     <li><strong>Ecological Society of America — Ecological Restoration Section</strong> — <em>Committee Member</em> <span class="text-gray-600">2020–Present</span></li>
     <li>
-      <strong>Peer Review</strong> — <em>Various journals</em> 
+      <strong>Peer Review</strong> — <em>Published Journals</em> 
       (<a href="https://publons.com/researcher/3532491/justin-luong/">Publons: AAK-2150-2020</a>)
       <div class="mt-1">
         <ul class="list-disc pl-6">
