@@ -36,7 +36,8 @@ permalink: /menu/justinluong.html
     </p>
   </div>
 </div>
-
+<hr>
+---
 # Boards and Committees
 
 *Environmental Studies Grant Review Committee*  2018 – 2020  
