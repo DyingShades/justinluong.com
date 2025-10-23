@@ -36,7 +36,7 @@ permalink: /menu/justinluong.html
     </p>
   </div>
 </div>
-
+---
 ## Boards and Committees
 
 **Environmental Studies Grant Review Committee**  
@@ -57,4 +57,4 @@ permalink: /menu/justinluong.html
 **California Native Grassland Association**  
 *Research, Science & Education Committee Chair*  
 2021 - Present
-
+---
