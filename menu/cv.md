@@ -76,48 +76,39 @@ Cal Poly Humboldt, CA 2018-Present
 *Research Mentor and Program Administer*  
 Duties: Mentor 3-15 undergraduate students any given school quarter about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting; assist students in completing thesis projects and apply for small grants to complete independent research
 
-**Humboldt State University**  
-Arcata, CA 2021-2023  
+**Humboldt State University**  Arcata, CA 2021-2023  
 *Research Analyst*  
 Duties: Analyze multiyear plant community data from Great Basin Sage Scrub and write and generate a research publication.  
 
-**Netflix Animation**  
-Los Angeles, CA 2021-2022  
+**Netflix Animation**  Los Angeles, CA 2021-2022  
 *Consulting Botanist*  
 Duties: Consult on California coastal botany and its relevance to the animation film project and intersection with queer identities.   
 
-**California Marine Sanctuary Foundation**  
-Monterey, CA 2020-Present  
+**California Marine Sanctuary Foundation**  Monterey, CA 2020-Present  
 *Consulting Ecologist*  
 Duties: Create and implement a vegetation monitoring plan for a newly designed grassland restoration project that will be used in conjunction with ranching and public access; conduct annual vegetation monitoring of restoration project; analyze soil samples taken using Loss on Ignition to determine soil organic and inorganic carbon
 
-**UC Santa Cruz Science Internship Program**  
-UC Santa Cruz, CA 2019-2022 (summers only)  
+**UC Santa Cruz Science Internship Program**  UC Santa Cruz, CA 2019-2022 (summers only)  
 *Research Mentor*  
 Duties: Mentor 3-4 high school students about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting
 
-**Norris Center for Natural History**  
-UC Santa Cruz, CA 2018-2021  
+**Norris Center for Natural History**  UC Santa Cruz, CA 2018-2021  
 *Graduate Student Researcher*  
 Duties: Worked on various projects and tasks; for 3 months, I took high-quality macro-photos of insects for databasing and digitization; for 6 months I assisted in developing a public exhibit focused on “Santa Cruz Naturalists” with a specific focus on diversity, equity and inclusion within the Santa Cruz Naturalist community; for 3 months I managed two internship programs: one based on researching sensitive species within the local bioregion and another focused on decolonizing natural history museum practices
 
-**Watsonville Wetland Watch**  
-Freedom, CA 2018-2022 (Spring and Summers)  
+**Watsonville Wetland Watch**  Freedom, CA 2018-2022 (Spring and Summers)  
 *Consulting Ecologist*  
 Duties: Conduct annual vegetation monitoring and statistics for restoration sites completed by Watsonville Wetland Watch from sites that were retired from agriculture
 
-**Younger Lagoon Reserve**  
-UC Santa Cruz, 2017-2022 (Spring only)  
+**Younger Lagoon Reserve**  UC Santa Cruz, 2017-2022 (Spring only)  
 *Graduate Student Researcher*  
 Duties: Conduct annual compliance monitoring and reporting; report on reserve research activities; assist and create videos for the online internship education program; assist with repairs on research designs
 
-**University of California, Santa Cruz – Chancellor’s Office**  
-UC Santa Cruz, 2019-2020  
+**University of California, Santa Cruz – Chancellor’s Office**  UC Santa Cruz, 2019-2020  
 *Graduate Student Researcher*  
 Duties: Develop a campus grassland prioritization and management plan to be used in future development and planning efforts as well as to further conservation efforts on campus; vegetation and wildlife of survey campus grasslands; interviews with relevant stakeholders such as planners, natural resource managers, faculty and community members; conduct a campus wide survey about campus grasslands; analyze existing long term data of campus grasslands
 
-**Cheadle Center for Biodiversity and Ecological Restoration**  
-UC Santa Barbara, 2013-2017  
+**Cheadle Center for Biodiversity and Ecological Restoration**  UC Santa Barbara, 2013-2017  
 Positions: *Student Worker* (1.5 yrs) – *Restoration Assistant* (0.5 yrs) – *Field Coordinator* (1.5 yrs)  
 Duties: Oversee grassland and wetland restoration activities; coordinate and train students and volunteers; teach non- and native plant ID; conduct endangered species research (Lupinus nipomensis); collect annual vegetation monitoring data; generate reports on grassland restoration and endangered species recovery 
 
