@@ -5,22 +5,18 @@ field_image: IMG_7271.jpeg
 ---
 --------------------
 ## Academic History and Appointments
-**Assistant Professor**, 2023-**Present**  
-*California Polytechnic University Humboldt, Arcata, CA*  
+**Assistant Professor**, *California Polytechnic University Humboldt, Arcata, CA*  2023-**Present**   
  *Department of Forestry, Fire and Rangeland Management*  
 
-**USDA AFRI Postdoctoral Scholar**, 2022-2023  
-*University of California, Davis, CA*  
+**USDA AFRI Postdoctoral Scholar**, *University of California, Davis, CA* 2022-2023  
 Focus: Invasion Ecology & Secondary Invasions  
 
-**Doctor of Philosophy in Environmental Studies**, 2017-2022  
-*University of California Santa Cruz, CA*  
+**Doctor of Philosophy in Environmental Studies**, *University of California Santa Cruz, CA*  2017-2022  
 Research Focus: Novel strategies for understanding restoration outcomes facing climate change  
 Advising Committee: Dr. Michael Loik (Co-PI), Dr. Karen Holl (Co-PI), Dr. Daniel Press                     
 External Committee: Dr. Katharine Suding (University of Colorado, Boulder)
 
-**Bachelor of Science in Environmental Studies**, 2010-2014  
-*University of California, Santa Barbara, CA*  
+**Bachelor of Science in Environmental Studies**,*University of California, Santa Barbara, CA*  2010-2014  
 Focus: Restoration Ecology
 
 --------------------
