@@ -8,6 +8,6 @@ The Grassland Restoration Action, Science and Stewardship Network (GRASS-Net) --
 
 ![Preview]({{site.baseurl}}/assets/img/GRASS Net Flyer_April2025.png)  
 
-GRASS-Net encourages increased communication between land managers, non-government organizations, state/Federal agencies, private firms, and tribes. Participants in GRASS-Net benefit by having a space to troubleshoot mistakes, exchanging techniques, and sharing information about seed and invasive species management, to name a few. We are still developing what this network could look like and how it may function. We are now piloting a new [California Grasslands Sub-Reddit](https://www.reddit.com/r/cagrasslands/) 
+GRASS-Net encourages increased communication between land managers, non-government organizations, state/Federal agencies, private firms, and tribes. Participants in GRASS-Net benefit by having a space to troubleshoot mistakes, exchanging techniques, and sharing information about seed and invasive species management, to name a few. We are still developing what this network could look like and how it may function. 
 <br>
-led by our Technical Advisory Committee Member, Dr. Julia Michaels, and GRASS-Net Coordinator, Tonia Brito-Bersi.  
+We are now piloting a new [California Grasslands Sub-Reddit](https://www.reddit.com/r/cagrasslands/) led by our Technical Advisory Committee Member, Dr. Julia Michaels, and GRASS-Net Coordinator, Tonia Brito-Bersi.  
