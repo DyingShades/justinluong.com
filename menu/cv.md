@@ -15,14 +15,14 @@ field_image: IMG_7271.jpeg
 Focus: Invasion Ecology & Secondary Invasions  
 <br>
 
-**Doctor of Philosophy in Environmental Studies**, *University of California Santa Cruz, CA*  (2017-2022) 
+**Doctor of Philosophy in Environmental Studies**, *University of California, Santa Cruz, CA*  (2017-2022) 
 <br>
 Research Focus: Novel strategies for understanding restoration outcomes facing climate change  
 Advising Committee: Dr. Michael Loik (Co-PI), Dr. Karen Holl (Co-PI), Dr. Daniel Press                     
 External Committee: Dr. Katharine Suding (University of Colorado, Boulder)
 <br>
 
-**Bachelor of Science in Environmental Studies**,*University of California, Santa Barbara, CA*  (2010-2014) 
+**Bachelor of Science in Environmental Studies**, *University of California, Santa Barbara, CA*  (2010-2014) 
 <br>
 Focus: Restoration Ecology
 
