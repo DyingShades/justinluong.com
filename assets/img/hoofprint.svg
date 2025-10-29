@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+  <title>Hoof Print</title>
+  <desc>Ungulate hoof print using currentColor for fill.</desc>
+  <g fill="currentColor">
+    <path d="M40 55c-12 0-22-10-22-22 0-17 13-28 22-28s22 11 22 28c0 12-10 22-22 22z"/>
+    <path d="M80 55c-12 0-22-10-22-22 0-17 13-28 22-28s22 11 22 28c0 12-10 22-22 22z"/>
+  </g>
+</svg>
