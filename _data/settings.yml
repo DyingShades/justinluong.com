@@ -55,7 +55,7 @@ menu:
     
   - name: 'Art & Science'
     path: 'menu'
-    url:  'illsutratedsummaries.html'
+    url:  'illustratedsummaries.html'
     submenu:
       - name: 'Illustrated Summaries'
         url: 'illustratedsummaries.html'
