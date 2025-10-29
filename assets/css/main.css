@@ -784,6 +784,16 @@ article.person hr{ clear: both; }
   font-weight: 800;
   margin: .25rem 0 .6rem;
 }
+.track-mixed { color: #222; } /* pick a visible color */
+.track-mixed svg path,
+.track-mixed svg circle,
+.track-mixed svg rect,
+.track-mixed svg polygon,
+.track-mixed svg ellipse,
+.track-mixed svg g {
+  fill: currentColor !important;
+  stroke: none !important;
+}
 
 
 /* ===== Buttons: high-specificity so they always style anchors ===== */
