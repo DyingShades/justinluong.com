@@ -67,8 +67,21 @@ Use the buttons below to explore each part of the program—research themes, the
 
 # Quick Links:  
 <hr>
-We are part of the [Environmental Science, Policy & Management Department](https://ourenvironment.berkeley.edu/) at [Rausser College of Natural Resources](https://nature.berkeley.edu/)  
-<hr>
+We are part of the [Environmental Science, Policy & Management Department](https://ourenvironment.berkeley.edu/) at [Rausser College of Natural Resources](https://nature.berkeley.edu/)
+
+<!-- Basic mixed track -->
+<div class="track-mixed" aria-hidden="true"></div>
+
+<!-- Optional: customize per divider -->
+<div class="track-mixed"
+     data-types="hoof,paw,duck"   <!-- choose any subset: hoof,paw,duck -->
+     data-size="40"               <!-- footprint size in px -->
+     data-spacing="56"            <!-- base spacing between prints in px -->
+     data-density="1.0"          <!-- 0.4 (sparse) … 1.5 (busy) -->
+     data-jitter="10"            <!-- random x/y jitter in px -->
+     data-tilt="20"              <!-- max random rotation in degrees -->
+     aria-hidden="true"></div>
+
 
 Check out the [Luong Lab DEI Action Plan](https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?usp=sharing)  
 <hr>
