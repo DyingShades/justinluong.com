@@ -59,8 +59,8 @@ Use the buttons below to explore each part of the program—research themes, the
   <a class="btn btn--outline" href="/menu/teaching.html">Teaching+</a>
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
 
-  <a class="btn btn--soft" href="/menu/outreach.html">Outreach+</a>
-  <a class="btn btn--soft" href="/menu/datasets.html">Datasets+</a>
+  <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
+  <a class="btn btn--soft" href="/menu/datasets.html">Berkely</a>
   <a class="btn btn--soft" href="/menu/contact.html">Collaborate / Contact</a>
 </nav>
 
