@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Paw Print</title>
+  <desc>Stylized paw print using currentColor for fill.</desc>
+  <g fill="currentColor">
+    <!-- main pad -->
+    <path d="M50 70c15 0 26 10 26 20s-11 10-26 10-26-0-26-10 11-20 26-20z"/>
+    <!-- toes -->
+    <circle cx="25" cy="45" r="10"/>
+    <circle cx="42" cy="35" r="10"/>
+    <circle cx="58" cy="35" r="10"/>
+    <circle cx="75" cy="45" r="10"/>
+  </g>
+</svg>
