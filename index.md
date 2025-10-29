@@ -73,12 +73,12 @@ We are part of the [Environmental Science, Policy & Management Department](https
 <div class="track-mixed" aria-hidden="true"></div>
 
 <div class="track-mixed"
-     data-types="hoof,paw,duck"   <!-- choose any subset: hoof,paw,duck -->
-     data-size="40"               <!-- footprint size in px -->
-     data-spacing="56"            <!-- base spacing between prints in px -->
-     data-density="1.0"          <!-- 0.4 (sparse) … 1.5 (busy) -->
-     data-jitter="10"            <!-- random x/y jitter in px -->
-     data-tilt="20"              <!-- max random rotation in degrees -->
+     data-types="hoof,paw,duck"   
+     data-size="40"               
+     data-spacing="56"            
+     data-density="1.0"          
+     data-jitter="10"            
+     data-tilt="20"              
      aria-hidden="true"></div>
 
 
