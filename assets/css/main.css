@@ -662,6 +662,27 @@ th, td{ padding:15px; text-align:left; }
   .favorite-split { grid-template-columns: 1fr; }
   .favorite-plant img { margin: 0 auto; }
 }
+/* Wildlife track divider */
+.track-mixed {
+  position: relative;
+  height: 44px;             /* visual “thickness” of the divider area */
+  margin: 2rem 0;
+  color: currentColor;      /* SVG prints inherit this */
+  opacity: 0.95;
+}
+
+@media (prefers-color-scheme: dark) {
+  .track-mixed { opacity: 0.9; }
+}
+
+/* The generated inline SVG fills this box */
+.track-mixed > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
 /* --- Bio: tighten image sizing/spacing and style the img itself --- */
 .person-img.right{
   float: right;
