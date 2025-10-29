@@ -72,7 +72,6 @@ We are part of the [Environmental Science, Policy & Management Department](https
 <!-- Basic mixed track -->
 <div class="track-mixed" aria-hidden="true"></div>
 
-<!-- Optional: customize per divider -->
 <div class="track-mixed"
      data-types="hoof,paw,duck"   <!-- choose any subset: hoof,paw,duck -->
      data-size="40"               <!-- footprint size in px -->
