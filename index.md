@@ -51,17 +51,17 @@ Dr. Justin Luong’s program spans current research at UC Berkeley and for the p
 Use the buttons below to explore each part of the program—research themes, the Humboldt lab, teaching, publications, outreach, datasets, and ways to collaborate.
 
 <nav class="btn-grid" aria-label="Site sections">
-  <a class="btn btn--primary" href="/menu/berkeley.html">UC Berkeley Work</a>
-  <a class="btn btn--primary" href="/menu/grassnet.html">GRASS-Net</a>
-  <a class="btn btn--primary" href="/menu/humboldt-lab.html">Range & Resource Lab</a>
+  <a class="btn btn--primary" href="/menu/berkeley.html">UC Berkeley Work+</a>
+  <a class="btn btn--primary" href="/menu/aboutgrassnet.html">GRASS-Net</a>
+  <a class="btn btn--primary" href="/menu/currentpeople.html">Range & Resource Lab</a>
 
-  <a class="btn btn--outline" href="/menu/research.html">Research Themes</a>
-  <a class="btn btn--outline" href="/menu/teaching.html">Teaching</a>
+  <a class="btn btn--outline" href="/menu/currentresearch.html">Research Themes</a>
+  <a class="btn btn--outline" href="/menu/teaching.html">Teaching+</a>
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
 
-  <a class="btn btn--soft" href="/menu/outreach.html">Outreach</a>
-  <a class="btn btn--soft" href="/menu/datasets.html">Datasets</a>
-  <a class="btn btn--soft" href="/menu/collaborate.html">Collaborate / Contact</a>
+  <a class="btn btn--soft" href="/menu/outreach.html">Outreach+</a>
+  <a class="btn btn--soft" href="/menu/datasets.html">Datasets+</a>
+  <a class="btn btn--soft" href="/menu/contact.html">Collaborate / Contact</a>
 </nav>
 
 
