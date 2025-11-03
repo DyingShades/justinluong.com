@@ -27,7 +27,7 @@ slides:
     <ul class="intro-bullets">
   <li>Climate Restoration - We study how restoration can adapt to changing climates and addressing real management needs.</li>
       <br>
-  <li>GRASS_Net - a practitioner community focused on seed sourcing, invasion control and sharing what works across California grasslands.</li>
+  <li>GRASS - Net - a practitioner community focused on seed sourcing, invasion control and sharing what works across California grasslands.</li>
       <br>
   <li>Research with Impact - from long term evaluations of 37 restored coastal grasslands to cliamte stress responses.</li>
 </ul>
