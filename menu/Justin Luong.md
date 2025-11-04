@@ -6,8 +6,8 @@ permalink: /menu/justinluong.html
 <hr>
 <article class="person max-w-3xl mx-auto px-4 py-8">
   <figure class="person-img right">
-    <img src="{{ '/assets/img/JustinWillits.jpg' | relative_url }}"
-         alt="Justin conducting field work in Willits, CA">
+    <img src="{{ '/assets/img/JustinCNGA2025.jpg' | relative_url }}"
+         alt="Justin conducting outreach at the California Native Grassland Association Building Better Grasslands Symposium">
   </figure>
 
 
