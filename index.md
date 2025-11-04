@@ -14,11 +14,11 @@ slides:
     alt: Students working in the Lab
   - src: /assets/img/IMG_7271.jpeg
     alt: Justin Identifying a Plant
-  - src: /assets/img/LastLabMeeting2025.png
+  - src: /assets/img/LastLabMeeting2025.jpg
     alt: Group photo after the last lab meeting of the year
-  - src: /assets/img/ChicoGHTeam.png
+  - src: /assets/img/ChicoGHTeam.jpg
     alt: Luong lab meet up with Griffin-Nolan Lab
-  - src: /assets/img/DyeCreekTeam2025.png
+  - src: /assets/img/DyeCreekTeam2025.jpg
     alt: Lab after field work at Dye Creek 2025
   
 ---
@@ -58,13 +58,11 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--primary" href="/menu/berkeley.html">UC Berkeley Work+</a>
   <a class="btn btn--primary" href="/menu/aboutgrassnet.html">GRASS-Net</a>
   <a class="btn btn--primary" href="/menu/currentpeople.html">Range & Resource Lab</a>
-  test text
   <br>
 
   <a class="btn btn--outline" href="/menu/currentresearch.html">Research Themes</a>
   <a class="btn btn--outline" href="/menu/teaching.html">Teaching+</a>
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
-  test text
   <br>
 
   <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
