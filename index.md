@@ -30,6 +30,7 @@ slides:
     alt: Lab Photo after secondary invasions field work
   - src: /assets/img/JenniferJanine.jpg
     alt: Jennifer Valdez and Janine Tan taking data on independent research
+
   
 ---
 
