@@ -35,8 +35,8 @@ slides:
   </div>
 
   <figure class="intro-media">
-    <img src="/assets/img/JustinLICOR.jpg"
-         alt="Justin using a LI-COR instrument during field work">
+    <img src="/assets/img/LabPhoto2025.jpg"
+         alt="Luong Lab Potluck Spring 2025">
     <!-- <figcaption>Justin using a LI-COR instrument during field work</figcaption> -->
   </figure>
 </div>
