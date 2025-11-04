@@ -20,7 +20,7 @@ Justin Luong is an Assistant Professor of Working Lands and Restoration Ecology 
 <div class="favorite-split">
   <figure class="favorite-plant">
     <img
-      src="{{ '/assets/img/DCalifornica.jpeg' | relative_url }}"
+      src="{{ '/assets/img/DanCal.jpg' | relative_url }}"
       alt="Danthonia californica (California oatgrass)">
     <figcaption><em>Danthonia californica</em> (California oatgrass)</figcaption>
   </figure>
