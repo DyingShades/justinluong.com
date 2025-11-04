@@ -4,7 +4,7 @@ permalink: /menu/publications.html
 ---
 <!-- Compact banner header -->
 <section class="pub-hero pub-hero--compact">
-  <img class="pub-hero__img" src="{{ site.baseurl }}/assets/img/Gradslam2020.jpg" alt="Dr. Justin Luong headshot" loading="lazy" />
+  <img class="pub-hero__img" src="{{ site.baseurl }}/assets/img/googlescholar.jpg" alt="Dr. Justin Luong headshot" loading="lazy" />
   <div class="pub-hero__text">
     <h1 class="pub-hero__title">Publications — Dr. Justin C. Luong</h1>
     <p class="pub-hero__subtitle">Rangeland Resource Science • Cal Poly Humboldt</p>
