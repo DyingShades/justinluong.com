@@ -5,31 +5,36 @@ field_image: IMG_7271.jpeg
 ---
 --------------------
 ## Academic History and Appointments
-**Assistant Professor**, *California Polytechnic University Humboldt, Arcata, CA*  (2023-Present) 
+**Assistant Professor**, *University of California, Berkeley*  (2025-**Present**) 
 <br>
  Department of Forestry, Fire and Rangeland Management  
 <br>
 
-**USDA AFRI Postdoctoral Scholar**, *University of California, Davis, CA* (2022-2023) 
+**Assistant Professor**, *California Polytechnic University Humboldt - Arcata, CA*  (2023-2025) 
+<br>
+ Department of Forestry, Fire and Rangeland Management  
+<br>
+
+**USDA AFRI Postdoctoral Scholar**, *University of California, Davis* (2022-2023) 
 <br>
 Focus: Invasion Ecology & Secondary Invasions  
 <br>
 
-**Doctor of Philosophy in Environmental Studies**, *University of California, Santa Cruz, CA*  (2017-2022) 
+**Doctor of Philosophy in Environmental Studies**, *University of California, Santa Cruz*  (2017-2022) 
 <br>
 Research Focus: Novel strategies for understanding restoration outcomes facing climate change  
 Advising Committee: Dr. Michael Loik (Co-PI), Dr. Karen Holl (Co-PI), Dr. Daniel Press                     
 External Committee: Dr. Katharine Suding (University of Colorado, Boulder)
 <br>
 
-**Bachelor of Science in Environmental Studies**, *University of California, Santa Barbara, CA*  (2010-2014) 
+**Bachelor of Science in Environmental Studies**, *University of California, Santa Barbara*  (2010-2014) 
 <br>
 Focus: Restoration Ecology
 
 --------------------
 ## Professional Experience
 
-**Luong Restoration and Ecology Internship Program**  Cal Poly Humboldt, CA (2018-Present)  
+**Luong Restoration and Ecology Internship Program**  UC Berkeley, CA (2018-Present)  
 *Research Mentor and Program Administer*  
 Duties: Mentor 3-15 undergraduate students any given school quarter about ecological research; teach students to complete lab techniques and analysis and present their work in a professional research setting; assist students in completing thesis projects and apply for small grants to complete independent research
 
@@ -72,11 +77,20 @@ Duties: Oversee grassland and wetland restoration activities; coordinate and tra
 --------------------
 
 ## Awards and Grants
+* California State University Agriculture Research Initiative (ARI) System Funding (*Co-PI, led by Robert Griffin-Nolan*), 2025 ($430k)
+* Cal Poly Humboldt Agriculture Research Initiative (ARI) Award, 2025 ($28k)
+* Cal Poly Humboldt Research, Scholarship, and Creative Activities Program, 2024
+* CSUBIOTECH: 2024 Presidents’ Commission Scholars Program, 2024
+* National Geographic Society's Committee for Research and Exploration (*Co-PI, led by Adrián Lázaro Lobo*), 2024 ($18k)
+* Cal Poly Humboldt Emeritus and Retired Faculty & Staff Association Grant, 2024
+* Cal Poly Humbolt Faculty Research Incentive Grant, 2024
+* National Geographic Society's Committee for Research and Exploration (*Co-PI*), 2023 ($18k)
+* Learning Aligned Employment Program for Rangeland Research, 2023 ($10k)
 * University of California Office of the President Climate Action Seed Fund, 2023 ($1.5M)
 * California Farm Bureau Conservation Grazing Fund, 2023 ($520k)
 * UCSC Environmental Studies Experiential Learning & Research Grant, 2022
 * National Science Foundation PRFB (Declined to accept USDA), 2022	($138k)
-* UCSC Graduate Dean’s Travel and Research Grant , 2022	
+* UCSC Graduate Dean’s Travel and Research Grant, 2022	
 * U.S. Department of Agriculture – Agricultural and Food Initiative Postdoctoral Fellowship, 2022	($216.9k)
 *	UCSC Graduate Student Cultivation Grant, 2021
 *	Building Better Belongings Program Undergraduate Research, 2021
