@@ -17,6 +17,15 @@ Ashley Gutierrez-Olvera - Lab assistant - 2024-2025
 <hr>
 Jennie Hernandez - Lab assistant - 2024-2025      
 <hr>
-Paul Stiles - Undergraduate Researcher and Restoration Assistant - 2023-2025        
+Wendy Kornberg - Undergraduate Researcher and Lab assistant - 2024-2025      
 <hr>
+Paul Stiles - Undergraduate Researcher and Restoration Assistant - 2024-2025        
+<hr>
+Derek Tremaine - Lab assistant - 2024-2025        
+<hr>
+Nicholas Verhey - Lab assistant - 2025      
+<hr>
+Tyvonne Wilkey-Burrel - Lab assistant - 2024-2025        
+<hr>
+
 [Click here to see archived bios of lab alum](https://justinluong.com/menu/archivedbios.html)
