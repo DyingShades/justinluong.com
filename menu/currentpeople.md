@@ -57,7 +57,7 @@ sections:
             Hi, my name is Gabriel Abundis. I am a third-year majoring in rangeland resources with a minor in botany and soils. I am from southern California and although I grew up with nature, I never truly appreciated it for what it is. I fell in love with rangelands and their role in supporting ecosystems. Currently my research focuses intently on exploring the intricate dynamics between photovoltaic cells and the delicate coastal California grasslands. I am particularly interested in the forage value of species, and holistic approaches for rangeland management. When I am not in lab, I enjoy taking my dogs on adventures and eating/cooking.        
             <hr>
 
-    - title: "Claudia Alfaro Hernandez (Lab Assistant and Undergrad Researcher)"
+    - title: "Claudia Alfaro Hernandez (Former Lab Assistant and Researcher Associate)"
       image:
           name: ClaudiaAlfaro.jpeg
           alt: A photo of Claudia
@@ -148,7 +148,7 @@ sections:
             Hi, I am Eli! I am the editor of this website and like many wonderful people around me I am finishing up my Range Resource Science degree. I have a passion for anything analytical and enjoy a healthy mix of plants on the range and electronics. I enjoy things like tissue culture, watch movement repair and audio engineering and am intrested broadly in using parallel computing, design + fabrication, and opensource concepts in areas that still rely on aging infrastructure. If you want to see more of my work you can learn more at eliengine.com - While grasses are cool carnivorous pitcher plants are my favorite especially _Nepenthesis Edwardsiana_
             <hr>
 
-    - title: "Max Shea (Lab Assistant and Undergrad Researcher)"
+    - title: "Max Shea (Former Lab Assistant and Researcher Associate)"
       image:
           name: maxshea.JPG
           alt: A photo of Max
