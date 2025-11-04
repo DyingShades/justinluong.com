@@ -34,7 +34,22 @@ sections:
                  
       
 ---
-
+            <hr>
+    - title: "Derek Tremaine (Lab Assistant)"
+      image:
+          name: DerekTremaine.jpg
+          alt: A photo of Derek
+          style: right
+      content: |
+            Hello, I'm Derek!  I'm a junior at CPH, majoring in Forestry and Soils.  I grew up on a raspberry farm in Bellingham, WA and managed the family business for a decade before moving to Humboldt County to pursue an education in natural resources.  I have a particular interest in forest-grassland transition zones, conifer encroachment throughout the PNW, and subalpine plant communities.  I'm really grateful to be part of such an ecologically minded community in one of the most beautiful and biodiverse places on the planet. Outside of school I enjoy hiking, photography, and writing music. My favorite grass is _Hesperostipa comata_ and favorite tree is _Tsuga mertensiana_.      
+            <hr>
+    - title: "Ty Wilkey-Burrell (Lab Assistant)"
+      image:
+          name: Ty Wilkey-Burrell.jpg
+          alt: A photo of Ty
+          style: right
+      content: |
+            Hello my name is Tyvone Wilkey-Burrell but my friends call me Ty. I am currently a sophomore at Cal Poly Humboldt and my major is Forestry (Wildland and Fire Management). I also currently have two jobs on campus so if you ever happen to be in Nelson Hall come stop by The Umoja center located on the second floor and say hi. Finally in my free time I like to explore places I haven't been, go to the beach, and hangout with friends.                  
 <span style="font-size:0.5em;">*Undergrad researchers are undertaking independent but directed research.</span>
 
 
