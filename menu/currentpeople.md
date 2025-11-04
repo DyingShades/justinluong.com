@@ -167,3 +167,6 @@ sections:
   *Undergrad researchers are undertaking directed rangeland research.
 </div>
 
+<div align="center">
+  <img src="/assets/img/EcologistsforEquity.jpg" alt="Description" width="750">
+</div>  
