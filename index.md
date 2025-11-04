@@ -28,7 +28,8 @@ slides:
     alt: Lab after field work at Dye Creek 2025
   - src: /assets/img/RussellRanchTeam2025.jpg
     alt: Lab Photo after secondary invasions field work
-
+  - src: /assets/img/JenniferJanine.jpg
+    alt: Jennifer Valdez and Janine Tan taking data on independent research
   
 ---
 
