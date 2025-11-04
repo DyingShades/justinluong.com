@@ -1,6 +1,7 @@
 ---
 layout: current-research
-title: Lab Alum
+permalink: /menu/archivedbios.html
+
 sections: 
       - title: "Kenia Gomez (Undergrad Researcher)"
         image:
