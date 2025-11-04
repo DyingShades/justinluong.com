@@ -6,16 +6,20 @@ show_slideshow: false
 slides: 
   - src: /assets/img/burningluong.jpg
     alt: Justin On Fire
-  - src: /assets/img/lab_kneeland2024.jpg
-    alt: Lab
+  - src: /assets/img/LabinKneeland2025.jpg
+    alt: Lab in Kneeland
   - src: /assets/img/ylr-shelter.jpg
     alt: Drought Structures for Graduate Projects
   - src: /assets/img/LabWork.jpg
-    alt: Lab
+    alt: Students working in the Lab
   - src: /assets/img/IMG_7271.jpeg
-    alt: Justin
-  - src: /assets/img/lab.png
-    alt: Lab
+    alt: Justin Identifying a Plant
+  - src: /assets/img/LastLabMeeting2025.png
+    alt: Group photo after the last lab meeting of the year
+  - src: /assets/img/ChicoGHTeam.png
+    alt: Luong lab meet up with Griffin-Nolan Lab
+  - src: /assets/img/DyeCreekTeam2025.png
+    alt: Lab after field work at Dye Creek 2025
   
 ---
 
