@@ -84,6 +84,16 @@ sections:
             Hi, my name is Sage (she/her) and I’m a third-year Rangeland Resource Science major. I’m from Southern California originally where I grew up hiking, camping, and working outdoors. I’ll always have a soft spot for coastal grass and shrublands. I’m interested in range conservation particularly with wildlife, invasives, and urban sprawl. In my free time I like to collage, garden, sketch, create fiber art, I am Vice President of the Range & Soils Club, and I’m on the logging sports team. Unsurprisingly, I’m a big fan of North American sages!        
             <hr>
 
+
+    - title: "Sean Dillon (Lab Assistant)"
+      image:
+          name: SeanDillon.JPEG
+          alt: A photo of Sean Dillon
+          style: right
+      content: |
+            Hey! My name is Sean (he/they), and I’m a student assistant in the Luong Lab. I’m a Wildland Soil Science major with a Botany minor, and I came to Humboldt county in 2024 from Los Angeles County. I grew up near the San Gabriel Mountains, hiking and camping with my family, and I have a lot of curiosity about the chaparral and sagebrush ecosystems in that area. In my free time, I love cooking, drawing, painting, and sewing. Working in the lab has been awesome, and I really appreciate being exposed to all the research! My favorite plants from back home are California Buckwheat, _Eriogonum fasciculatum_, and California Sagebrush, _Artemisia californica_, and since working in the lab, my favorite grass species has become _Danthonia californica_.        
+            <hr>
+
     - title: "Trinity Edwards (Lab Assistant and Undergrad Reseacher)"
       image:
           name: TrinityEdwards.heic
