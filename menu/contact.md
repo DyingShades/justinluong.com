@@ -1,15 +1,22 @@
 ---
 layout: page
 slides: 
-  - src: /assets/img/JustinBiomass.jpg
-    alt: Justin Biomass
+  - src: /assets/img/WiyotBurnBox2025.jpg
+    alt: Burning at the Wiyot Tribe!
   - src: /assets/img/Justin-Willits-Cattle.jpg
     alt: Top dawg with da moow moows
-  - src: /assets/img/JustinLICOR.jpg
+  - src: /assets/img/ScannerFuneral.jpg
+    alt: Lab Funeral for the lab leaf scanner!
+  - src: /assets/img/YLR Field Work.jpg
     alt: ZAAP!
   - src: /assets/img/JustinUmbrella.jpg
     alt: Rain Rain Go Away
-  
+  - src: /assets/img/TribalYouthRestoration.jpg
+    alt: The lab working with Tribal Youth Leadership to conduct grassland restoration    
+  - src: /assets/img/ArcataMarshSunset.jpg
+    alt: Sunset <3!!!  
+
+
 ---
 
 
