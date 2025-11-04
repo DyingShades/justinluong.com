@@ -2,7 +2,6 @@
 layout: current-research
 title: Lab Alum
 sections: 
-
     - title: "Kenia Gomez (Undergrad Researcher)"
       image:
           name: KeniaLabPhoto.JPG
