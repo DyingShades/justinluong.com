@@ -42,7 +42,7 @@ slides:
 </div>
 
 
-_"Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover." (Dr. Justin Luong Et. Al)_
+_Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover._
 <hr>
 ___
 
@@ -64,7 +64,7 @@ Use the buttons below to explore each part of the program research themes, the H
   <br>
 
   <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
-  <a class="btn btn--soft" href="/menu/datasets.html">Berkely</a>
+  <a class="btn btn--soft" href="/menu/datasets.html">Berkeley</a>
   <a class="btn btn--soft" href="/menu/contact.html">Collaborate / Contact</a>
 </nav>
 
