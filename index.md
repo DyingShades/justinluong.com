@@ -55,13 +55,13 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--primary" href="/menu/aboutgrassnet.html">GRASS-Net</a>
   <a class="btn btn--primary" href="/menu/currentpeople.html">Range & Resource Lab</a>
   test text
-  <hr>
+  <br>
 
   <a class="btn btn--outline" href="/menu/currentresearch.html">Research Themes</a>
   <a class="btn btn--outline" href="/menu/teaching.html">Teaching+</a>
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
   test text
-  <hr>
+  <br>
 
   <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
   <a class="btn btn--soft" href="/menu/datasets.html">Berkely</a>
