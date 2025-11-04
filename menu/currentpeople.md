@@ -87,7 +87,7 @@ sections:
 
     - title: "Sean Dillon (Lab Assistant)"
       image:
-          name: SeanDillon.JPEG
+          name: SeanDillon.jpg
           alt: A photo of Sean Dillon
           style: right
       content: |
