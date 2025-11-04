@@ -34,11 +34,13 @@ slides:
       Dr. Luong's lab focuses on adapting restoration practices for changing climates, integrating management, and socio-economic perspectives to understand rangeland ecology. Lab members engage in hands-on, in-field learning opportunities in greenhouses and with practitioners that inform real-world rangeland restoration and management projects to cultivate a diverse and inclusive learning environment.
     </p>
     <ul class="intro-bullets">
-  <li>Climate Restoration: We study how restoration can adapt to changing climates and addressing real management needs.</li>
+  <li>Restoration and Global Change: We study how restoration can adapt for changing climates and invasive species with field and greenhouse approaches to assist with practical management concerns and special status species.</li>
       <br>
-  <li>GRASS - Net: a practitioner community focused on seed sourcing, invasion control and sharing what works across California grasslands.</li>
+  <li>GRASS Net: A practitioner community focused on seed sourcing, restoring diverse biodiversity and coordinating restoration of California grasslands to increase the scale and success of grassland restoration</li>
       <br>
-  <li>Research with Impact: from long term evaluations of 37 restored coastal grasslands to cliamte stress responses.</li>
+  <li>Rangeland multifunctionality: Our lab examines how to promote and optimize multiuse to support diverse ecosystem services on rangelands based in plant conservation.</li>
+      <br>      
+  <li>Science-Practice Gap: A central mission is to engage with restoration practitioners and rangeland managers with informal conversations, collaborations and formal research methods.</li>
 </ul>
 
   </div>
@@ -56,7 +58,8 @@ _Rangelands are globally distributed habitats with high potential for supporting
 ___
 
 # Restoration Science Meets Working Landscapes
-Dr. Justin Luong’s program spans current research at UC Berkeley and for the past few years hands-on work with the Rangeland Resource Science community at Cal Poly Humboldt. The main focus is building climate-ready, invasion-resistant restoration for California’s grasslands and shrublands through experiments, manager driven collaborations, and open, reproducible tools. This site ties those threads together: ideas tested in the field, evidence published in journals, code and datasets you can reuse, and opportunities for students and partners to get involved.
+Dr. Justin Luong’s program spans current research at UC Berkeley and for the past few years hands-on work with the Rangeland Resource Science community at Cal Poly Humboldt. The main focus is building climate-ready, invasion-resistant restoration for California’s grasslands and shrublands through experiments, land manager driven collaborations, and open, reproducible tools. We work using interdisciplinary methods tying together methods in field plant community ecology, ecophysiology (including greenhouse methods) and integrating social science approaches to provide insight into management decisions, their effects on ecological outcomes and to bridge the science-practice gap. Our lab believes in the importance of supporting underserved communities in engaging in STEM, land management and within community engagement.  
+
 Use the buttons below to explore each part of the program research themes, the Humboldt lab, teaching, publications, outreach, datasets, and ways to collaborate.
 
 <nav class="btn-grid" aria-label="Site sections">
