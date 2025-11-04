@@ -25,7 +25,7 @@ Derek Tremaine - Lab assistant - 2024-2025
 <hr>
 Nicholas Verhey - Lab assistant - 2025      
 <hr>
-Tyvonne Wilkey-Burrel - Lab assistant - 2024-2025        
+Tyvone Wilkey-Burrel - Lab assistant - 2024-2025        
 <hr>
 
 [Click here to see archived bios of lab alum](https://justinluong.com/menu/archivedbios.html)
