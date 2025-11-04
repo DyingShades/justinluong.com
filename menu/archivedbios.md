@@ -30,11 +30,9 @@ sections:
           style: right
       content: |
             Hi, I am Ashley and I'm a Rangeland Resource Science major with a Minor in Botany. Some of my hobbies include enjoying anything outdoors including foraging, hiking, camping, and pressing plants. I also really enjoy journaling, scrapbooking/creating collages, and thrifting. In the future it would be really cool work in land conservation/ and or conducting plant surveys for government agencies. I have a passion for plants and I really enjoy learning new plant species everyday.          
-
-                 
-      
+                       
 ---
-            <hr>
+<hr>
     - title: "Derek Tremaine (Lab Assistant)"
       image:
           name: DerekTremaine.jpg
@@ -42,7 +40,9 @@ sections:
           style: right
       content: |
             Hello, I'm Derek!  I'm a junior at CPH, majoring in Forestry and Soils.  I grew up on a raspberry farm in Bellingham, WA and managed the family business for a decade before moving to Humboldt County to pursue an education in natural resources.  I have a particular interest in forest-grassland transition zones, conifer encroachment throughout the PNW, and subalpine plant communities.  I'm really grateful to be part of such an ecologically minded community in one of the most beautiful and biodiverse places on the planet. Outside of school I enjoy hiking, photography, and writing music. My favorite grass is _Hesperostipa comata_ and favorite tree is _Tsuga mertensiana_.      
-            <hr>
+
+---
+<hr>
     - title: "Ty Wilkey-Burrell (Lab Assistant)"
       image:
           name: Ty Wilkey-Burrell.jpg
