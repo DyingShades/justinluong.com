@@ -78,7 +78,7 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
   
 
-  <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
+  <a class="btn btn--soft" href="[/menu/outreach.html](https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0)">DEI Action Plan</a>
   <a class="btn btn--soft" href="/menu/datasets.html">Berkeley</a>
   <a class="btn btn--soft" href="/menu/contact.html">Collaborate / Contact</a>
 </nav>
