@@ -1,7 +1,7 @@
 ---
 layout: page
 title: International SStudents
-peralink: /menu/internationalstudents.html
+permalink: /menu/internationalstudents.html
 ---
 
 Dear Prospective International Visitor,
