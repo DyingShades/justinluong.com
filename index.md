@@ -3,7 +3,7 @@ layout: home
 permalink: /index.html
 title: Welcome!
 show_slideshow: false
-slides: 
+slides:
   - src: /assets/img/burningluong.jpg
     alt: Justin On Fire
   - src: /assets/img/LabinKneeland2025.jpg
@@ -12,7 +12,7 @@ slides:
     alt: Drought Structures for Graduate Projects
   - src: /assets/img/BobcatRanchLabTrip2025.jpg
     alt: Lab trip to Bobcat Ranch
-  - src: /assets/img/dyecreek baby cow.jpg
+  - src: "/assets/img/dyecreek baby cow.jpg"
     alt: Frolicking baby cow at Dye Creek
   - src: /assets/img/LabWork.jpg
     alt: Students working in the Lab
@@ -20,7 +20,7 @@ slides:
     alt: Justin Identifying a Plant
   - src: /assets/img/LastLabMeeting2025.jpg
     alt: Bromus sitchensis flower close-up
-  - src: /assets/img/BRCA Flower.jpg
+  - src: "/assets/img/BRCA Flower.jpg"
     alt: Group photo after the last lab meeting of the year
   - src: /assets/img/ChicoGHTeam.jpg
     alt: Luong lab meet up with Griffin-Nolan Lab
@@ -30,9 +30,8 @@ slides:
     alt: Lab Photo after secondary invasions field work
   - src: /assets/img/JenniferJanine.jpg
     alt: Jennifer Valdez and Janine Tan taking data on independent research
-
-  
 ---
+
 
 <div class="intro-wrap">
   <div class="intro-text">
