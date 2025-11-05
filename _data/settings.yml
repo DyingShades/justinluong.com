@@ -56,6 +56,8 @@ menu:
         url:  'prospectivephdstudents.html'
       - name: 'Senior Thesis + Internship Students'
         url:  'seniorthesis+internshipstudents.html'
+      - name: 'International Students'
+        url:  '/menu/internationalstudents.html'
     
     
   - name: 'Art & Science'
