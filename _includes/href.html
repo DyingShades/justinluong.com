@@ -1,0 +1,6 @@
+{%- comment -%} Returns a safe href. If it's absolute (has ://), leave it. Otherwise, make it site-relative. {%- endcomment -%}
+{%- if include.url and include.url contains '://' -%}
+  {{ include.url }}
+{%- else -%}
+  {{ include.url | relative_url }}
+{%- endif -%}
