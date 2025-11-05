@@ -67,23 +67,23 @@ Dr. Justin Luong’s program spans current research at UC Berkeley and for the p
 Use the buttons below to explore each part of the program research themes, the Humboldt lab, teaching, publications, outreach, datasets, and ways to collaborate.
 
 <nav class="btn-grid" aria-label="Site sections">
-  <a class="btn btn--primary" href="{{ '/menu/berkeley.html'       | relative_url }}">UC Berkeley Work+</a>
-  <a class="btn btn--primary" href="{{ '/menu/aboutgrassnet.html'   | relative_url }}">GRASS-Net</a>
-  <a class="btn btn--primary" href="{{ '/menu/currentpeople.html'   | relative_url }}">Range & Resource Lab</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/berkeley.html' %}">UC Berkeley Work+</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/aboutgrassnet.html' %}">GRASS-Net</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Range & Resource Lab</a>
 
-  <a class="btn btn--outline" href="{{ '/menu/currentresearch.html' | relative_url }}">Research Themes</a>
-  <a class="btn btn--outline" href="{{ '/menu/teaching.html'        | relative_url }}">Teaching+</a>
-  <a class="btn btn--outline" href="{{ '/menu/publications.html'    | relative_url }}">Publications</a>
-
-  <a class="btn btn--soft"
-     href='https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0'
-     target="_blank" rel="noopener noreferrer">Lab Handbook ↗</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Research Themes</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/teaching.html' %}">Teaching+</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
 
   <a class="btn btn--soft"
-     href='https://nature.berkeley.edu/rausser/'
-     target="_blank" rel="noopener noreferrer">Berkeley ↗</a>
+     href="{% include href.html url='https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0' %}"
+     target="_blank" rel="noopener noreferrer" data-external="true">Lab Handbook ↗</a>
 
-  <a class="btn btn--soft" href="{{ '/menu/contact.html' | relative_url }}">Collaborate / Contact</a>
+  <a class="btn btn--soft"
+     href="{% include href.html url='https://nature.berkeley.edu/rausser/' %}"
+     target="_blank" rel="noopener noreferrer" data-external="true">Berkeley ↗</a>
+
+  <a class="btn btn--soft" href="{% include href.html url='/menu/contact.html' %}">Collaborate / Contact</a>
 </nav>
 
 
