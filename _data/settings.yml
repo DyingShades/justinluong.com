@@ -48,7 +48,7 @@ menu:
         url:  'labalum.html'
 
         
-  - name: 'Join Our Team
+  - name: 'Join Our Team'
     path: 'menu'
     url:  'joinourteam.html'
     
