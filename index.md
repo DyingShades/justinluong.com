@@ -78,15 +78,21 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
   
 
- <a class="btn btn--outline"
-   href="https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/preview"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="Open Luong Lab DEI Action Plan Google Doc in a new tab">
-  DEI Action Plan (Google Doc) ↗
-</a>
+   <!-- External buttons -->
+  <a class="btn btn--soft"
+     href="https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Open Lab Handbook (opens in new tab)">
+     Lab Handbook ↗
+  </a>
 
-  <a class="btn btn--soft" href="/menu/datasets.html">Berkeley</a>
+  <a class="btn btn--soft"
+     href="https://nature.berkeley.edu/rausser/"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Rausser College website (opens in new tab)">
+     Berkeley ↗
+  </a>
+
   <a class="btn btn--soft" href="/menu/contact.html">Collaborate / Contact</a>
 </nav>
 
