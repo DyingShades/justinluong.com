@@ -38,7 +38,7 @@ menu:
     
   - name: 'People'
     path: 'menu'
-    url:  'justinluong.html'
+    url:  'currentpeople.html'
     submenu:
       - name: 'Justin Luong'
         url:  'justinluong.html'
