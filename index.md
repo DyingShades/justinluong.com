@@ -75,11 +75,11 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--outline" href="{{ '/menu/teaching.html'        | relative_url }}">Teaching+</a>
   <a class="btn btn--outline" href="{{ '/menu/publications.html'    | relative_url }}">Publications</a>
 
-  <a class="btn btn--soft"
+  <a class="btn btn--outline"
      href="https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0"
      target="_blank" rel="noopener noreferrer">Lab Handbook ↗</a>
 
-  <a class="btn btn--soft"
+  <a class="btn btn--outline"
      href="https://nature.berkeley.edu/rausser/"
      target="_blank" rel="noopener noreferrer">Berkeley ↗</a>
 
