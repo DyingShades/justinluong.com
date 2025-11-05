@@ -50,7 +50,7 @@ menu:
         
   - name: 'Join Our Team
     path: 'menu'
-    url:  'joinourtema.html'
+    url:  'joinourteam.html'
     
     
   - name: 'Art & Science'
