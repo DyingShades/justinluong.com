@@ -67,9 +67,9 @@ Dr. Justin Luong’s program spans current research at UC Berkeley and for the p
 Use the buttons below to explore each part of the program research themes, the Humboldt lab, teaching, publications, outreach, datasets, and ways to collaborate.
 
 <nav class="btn-grid" aria-label="Site sections">
-  <a class="btn btn--primary" href="{% include href.html url='/menu/berkeley.html' %}">UC Berkeley Work+</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/aboutgrassnet.html' %}">GRASS-Net</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Range & Resource Lab</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/justinluong.html' %}">Dr. Justin Luong</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Current Faculty</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/labalum.html' %}">Past Faculty</a>
 
   <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Research Themes</a>
   <a class="btn btn--outline" href="{% include href.html url='/menu/teaching.html' %}">Teaching+</a>
@@ -89,9 +89,6 @@ Use the buttons below to explore each part of the program research themes, the H
 
 
 
-# Quick Links:  
-<hr>
-We are part of the [Environmental Science, Policy & Management Department](https://ourenvironment.berkeley.edu/) at [Rausser College of Natural Resources](https://nature.berkeley.edu/)
 
 <!-- Basic mixed track -->
 <div class="track-mixed" aria-hidden="true"></div>
