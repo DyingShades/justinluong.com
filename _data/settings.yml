@@ -47,6 +47,11 @@ menu:
       - name: 'Lab Alum'
         url:  'labalum.html'
 
+        
+  - name: 'Join Our Team
+    path: 'menu'
+    url:  'joinourtema.html'
+    
     
   - name: 'Art & Science'
     path: 'menu'
