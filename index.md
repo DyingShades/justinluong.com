@@ -88,6 +88,7 @@ Use the buttons below to explore each part of the program research themes, the H
 
 
 
+
 # Quick Links:  
 <hr>
 We are part of the [Environmental Science, Policy & Management Department](https://ourenvironment.berkeley.edu/) at [Rausser College of Natural Resources](https://nature.berkeley.edu/)
@@ -240,5 +241,20 @@ Check out the [Luong Lab DEI Action Plan](https://docs.google.com/document/d/1RV
   syncDots();
   start();
 })();
+
+  <script>
+document.addEventListener('click', function (e) {
+  const a = e.target.closest('a');
+  if (!a) return;
+
+  // If a script is preventing default for all links, let true externals go through.
+  const isExternal = a.hasAttribute('data-external') || (a.host && a.host !== location.host);
+  if (isExternal) {
+    a.setAttribute('rel', 'noopener noreferrer');
+    a.setAttribute('target', '_blank');
+    // Do NOT preventDefault for external links
+  }
+});
 </script>
+
 
