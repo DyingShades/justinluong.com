@@ -59,10 +59,7 @@ slides:
 </div>
 
 
-_Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover._
 
-_**Please excuse errors, as the website is under construction**_
-<hr>
 ___
 
 # Restoration Science Meets Working Landscapes
@@ -74,12 +71,12 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--primary" href="/menu/berkeley.html">UC Berkeley Work+</a>
   <a class="btn btn--primary" href="/menu/aboutgrassnet.html">GRASS-Net</a>
   <a class="btn btn--primary" href="/menu/currentpeople.html">Range & Resource Lab</a>
-  <br>
+
 
   <a class="btn btn--outline" href="/menu/currentresearch.html">Research Themes</a>
   <a class="btn btn--outline" href="/menu/teaching.html">Teaching+</a>
   <a class="btn btn--outline" href="/menu/publications.html">Publications</a>
-  <br>
+  
 
   <a class="btn btn--soft" href="/menu/outreach.html">DEI Action Plan</a>
   <a class="btn btn--soft" href="/menu/datasets.html">Berkeley</a>
@@ -102,12 +99,18 @@ We are part of the [Environmental Science, Policy & Management Department](https
      data-jitter="10"            
      data-tilt="20"              
      aria-hidden="true"></div>
+     
+_Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover._
 
+_**Please excuse errors, as the website is under construction**_
+<hr>
 
 Check out the [Luong Lab DEI Action Plan](https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?usp=sharing)  
 <hr>
 
 {% include slideshow.html interval=6000 %}
+
+
 
 <!-- Responsive YouTube playlist embed -->
 <div class="yt-wrap" role="region" aria-label="Video playlist">
