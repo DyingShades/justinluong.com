@@ -8,7 +8,7 @@ disqus:
 
 google-ID: 'UA-112060364-1'
 
-    
+menu:  
   - name: 'Publications'
     path: 'menu'   # = /menu/publications.html
     url:  'publications.html'
