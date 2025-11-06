@@ -54,7 +54,7 @@ menu:
     submenu: 
       - name: 'Prospective Ph.D. Students'
         url:  'prospectivephdstudents.html'
-      - name: 'Senior Thesis + Internship Students'
+      - name: 'seniorthesis/Internship Students'
         url:  'seniorthesis+internshipstudents.html'
       - name: 'International Students'
         url:  'internationalstudents.html'
