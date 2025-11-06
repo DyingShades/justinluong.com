@@ -71,8 +71,8 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Current Faculty</a>
   <a class="btn btn--primary" href="{% include href.html url='/menu/labalum.html' %}">Past Faculty</a>
 
-  <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Research Themes</a>
-  <a class="btn btn--outline" href="{% include href.html url='/menu/teaching.html' %}">Teaching+</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Current Research</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/aboutgrassnet.html.html' %}">GRASS Net</a>
   <a class="btn btn--outline" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
 
   <a class="btn btn--soft"
