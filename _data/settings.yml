@@ -57,7 +57,7 @@ menu:
       - name: 'Senior Thesis + Internship Students'
         url:  'seniorthesis+internshipstudents.html'
       - name: 'International Students'
-        url:  '/menu/internationalstudents.html'
+        url:  'internationalstudents.html'
     
     
   - name: 'Art & Science'
