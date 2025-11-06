@@ -710,6 +710,26 @@ article.person hr{ clear: both; }
     width: min(92%, 420px);
   }
 }
+/* Rounded gold menu bar */
+.nav-band{
+  background: var(--ucb-gold);
+  border: 1px solid var(--ucb-gold-700);   /* replaces border-bottom */
+  border-radius: 14px;                      /* match your buttons/photos */
+  margin: .75rem clamp(10px, 2vw, 24px) 1.25rem; /* space so corners are visible */
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+
+/* keep the inside layout the same */
+.nav-band .menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: .35rem clamp(12px, 2vw, 28px);
+}
+
+/* optional: only round on desktop, keep full-bleed on phones */
+@media (min-width: 761px){
+  .nav-band{ border-radius: 14px; margin: .75rem 16px 1.25rem; }
+}
 
 /* --- Favorite plant  --- */
 .favorite-split{
