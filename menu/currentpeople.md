@@ -111,6 +111,15 @@ sections:
       content: |
             Logan Fogle is currently working towards a Rangeland Resource Science B.S. at Cal Poly Humboldt. He hails from the scrubland of Southern California, originally coming to Humboldt County to study Forestry. However, after a few months working as a Timber Cruiser and a few Forestry classes, he soon realized his passion lied with Rangeland. He has loved the outdoors all his life, but has cultivated a more mature admiration for the vastness and complexity of the wilderness in his recent years. He lived and worked on a horse ranch in Riverside County before going to college. He is specifically interested in sustainable livestock operations. Logan's favorite range plant is _Encelia farinosa_!          
             <hr>
+ 
+    - title: "Bailey Glashan (Lab Assistant and Undergrad Researcher)"
+      image:
+          name: BaileyGlashan.JPG
+          alt: A photo of Logan Fogle
+          style: right
+      content: |
+            Hi! I’m Bailey Glashan and I am a student lab assistant in the Luong lab. I am pursuing my undergraduate degree in Rangeland Resource Science here at Cal Poly Humboldt with an emphasis in entomology and minors in botany and indigenous peoples, natural resource use, and the environment. I am a transfer student from Santa Rosa Junior College and though I miss the chaparral and vernal pools we have down south, I have quickly fallen in love with the redwood forest and coastal prairie. I spent lots of time in community college conducting native bee surveys at Pepperwood Preserve and in manicured native gardens in urban areas. Currently I am working on an exciting undergraduate research project looking into how insect populations are affected by fixed solar panels. I grew up as an active 4-H member and raised livestock most of my life which gave me a passion for community and sustainable agriculture. When I’m not working or doing school work, I enjoy hiking, fishing, gardening, and listening to music.          
+            <hr>
 
     - title: "Logan Holey (Lab Assistant and Undergrad Researcher)"
       image:
@@ -157,6 +166,17 @@ sections:
             Hi! My name is Max (they/them). I’m from central Florida, and have since moved around California and Oregon for school and work. I’m now a fourth year botany student. My interest in rangeland ecology started during my first field season, where I worked for the Agricultural Research Service in the Oregon high desert. I’m broadly interested in plant ecology in the contexts of conservation, restoration, bioremediation, and plant responses to climate change. Outside of biology, I like reading, crossword puzzles and sudoku, and botanical illustration.      
 
             <hr>
+
+    - title: "Kai Zerbo (Lab Assistant)"
+      image:
+          name: kaizerbo.JPG
+          alt: A photo of Kai
+          style: right
+      content: |
+            Hello! My name is Kai Zerbo and I am a junior at the Rangeland Resource Department with a concentration in soils and botany. I came to Humboldt in 2024 from San Francisco. I have always had a deep appreciation for California's ecosystems, specifically vernal pools, chaparral, and coastal grasslands. I am interested in studying post fire management, conservation, and soils. In my free time, I enjoy fiber arts, hiking, music, painting, and hanging out with my dog! My favorite range plant is Phacelia californica.       
+
+            <hr>
+
 
     - title: "Lab Alum"
     - content: |
