@@ -114,7 +114,7 @@ sections:
  
     - title: "Bailey Glashan (Lab Assistant and Undergrad Researcher)"
       image:
-          name: BaileyGlashan.JPG
+          name: BaileyGlashan.jpeg
           alt: A photo of Logan Fogle
           style: right
       content: |
@@ -169,7 +169,7 @@ sections:
 
     - title: "Kai Zerbo (Lab Assistant)"
       image:
-          name: kaizerbo.JPG
+          name: kaizerbo.jpg
           alt: A photo of Kai
           style: right
       content: |
