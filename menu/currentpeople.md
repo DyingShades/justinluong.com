@@ -118,7 +118,17 @@ sections:
           alt: A photo of Logan Fogle
           style: right
       content: |
-            Hi! I’m Bailey Glashan and I am a student lab assistant in the Luong lab. I am pursuing my undergraduate degree in Rangeland Resource Science here at Cal Poly Humboldt with an emphasis in entomology and minors in botany and indigenous peoples, natural resource use, and the environment. I am a transfer student from Santa Rosa Junior College and though I miss the chaparral and vernal pools we have down south, I have quickly fallen in love with the redwood forest and coastal prairie. I spent lots of time in community college conducting native bee surveys at Pepperwood Preserve and in manicured native gardens in urban areas. Currently I am working on an exciting undergraduate research project looking into how insect populations are affected by fixed solar panels. I grew up as an active 4-H member and raised livestock most of my life which gave me a passion for community and sustainable agriculture. When I’m not working or doing school work, I enjoy hiking, fishing, gardening, and listening to music.          
+            Hi! I’m Bailey Glashan and I am a student lab assistant in the Luong lab. I am pursuing my undergraduate degree in Rangeland Resource Science here at Cal Poly Humboldt with an emphasis in entomology and minors in botany and indigenous peoples, natural resource use, and the environment. I am a transfer student from Santa Rosa Junior College and though I miss the chaparral and vernal pools we have down south, I have quickly fallen in love with the redwood forest and coastal prairie. I spent lots of time in community college conducting native bee surveys at Pepperwood Preserve and in manicured native gardens in urban areas. Currently I am working on an exciting undergraduate research project looking into how insect populations are affected by fixed solar panels. I grew up as an active 4-H member and raised livestock most of my life which gave me a passion for community and sustainable agriculture. When I’m not working or doing school work, I enjoy hiking, fishing, gardening, and listening to music.
+            
+            <hr>
+ 
+    - title: "Brandon Gutierrez (Lab Assistant and Undergrad Researcher)"
+      image:
+          name: BrandonGutierrez.jpg
+          alt: A photo of Logan Fogle
+          style: right
+      content: |
+            Hello! My name is Brandon Gutierrez and I am a Rangeland Resource Science undergraduate student. I’m interested in pasturelands, ecology, grassland restoration, and cattle. I grew up in a small town in Jalisco Mexico in a family farm. This is where my interest in natural resources, and range began. I spent a lot of time in pasturelands with the cattle moving them in and out of corrals. In my free time you can catch me in the gym, playing soccer or playing FC26. My favorite grass will definitely be _Bouteloua gracillis_.          
             <hr>
 
     - title: "Logan Holey (Lab Assistant and Undergrad Researcher)"
