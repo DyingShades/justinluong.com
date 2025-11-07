@@ -1,6 +1,6 @@
 ---
 layout: page
-title: International Students
+title: Visiting International Scholars
 permalink: /menu/internationalstudents.html
 ---
 
