@@ -68,8 +68,8 @@ Use the buttons below to explore each part of the program research themes, the H
 
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{% include href.html url='/menu/justinluong.html' %}">Dr. Justin Luong</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Current Faculty</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/labalum.html' %}">Past Faculty</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Lab Members</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/Joinourteam.html' %}">Prospective Students</a>
 
   <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Current Research</a>
   <a class="btn btn--outline" href="{% include href.html url='/menu/aboutgrassnet.html.html' %}">GRASS Net</a>
@@ -83,7 +83,7 @@ Use the buttons below to explore each part of the program research themes, the H
      href="{% include href.html url='https://nature.berkeley.edu/rausser/' %}"
      target="_blank" rel="noopener noreferrer" data-external="true">Berkeley ↗</a>
 
-  <a class="btn btn--soft" href="{% include href.html url='/menu/contact.html' %}">Collaborate / Contact</a>
+  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">CNGA</a>
 </nav>
 
 
