@@ -2,7 +2,7 @@
 layout: home
 permalink: /index.html
 title: Welcome!
-show_slideshow: true
+show_slideshow: false
 slides:
   - src: /assets/img/burningluong.jpg
     alt: Justin On Fire
@@ -83,7 +83,9 @@ Use the buttons below to explore each part of the program research themes, the H
      href="{% include href.html url='https://ourenvironment.berkeley.edu/' %}"
      target="_blank" rel="noopener noreferrer" data-external="true">UC Berkeley ↗</a>
 
-  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">CA Native Grassland Association</a>
+  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}"
+    target="_blank" rel="noopener noreferrer" data-external="true">CA Native Grassland Association</a>
+    
 </nav>
 
 
