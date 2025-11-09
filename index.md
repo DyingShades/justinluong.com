@@ -2,7 +2,7 @@
 layout: home
 permalink: /index.html
 title: Welcome!
-show_slideshow: false
+show_slideshow: true
 slides:
   - src: /assets/img/burningluong.jpg
     alt: Justin On Fire
@@ -80,10 +80,10 @@ Use the buttons below to explore each part of the program research themes, the H
      target="_blank" rel="noopener noreferrer" data-external="true">DEI Lab Handbook ↗</a>
 
   <a class="btn btn--soft"
-     href="{% include href.html url='https://nature.berkeley.edu/rausser/' %}"
-     target="_blank" rel="noopener noreferrer" data-external="true">Berkeley ↗</a>
+     href="{% include href.html url='https://ourenvironment.berkeley.edu/' %}"
+     target="_blank" rel="noopener noreferrer" data-external="true">UC Berkeley ↗</a>
 
-  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">California Native Grassland Association</a>
+  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">CA Native Grassland Association</a>
 </nav>
 
 
