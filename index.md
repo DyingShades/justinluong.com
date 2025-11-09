@@ -83,7 +83,7 @@ Use the buttons below to explore each part of the program research themes, the H
      href="{% include href.html url='https://nature.berkeley.edu/rausser/' %}"
      target="_blank" rel="noopener noreferrer" data-external="true">Berkeley ↗</a>
 
-  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">CNGA</a>
+  <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}">California Native Grassland Association</a>
 </nav>
 
 
