@@ -190,13 +190,15 @@ sections:
 
     - title: "Lab Alum"
     - content: |
-            [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)          
+            [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)      
+
+            <div align="center">
+  <img src="/assets/img/EcologistsforEquity.jpg" alt="Description" width="750">
+</div>  
+
 ---
 
 <div style="text-align:right; font-size:1em; margin: 1.5em 0 1.5em 0;">
   *Undergrad researchers are undertaking directed rangeland research.
 </div>
 
-<div align="center">
-  <img src="/assets/img/EcologistsforEquity.jpg" alt="Description" width="750">
-</div>  
