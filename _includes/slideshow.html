@@ -1,6 +1,17 @@
-<!-- JS at the end so DOM is ready -->
-<script src="{{ '/assets/js/nav-toggle.js' | relative_url }}" defer></script>
-{% if page.slides or page.load_slideshow %}
-  <script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
-{% endif %}
-<script src="{{ '/assets/js/wildlife-tracks.js' | relative_url }}" defer></script>
+
+{%- assign slides = include.slides | default: page.slides -%}
+{%- assign interval = include.interval | default: 5000 -%}
+<div class="slideshow" data-interval="{{ interval }}" aria-roledescription="carousel">
+  <div class="slides" role="group">
+    {%- for s in slides -%}
+    <figure class="slide{% if forloop.first %} is-active{% endif %}">
+      <img src="{{ s.src | relative_url }}" alt="{{ s.alt | default: '' }}">
+      {%- if s.caption -%}<figcaption>{{ s.caption }}</figcaption>{%- endif -%}
+    </figure>
+    {%- endfor -%}
+  </div>
+  <button class="nav prev" aria-label="Previous slide">‹</button>
+  <button class="nav next" aria-label="Next slide">›</button>
+  <div class="dots" role="tablist" aria-label="Choose slide"></div>
+  <button class="pause" aria-pressed="false" aria-label="Pause autoplay">Pause</button>
+</div>
