@@ -1,4 +1,4 @@
-<script>
+
 // Wildlife Track Divider (fetch + inline external SVG assets)
 // Files expected at:
 //   /assets/img/hoofprint.svg
@@ -242,5 +242,5 @@
   } else { init(); }
 })();
 
-</script>
+
 
