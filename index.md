@@ -95,14 +95,17 @@ Use the buttons below to explore each part of the program research themes, the H
 <!-- Basic mixed track -->
 <div class="track-mixed" aria-hidden="true"></div>
 
-<div class="track-mixed"
-     data-types="hoof"   
-     data-size="40"               
-     data-spacing="100"            
-     data-density="1.0"          
-     data-jitter="10"            
-     data-tilt="45"              
-     aria-hidden="true"></div>
+
+<div
+  class="tracks"
+  data-s1="{{ '/assets/img/pawprint.svg'  | relative_url }}"
+  data-s2="{{ '/assets/img/hoofprint.svg' | relative_url }}"
+  data-s3="{{ '/assets/img/duckprint.svg' | relative_url }}"
+  data-size="18"        <!-- footprint height in px -->
+  data-tilt="-3"        <!-- slight angle; 0 for flat -->
+  aria-hidden="true">
+</div>
+
      
 _Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover._
 
