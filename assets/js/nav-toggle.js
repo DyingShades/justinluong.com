@@ -1,4 +1,4 @@
-<script>
+
 (function () {
   var mq = window.matchMedia('(max-width: 760px)');
   var details = document.querySelector('.menu-collapsible');
@@ -17,5 +17,4 @@
   // Keep behavior consistent if the viewport crosses the breakpoint
   mq.addEventListener ? mq.addEventListener('change', applyByViewport)
                       : mq.addListener(applyByViewport);
-})();
-</script>
+
