@@ -17,4 +17,5 @@
   // Keep behavior consistent if the viewport crosses the breakpoint
   mq.addEventListener ? mq.addEventListener('change', applyByViewport)
                       : mq.addListener(applyByViewport);
+  })();
 
