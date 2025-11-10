@@ -1,4 +1,4 @@
-<script>
+
 (function () {
   const ss = document.querySelector('.slideshow');
   if (!ss) return;
@@ -78,4 +78,3 @@
   start();
 })();
 
-<script>
