@@ -84,7 +84,7 @@ Use the buttons below to explore each part of the program research themes, the H
      target="_blank" rel="noopener noreferrer" data-external="true">UC Berkeley ↗</a>
 
   <a class="btn btn--soft" href="{% include href.html url='https://cnga.org/' %}"
-    target="_blank" rel="noopener noreferrer" data-external="true">CA Native Grassland Association</a>
+    target="_blank" rel="noopener noreferrer" data-external="true">CA Native Grassland Association ↗</a>
     
 </nav>
 
