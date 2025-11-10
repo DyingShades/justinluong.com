@@ -8,18 +8,19 @@
 
 (function () {
   const DEFAULTS = {
-    types: ['hoof','paw','duck'],
-    size: 36,
-    spacing: 48,
-    density: 1.0,
-    jitter: 8,
-    tilt: 15,
-    srcs: {
-      hoof: '/assets/img/hoofprint.svg',
-      paw:  '/assets/img/pawprint.svg',
-      duck: '/assets/img/duckprint.svg',
-    }
-  };
+  types: ['hoof','paw','duck'],
+  size: 18,          // was 36
+  spacing: 96,       // was 48 (gives cleaner spacing)
+  density: 1.0,
+  jitter: 6,         // was 8 
+  tilt: 6,           // was 15 (gentler angle)
+  srcs: {
+    hoof: '/assets/img/hoofprint.svg',
+    paw:  '/assets/img/pawprint.svg',
+    duck: '/assets/img/duckprint.svg',
+  }
+};
+
 
   const svgNS   = 'http://www.w3.org/2000/svg';
   const xlinkNS = 'http://www.w3.org/1999/xlink';
