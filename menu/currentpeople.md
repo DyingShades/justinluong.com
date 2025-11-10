@@ -190,11 +190,12 @@ sections:
 
     - title: "Lab Alum"
     - content: |
-            [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)      
+            [Click here to see a list of previous lab alum](https://justinluong.com/menu/labalum.html)   
 
-            <div align="center">
+<div align="center">
   <img src="/assets/img/EcologistsforEquity.jpg" alt="Description" width="750">
 </div>  
+
 
 ---
 
