@@ -43,36 +43,101 @@
     };
   }
 
-  // Fetch and parse an SVG file, return {viewBox:[x,y,w,h], content:Node[]}
-  async function fetchInlineSVG(url){
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-    const text = await res.text();
+ async function renderTrack(el, attempt=0){
+  const types    = parseList(el, 'types', DEFAULTS.types);
+  const size     = num(el, 'size', DEFAULTS.size);
+  const stride   = Math.max(24, num(el, 'stride',  num(el, 'spacing', DEFAULTS.spacing))); // allow both names
+  const density  = Math.max(.2, num(el, 'density', DEFAULTS.density));
+  const jitter   = num(el, 'jitter', 6);
+  const tiltMax  = num(el, 'tilt', 6);           // small extra random tilt
+  const amp      = num(el, 'amp', 6);            // curve amplitude (px)
+  const waves    = num(el, 'waves', 1.1);        // how wavy the path is
+  const lrOffset = num(el, 'offset', 8);         // left/right step offset (px)
 
-    // Parse
-    const p = new DOMParser();
-    const doc = p.parseFromString(text, 'image/svg+xml');
-    const root = doc.documentElement; // <svg>
-    if (!root || root.nodeName.toLowerCase() !== 'svg'){
-      throw new Error(`Not an <svg>: ${url}`);
-    }
+  // pick ONE type for this divider
+  const chosenType = choose(types);
+  const id = `fp-${chosenType}`;
 
-    // viewBox
-    let viewBoxAttr = root.getAttribute('viewBox') || root.getAttribute('viewbox');
-    let vb = [0,0,100,100];
-    if (viewBoxAttr){
-      const parts = viewBoxAttr.trim().split(/[\s,]+/).map(Number);
-      if (parts.length === 4 && parts.every(Number.isFinite)) {
-        vb = parts;
-      }
-    } else {
-      // Fallback from width/height if given
-      const w = parseFloat(root.getAttribute('width'));
-      const h = parseFloat(root.getAttribute('height'));
-      if (Number.isFinite(w) && Number.isFinite(h)){
-        vb = [0,0,w,h];
-      }
-    }
+  const rect = el.getBoundingClientRect();
+  let width  = Math.max(rect.width, el.clientWidth, 0);
+  let height = Math.max(el.clientHeight || 32, 32);
+
+  if (width < 10 && attempt < 10) {
+    return requestAnimationFrame(() => renderTrack(el, attempt+1));
+  }
+  if (width < 10) width = 600;
+
+  // number of steps ~ width/stride, scaled by density
+  const n = Math.max(1, Math.round((width / stride) * density));
+
+  // Build SVG
+  const svg = document.createElementNS(svgNS, 'svg');
+  svg.setAttribute('xmlns', svgNS);
+  svg.setAttribute('xmlns:xlink', xlinkNS);
+  svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+  svg.setAttribute('width', '100%');
+  svg.setAttribute('height', '100%');
+  svg.setAttribute('preserveAspectRatio', 'none');
+
+  // Inline symbols (so we can <use> them)
+  await buildDefs(svg, el);
+
+  // Centerline path: gentle sine across the width
+  // y(t) = mid + amp * sin(2π * waves * t)
+  const midY = height / 2;
+  const tau = Math.PI * 2;
+
+  function centerY(t){ return midY + amp * Math.sin(tau * waves * t); }
+  function dy_dt(t){  return amp * tau * waves * Math.cos(tau * waves * t); } // derivative wrt t
+
+  // symbol center for correct alignment
+  const [cx, cy] = getSymbolCenter(svg, id);
+  const scale = size / 60; // your fallback glyphs were ~60px tall
+
+  for (let i = 0; i < n; i++){
+    // progress along width (0..1)
+    const t  = (i + 0.5) / n;
+    const x0 = t * width;
+
+    // “walk direction” angle from the curve tangent
+    // dx/dt ~ width; dy/dt from derivative above. Angle = atan2(dy/dt * (dx_dt scale), dx/dt)
+    const dy = dy_dt(t);
+    const theta = Math.atan2(dy, width); // small angle, good enough visually
+    const thetaDeg = theta * 180/Math.PI;
+
+    // alternate left/right foot around centerline (perpendicular to tangent)
+    const lr = (i % 2 === 0 ? 1 : -1);
+    const off = lr * lrOffset;
+
+    // rotate the offset vector by (theta + 90deg)
+    const ox =  off * Math.sin(theta);
+    const oy = -off * Math.cos(theta);
+
+    // base position on curve + perpendicular offset
+    const x = x0 + ox + (Math.random() * 2 - 1) * (jitter * 0.3);
+    const y = centerY(t) + oy + (Math.random() * 2 - 1) * (jitter * 0.3);
+
+    // tiny extra natural tilt so prints aren’t perfectly rigid
+    const rJitter = (Math.random() * 2 - 1) * tiltMax;
+
+    // mirror prints left/right so they look like alternating feet
+    const mirror = lr === 1 ? 1 : -1;
+
+    const g = document.createElementNS(svgNS, 'g');
+    g.setAttribute('transform',
+      `translate(${x} ${y}) rotate(${thetaDeg + rJitter}) scale(${scale * mirror} ${scale}) translate(${-cx} ${-cy})`
+    );
+
+    const use = document.createElementNS(svgNS, 'use');
+    use.setAttributeNS(xlinkNS, 'xlink:href', `#${id}`);
+    use.setAttribute('href', `#${id}`);
+    g.appendChild(use);
+    svg.appendChild(g);
+  }
+
+  el.innerHTML = '';
+  el.appendChild(svg);
+}
 
     // Extract child nodes (exclude <defs> from the source file to avoid nested defs)
     const nodes = [];
