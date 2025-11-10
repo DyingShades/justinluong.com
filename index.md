@@ -239,7 +239,7 @@ _**Please excuse errors, as the website is under construction**_
   start();
 })();
 
-<script>
+
 document.addEventListener('click', function (e) {
   const a = e.target.closest('a');
   if (!a) return;
@@ -249,6 +249,6 @@ document.addEventListener('click', function (e) {
     a.setAttribute('target', '_blank');
   }
 });
-</script>
+
 
 
