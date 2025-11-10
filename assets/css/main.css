@@ -693,6 +693,9 @@ th, td{ padding:15px; text-align:left; }
   height: 1px;
   background: rgba(0,0,0,.12);  /* adjust lighter/darker as you like */
   transform: translateY(-50%);
+   
+.track-mixed.no-line::before{ display:none; }
+
 }
 
 
