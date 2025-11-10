@@ -72,7 +72,7 @@ Use the buttons below to explore each part of the program research themes, the H
   <a class="btn btn--primary" href="{% include href.html url='/menu/joinourteam.html' %}">Prospective Students</a>
 
   <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Current Research</a>
-  <a class="btn btn--outline" href="{% include href.html url='/menu/aboutgrassnet.html.html' %}">GRASS Net</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/aboutgrassnet.html' %}">GRASS Net</a>
   <a class="btn btn--outline" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
 
   <a class="btn btn--soft"
@@ -239,17 +239,14 @@ _**Please excuse errors, as the website is under construction**_
   start();
 })();
 
-  <script>
+<script>
 document.addEventListener('click', function (e) {
   const a = e.target.closest('a');
   if (!a) return;
-
-  // If a script is preventing default for all links, let true externals go through.
   const isExternal = a.hasAttribute('data-external') || (a.host && a.host !== location.host);
   if (isExternal) {
     a.setAttribute('rel', 'noopener noreferrer');
     a.setAttribute('target', '_blank');
-    // Do NOT preventDefault for external links
   }
 });
 </script>
