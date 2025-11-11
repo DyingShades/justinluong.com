@@ -101,7 +101,7 @@ Use the buttons below to explore each part of the program research themes, the H
      data-types="hoof,paw,duck"
      data-size="16"
      data-stride="45"
-     data-offset="3"
+     data-offset="1.5"
      data-amp="0.5"
      data-waves="1.0"
      data-toe="12"              
