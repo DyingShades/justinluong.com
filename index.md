@@ -96,13 +96,17 @@ Use the buttons below to explore each part of the program research themes, the H
 <div class="track-mixed" aria-hidden="true"></div>
 
 
-<div class="track-mixed no-line"
-     data-types="hoof,paw,duck"   <!-- pool; JS will pick ONE -->
+<!-- Animal-tracks divider -->
+<div class="track-mixed"
+     data-types="hoof,paw,duck"   <!-- JS will choose ONE at render time -->
      data-size="18"               <!-- print height (px) -->
      data-stride="110"            <!-- distance between steps (px) -->
-     data-offset="8"              <!-- left/right step offset from center (px) -->
-     data-amp="6"                 <!-- curve amplitude (px) -->
+     data-offset="8"              <!-- left/right step offset (px) -->
+     data-amp="6"                 <!-- sine-wave amplitude (px) -->
      data-waves="1.1"             <!-- how wavy the path is -->
+     data-src-hoof="/assets/img/hoofprint.svg"
+     data-src-paw="/assets/img/pawprint.svg"
+     data-src-duck="/assets/img/duckprint.svg"
      aria-hidden="true"></div>
 
 
