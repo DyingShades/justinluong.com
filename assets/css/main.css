@@ -677,27 +677,22 @@ th, td{ padding:15px; text-align:left; }
 /* Wildlife track divider — thin baseline + small prints */
 .track-mixed{
   position: relative;
-  /* smaller overall “band” */
-  height: 32px;
+  height: 44px;              /* a bit taller so prints breathe */
   margin: 1.5rem 0;
-  color: #222;                /* visible but soft; inherits for SVG */
+  color: #222;               /* print color (inherits into SVG via currentColor) */
   opacity: .95;
 }
-
-/* Wildlife pagebreak */
 .track-mixed::before{
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 50%;
   height: 1px;
-  background: rgba(0,0,0,.12);  /* adjust lighter/darker as you like */
+  background: rgba(0,0,0,.12);
   transform: translateY(-50%);
-   
-.track-mixed.no-line::before{ display:none; }
-
 }
-
+/* Hides the baseline if you add .no-line */
+.track-mixed.no-line::before{ display: none; }
 
 .track-mixed > svg{
   display:block;
@@ -705,8 +700,6 @@ th, td{ padding:15px; text-align:left; }
   height:100%;
   overflow:visible;
 }
-
-
 .track-mixed svg path,
 .track-mixed svg circle,
 .track-mixed svg rect,
@@ -716,6 +709,7 @@ th, td{ padding:15px; text-align:left; }
   fill: currentColor !important;
   stroke: none !important;
 }
+
 
 /* --- Bio: tighten image sizing/spacing and style the img itself --- */
 .person-img.right{
