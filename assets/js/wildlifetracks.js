@@ -188,38 +188,39 @@
     const [cx, cy] = getSymbolCenter(svg, symbolId);
     const baseScale = size / 60; // normalize to ~60px glyph height
 
-    for (let i = 0; i < steps; i++){
-      const t = (i + 0.5) / steps;
-      const x0 = (dir === 1 ? t : (1 - t)) * width;
-      const x0 = t * width;
-      const y0 = centerY(t);
+   for (let i = 0; i < steps; i++){
+  const t  = (i + 0.5) / steps;
+  const x0 = (dir === 1 ? t : (1 - t)) * width;   // direction applied
+  const y0 = centerY(t);
 
-      // tangent angle for natural heading
-      const theta = Math.atan2(dy_dt(t), width);
-      const thetaDeg = theta * 180/Math.PI;
+  // tangent angle for natural heading
+  const theta    = Math.atan2(dy_dt(t), width);
+  const thetaDeg = theta * 180/Math.PI;
 
-      // alternate left/right
-      const lr = (i % 2 === 0 ? 1 : -1);
-      const ox =  lr * offset * Math.sin(theta);
-      const oy = -lr * offset * Math.cos(theta);
+  // alternate left/right
+  const lr = (i % 2 === 0 ? 1 : -1);
+  const ox =  lr * offset * Math.sin(theta);
+  const oy = -lr * offset * Math.cos(theta);
 
-      const x = x0 + ox + (Math.random()*2-1) * (jitter*0.3);
-      const y = y0 + oy + (Math.random()*2-1) * (jitter*0.3);
-      const rJitter = (Math.random()*2-1) * tiltMax;
-      const toe     = (lr === 1 ? -toeDeg : toeDeg);
-      const mirror  = lr === 1 ? 1 : -1;
+  const x = x0 + ox + (Math.random()*2-1) * (jitter*0.3);
+  const y = y0 + oy + (Math.random()*2-1) * (jitter*0.3);
+  const rJitter = (Math.random()*2-1) * tiltMax;
+  const toe     = (lr === 1 ? -toeDeg : toeDeg);  // toe-out / toe-in
+  const mirror  = lr === 1 ? 1 : -1;
 
-      const g = document.createElementNS(svgNS, 'g');
-      g.setAttribute('transform',
-        `translate(${x} ${y}) rotate(${thetaDeg + rJitter}) scale(${baseScale*mirror} ${baseScale}) translate(${-cx} ${-cy})`
-      );
+  const g = document.createElementNS(svgNS, 'g');
+  g.setAttribute('transform',
+    `translate(${x} ${y}) rotate(${thetaDeg + toe + rJitter}) ` +
+    `scale(${baseScale*mirror} ${baseScale}) translate(${-cx} ${-cy})`
+  );
 
-      const use = document.createElementNS(svgNS, 'use');
-      use.setAttributeNS(xlinkNS, 'xlink:href', `#${symbolId}`); // Safari
-      use.setAttribute('href', `#${symbolId}`);                  // modern
-      g.appendChild(use);
-      svg.appendChild(g);
-    }
+  const use = document.createElementNS(svgNS, 'use');
+  use.setAttributeNS(xlinkNS, 'xlink:href', `#${symbolId}`);
+  use.setAttribute('href', `#${symbolId}`);
+  g.appendChild(use);
+  svg.appendChild(g);
+}
+
 
     el.innerHTML = '';
     el.appendChild(svg);
