@@ -16,7 +16,9 @@
     amp: 6,             // sine amplitude (px)
     waves: 1.1,         // sine waves across divider
     tilt: 6,            // small random foot tilt (deg)
-    jitter: 6,          // position jitter (px)
+    jitter: 6, 
+    toe: 0,    
+    dir: 1,
     srcs: {
       hoof: '/assets/img/hoofprint.svg',
       paw:  '/assets/img/pawprint.svg',
