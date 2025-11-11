@@ -102,7 +102,7 @@ Use the buttons below to explore each part of the program research themes, the H
      data-size="18"
      data-stride="50"
      data-offset="3"
-     data-amp="4"
+     data-amp="1"
      data-waves="1.1"
      data-toe="12"              
      data-dir="1"          
