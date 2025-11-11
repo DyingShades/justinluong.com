@@ -144,6 +144,8 @@
     const waves   = num(el, 'waves', DEFAULTS.waves);
     const tiltMax = num(el, 'tilt', DEFAULTS.tilt);
     const jitter  = num(el, 'jitter', DEFAULTS.jitter);
+    const toeDeg  = num(el, 'toe',   DEFAULTS.toe);  
+    const dir     = Math.sign(num(el,'dir',DEFAULTS.dir)) || 1;
 
     // pick ONE type and keep it stable across re-renders
     let chosen = el.dataset.chosenType;
@@ -188,6 +190,7 @@
 
     for (let i = 0; i < steps; i++){
       const t = (i + 0.5) / steps;
+      const x0 = (dir === 1 ? t : (1 - t)) * width;
       const x0 = t * width;
       const y0 = centerY(t);
 
@@ -203,6 +206,7 @@
       const x = x0 + ox + (Math.random()*2-1) * (jitter*0.3);
       const y = y0 + oy + (Math.random()*2-1) * (jitter*0.3);
       const rJitter = (Math.random()*2-1) * tiltMax;
+      const toe     = (lr === 1 ? -toeDeg : toeDeg);
       const mirror  = lr === 1 ? 1 : -1;
 
       const g = document.createElementNS(svgNS, 'g');
