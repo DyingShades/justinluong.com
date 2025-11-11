@@ -212,7 +212,7 @@
 
   const g = document.createElementNS(svgNS, 'g');
   g.setAttribute('transform',
-    `translate(${x} ${y}) rotate(${thetaDeg + toe + rJitter}) ` +
+    `translate(${x} ${y}) rotate(${thetaDeg + toe + rJitter + baseRot}) ` +
     `scale(${baseScale*mirror} ${baseScale}) translate(${-cx} ${-cy})`
   );
 
