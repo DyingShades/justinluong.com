@@ -146,6 +146,8 @@
     const jitter  = num(el, 'jitter', DEFAULTS.jitter);
     const toeDeg  = num(el, 'toe',   DEFAULTS.toe);  
     const dir     = Math.sign(num(el,'dir',DEFAULTS.dir)) || 1;
+    const baseRot = num(el, 'rotate', 90);   // rotate whole footprint so 'forward' points →
+
 
     // pick ONE type and keep it stable across re-renders
     let chosen = el.dataset.chosenType;
