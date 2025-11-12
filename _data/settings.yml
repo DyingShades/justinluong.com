@@ -17,11 +17,7 @@ menu:
   - name: 'Current Research'
     path: 'menu'       # Blank means root | root = cv.html
     url:  'currentresearch.html'
-    submenu:
-    - name: 'Current Research'
-      url:  'currentresearch.html'
-    - name: 'Past Research'
-      url:  'pastresearch.html'
+   
 
    
   - name: 'California GRASS-Net'
