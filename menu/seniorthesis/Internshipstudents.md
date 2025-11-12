@@ -1,22 +1,12 @@
 ---
 layout: page
-title: Senior Thesis + Internship Students
-permalink: /menu/seniorthesisinternationalstudents.html
+title: Prospective Postdococtoral Scholars
+permalink: /menu/postdocs.html
 ---
  
-Prospective Senior Thesis/Internship/Seminar Students,
+Prospective Postdoctoral Scholar,
 
-If you are interested in doing a senior thesis or internship with me, please read this letter. Most of the students I work with on senior theses work either at Younger Lagoon Reserve or with other land-management agencies on restoration-related projects. The Younger Lagoon Reserves staff and I have a few ideas for restoration research or outreach projects. The prior requirements for doing a restoration-related internship or thesis with me are passing ENVS 160: Restoration Ecology with a B or better, and having demonstrated a strong work ethic and interest in Restoration Ecology by doing a 2-unit internship with a UCB or off-campus restoration group. I also sponsor some students working on natural history and education projects at the Norris Center for Natural History.  
-
-Please note that completing a senior thesis or internship is an invaluable learning experience, particularly if you are interested in research and considering going to graduate school. Likewise, doing a senior internship is a great way to get experience working with and writing a professional document for an agency. Doing a senior thesis or internship, however, is a lot more work than either ENVS 190 (capstone) or ENVS 196 (senior seminar), which take one quarter. Senior theses and internships require a minimum of two quarters (and often more) commitment to have the time to design and complete an experiment/project, analyze/compile results, and write up your thesis/project. They also require a high level of commitment and organization skills on your part as it is less structured than a class; you will need to set your timetable and meet it. But, like with anything, the more you put into, the more you get out of it.
-
-Doing research or an independent project is exciting, but can also be extremely frustrating. These are research and other independent projects that have not been done before. You will inevitably have to push yourself into areas where you do not have experience, and at some point you will end up having to redo some work as you go through the learning process. But, this is all part of doing an independent project, and you will gain invaluable skills in the process. That said you need to have the background coursework to be able to do the project you propose, and I may suggest specific coursework for your project. For example, students who work on projects with an experimental or monitoring component should have taken at least one upper division course with an experimental laboratory component (e.g. Field Methods, Plant Ecology) or have some fieldwork experience.
-
-Working with senior internship and thesis students is one of my favorite parts of my job, and I spend a great deal of time with each student.  This means I have high expectations for you. I expect you to work independently, come to meetings prepared, and complete tasks by the times we agree upon. You should also be comfortable accepting constructive criticism. Sponsoring senior thesis internship students is something I do on top of all the rest of my job, which includes teaching classes, advising graduate students, chairing multiple committees at UCB, doing my own research, advising conservation organizations, and much more. So, I ask that you respect my time and stick to the deadlines we agree on. In return, I will make the time and energy to give you feedback to help your improve your scientific skills. 
-
-If you're interested in working with me on an independent project then make an appointment to come talk to me during my office hours.  If you have your own ideas of a project that falls within my expertise that’s great.  If you don’t (the case for most students), I prefer you work on a project related to some of my ongoing research projects or restoration projects with which I am involved, so you can build on an existing information base and your work will contribute to a larger effort. Most students do projects on the grassland and wetland restoration at Younger Lagoon Reserve (YLR) or at the Norris Center for Natural History. If you want to work with me on a tropical forest restoration study in Costa Rica, this requires extensive advance planning, the ability to speak Spanish, and raising/providing some of your own research funds.
-
-To be able to devote sufficient time to each student, I sponsor a limited number of students, given my other time commitments.  So, the sooner you talk to me the better.  I give first priority to those students who have done internships with me before and have demonstrated a strong work ethic and academic record.
+This page is under construction
 
 Cordially,
 
