@@ -41,6 +41,7 @@ permalink: /menu/publications.html
 <hr>
 
 **16. Soil Biome Variation of Lupinus nipomensis Eastw. in Wet-Cool vs. Dry-Warm Microhabitats and Greenhouse Conditions** 
+<br>
 (2025) *American Journal of Botany* e70020. Nguyen PV, **Luong JC**, Wishingrad V, Stratton LC, Loik ME, Meyer RS. 
 <br>
 <https://doi.org/10.1002/ajb2.70020>  
