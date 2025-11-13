@@ -22,13 +22,13 @@ permalink: /menu/publications.html
 
 **19. Assessing aggregate stability methods to inform restoration in California coastal grasslands** 
 <br>
-2025. *Grasslands*, 35(3), 17-19. (Evans A, McLaren E, Brito-Bersi T, Chavez-Velasco E, Foster E, Byrne K, Griffin-Nolan RJ, **Luong JC**, Pressler Y)
+(2025) *Grasslands*, 35(3), 17-19. (Evans A, McLaren E, Brito-Bersi T, Chavez-Velasco E, Foster E, Byrne K, Griffin-Nolan RJ, **Luong JC**, Pressler Y)
 <br>
 <hr>
 
 **18. Compost and Native Seeding Interactively Increase Bulk Soil Carbon, but Compost Addition Favors Nonnative Plants** 
 <br>
-2025. *Rangeland Ecology & Management*, 103, 104-112. (**Luong JC**, Mejia-Muñoz J, & Krone P)
+(2025) *Rangeland Ecology & Management*, 103, 104-112. (**Luong JC**, Mejia-Muñoz J, & Krone P)
 <br>
 <https://doi.org/10.1016/j.rama.2025.07.010>  
 <hr>
