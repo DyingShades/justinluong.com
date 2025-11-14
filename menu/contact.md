@@ -40,6 +40,10 @@ This website has been built by Elias Sandoval, If this website stands out and yo
 If there are any major bugs please feel free to reach out as well; I am the only dev working on this and sometimes things are missed.
 
 # GO BEARS!
+
+<!-- Basic mixed track -->
+<div class="track-mixed" aria-hidden="true"></div>
+
 {% include slideshow.html interval=6000 %}
 
 <script>
