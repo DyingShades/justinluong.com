@@ -851,16 +851,24 @@ article.person hr{ clear: both; }
   margin: 1.5rem 0 2rem;
 }
 
-/* Stack on smaller screens */
-@media (max-width: 900px){
+/* Stack text + image sooner so there isn't a big blank area */
+@media (max-width: 1100px){
   .section-grid{
     grid-template-columns: 1fr;
   }
+
+  /* let the text use full width */
+  .section-text{
+    max-width: 100%;
+  }
+
   .section-grid.right .section-img{
-    justify-self: center;              /* center the photo below text on mobile */
-    max-width: min(420px, 92%);
+    justify-self: center;
+    max-width: min(420px, 100%);
+    margin-top: 1rem;   /* little breathing room above the photo */
   }
 }
+
 
 /* Center only the Current Research section titles */
 .section-title{
