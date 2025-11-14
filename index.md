@@ -92,18 +92,16 @@ Use the buttons below to explore each part of the program research themes, the H
 
 
 
-<!-- Basic mixed track -->
-<div class="track-mixed" aria-hidden="true"></div>
 
 
 <!-- Animal-tracks divider -->
 <div class="track-mixed"
      data-types="hoof,paw,duck"
      data-size="15"
-     data-stride="40"
+     data-stride="35"
      data-offset="1"
-     data-amp="0.1"
-     data-waves="0.1"
+     data-amp="0.4"
+     data-waves="0.4"
      data-toe="12"              
      data-dir="1"          
      data-src-hoof="/assets/img/hoofprint.svg"
