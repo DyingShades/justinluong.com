@@ -758,6 +758,43 @@ article.person hr{ clear: both; }
 @media (min-width: 761px){
   .nav-band{ border-radius: 14px; margin: .75rem 16px 1.25rem; }
 }
+/* Keep Current Research content centered and not too wide */
+.research-section{
+  margin: 2.5rem auto;
+  max-width: 62rem;          /* caps overall width */
+}
+
+.section-text{
+  max-width: 42rem;          /* keeps line length comfortable */
+}
+
+/* Cap image size and stop it from dominating on tall/narrow windows */
+.section-img{
+  width: 100%;
+  height: auto;
+  max-width: 340px;
+  max-height: 260px;
+}
+
+/* Stack earlier so medium-width windows don’t look cramped */
+@media (max-width: 1100px){
+  .section-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .section-grid.right .section-img-wrap{
+    justify-self: center;
+    max-width: min(380px, 92%);
+    margin-top: .75rem;
+  }
+}
+
+/* Slightly smaller on very small phones */
+@media (max-width: 600px){
+  .section-img{
+    max-height: 220px;
+  }
+}
 
 /* --- Favorite plant  --- */
 .favorite-split{
