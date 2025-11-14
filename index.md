@@ -99,10 +99,10 @@ Use the buttons below to explore each part of the program research themes, the H
 <!-- Animal-tracks divider -->
 <div class="track-mixed"
      data-types="hoof,paw,duck"
-     data-size="14"
+     data-size="15"
      data-stride="40"
      data-offset="1"
-     data-amp="0.2"
+     data-amp="0.01"
      data-waves="0.4"
      data-toe="12"              
      data-dir="1"          
