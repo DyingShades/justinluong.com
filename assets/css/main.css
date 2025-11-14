@@ -950,4 +950,27 @@ nav.btn-grid a.btn.btn--soft:hover{
   background: rgba(0,50,98,.14);
   color: var(--ucb-blue);
 }
+/* === Current Research: better tablet/phone layout === */
+
+.research-section .section-img{
+  max-height: none !important;
+}
+
+
+@media (max-width: 1200px){
+  .research-section .section-grid{
+    display: block !important;            /* no 2-column grid */
+  }
+
+  .research-section .section-text{
+    max-width: 100% !important;           /* let text use full width */
+  }
+
+  .research-section .section-img{
+    display: block;
+    width: 100% !important;
+    max-width: 480px;                     /* nice size on tablets */
+    margin: 1rem auto 0;                  /* centered below the text */
+  }
+}
 
