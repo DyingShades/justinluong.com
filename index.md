@@ -91,14 +91,14 @@ Use the buttons below to explore each part of the program research themes, the H
 
 
 
-
+<br>
 
 
 <!-- Animal-tracks divider -->
 <div class="track-mixed"
      data-types="hoof,paw,duck"
      data-size="15"
-     data-stride="35"
+     data-stride="40"
      data-offset="1"
      data-amp="0.4"
      data-waves="0.4"
@@ -109,7 +109,7 @@ Use the buttons below to explore each part of the program research themes, the H
      data-src-duck="/assets/img/duckprint.svg"
      aria-hidden="true"></div>
 
-
+<br>
 
      
 _Rangelands are globally distributed habitats with high potential for supporting nature-based climate solutions. Yet, rangelands will be affected by human disturbances that result in severe habitat degradation and may need intervention to sufficiently recover._
