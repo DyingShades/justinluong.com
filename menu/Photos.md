@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photo Gallery
-permalink: /menu/gallery.html
+permalink: /menu/photos.html
 
 outings:
   - title: "Bobcat Ranch Field Trip"
