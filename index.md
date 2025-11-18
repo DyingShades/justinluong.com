@@ -68,12 +68,12 @@ Use the buttons below to explore each part of the program research themes, the H
 
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{% include href.html url='/menu/justinluong.html' %}">Dr. Justin Luong</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/currentpeople.html' %}">Lab Members</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/joinourteam.html' %}">Prospective Students</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/currentresearch.html' %}">Current Research</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
 
-  <a class="btn btn--outline" href="{% include href.html url='/menu/currentresearch.html' %}">Current Research</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/currentpeople.html' %}">Lab Members</a>
   <a class="btn btn--outline" href="{% include href.html url='/menu/aboutgrassnet.html' %}">GRASS Net</a>
-  <a class="btn btn--outline" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
+  <a class="btn btn--outline" href="{% include href.html url='/menu/contact.html' %}">Contact</a>
 
   <a class="btn btn--soft"
      href="{% include href.html url='https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0' %}"
