@@ -950,6 +950,73 @@ nav.btn-grid a.btn.btn--soft:hover{
   background: rgba(0,50,98,.14);
   color: var(--ucb-blue);
 }
+/* ========================================================
+   Photo Gallery page
+   ======================================================== */
+
+.gallery-page-intro{
+  margin: 1.75rem auto 2.25rem;
+  max-width: 58rem;
+}
+
+.gallery-page-intro h1{
+  margin-bottom: .4rem;
+}
+
+.gallery-page-intro p{
+  margin-top: 0;
+}
+
+/* One outing block */
+.gallery-outing{
+  margin: 2.5rem 0;
+}
+
+.gallery-outing__title{
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 800;
+  margin: .25rem 0 .25rem;
+}
+
+.gallery-outing__meta{
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: .9rem;
+}
+
+/* Text + slideshow side by side on desktop */
+.outing-grid{
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr);
+  gap: clamp(16px, 2.5vw, 28px);
+  align-items: flex-start;
+}
+
+.outing-text{
+  max-width: 40rem;
+}
+
+.outing-text p:first-child{
+  margin-top: 0;
+}
+
+.outing-media .slideshow{
+  margin: 0;                 /* override default margin so it sits tight */
+}
+
+/* Stack on smaller screens */
+@media (max-width: 960px){
+  .outing-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .outing-media{
+    max-width: min(520px, 100%);
+    margin-top: .75rem;
+  }
+}
+
 /* === Current Research: better tablet/phone layout === */
 
 .research-section .section-img{
