@@ -18,12 +18,12 @@ slides:
 
 
 ---
-# Join Our Team!
+#Join Our Team
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/menu/prospectivephdstudents.html' | relative_url }}">Prospective PhD Students</a>
-  <hr>
+  
   <a class="btn btn--primary" href="{{ '/menu/internationalstudents.html' | relative_url }}">International Students</a>
-  <hr>
+
   <a class="btn btn--primary" href="{{ '/menu/seniorthesisinternationalstudents.html' | relative_url }}">Senior Thesis + Internship</a>
 </nav>
 ORC-ID = [0000-0003-2118-4788](https://orcid.org/0000-0003-2118-4788)
