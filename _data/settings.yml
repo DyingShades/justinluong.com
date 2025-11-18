@@ -54,6 +54,8 @@ menu:
         url: 'illustratedsummaries.html'
       - name: 'Infographics'
         url: 'infographics.html'
+      - name: 'Photos'
+        url:  'photos.html'
     #removing parent URL links dropdown
 
 
