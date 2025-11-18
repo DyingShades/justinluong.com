@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Join Our Team!
+title: "Join Our Team!"
 slides: 
   - src: /assets/img/WiyotBurnBox2025.jpg
     alt: Burning at the Wiyot Tribe!
