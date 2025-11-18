@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Join Our Team!
 slides: 
   - src: /assets/img/WiyotBurnBox2025.jpg
     alt: Burning at the Wiyot Tribe!
@@ -18,7 +19,7 @@ slides:
 
 
 ---
-# Join Our Team
+
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/menu/prospectivephdstudents.html' | relative_url }}">Prospective PhD Students</a>
   
