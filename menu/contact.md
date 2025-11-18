@@ -18,8 +18,14 @@ slides:
 
 
 ---
-
-
+# Join Our Team!
+<nav class="btn-grid" aria-label="Site sections">
+  <a class="btn btn--primary" href="{{ '/menu/prospectivephdstudents.html' | relative_url }}">Prospective PhD Students</a>
+  <hr>
+  <a class="btn btn--primary" href="{{ '/menu/internationalstudents.html' | relative_url }}">International Students</a>
+  <hr>
+  <a class="btn btn--primary" href="{{ '/menu/seniorthesisinternationalstudents.html' | relative_url }}">Senior Thesis + Internship</a>
+</nav>
 ORC-ID = [0000-0003-2118-4788](https://orcid.org/0000-0003-2118-4788)
 
 If you are interested in hearing more about any of my research, or think that you may want to collaborate on a future or current project do not hesitate to contact me ([justinluong@berkeley.edu](mailto:justinluong@berkeley.edu)). I am not accepting any new graduate students until Fall 2027.   
