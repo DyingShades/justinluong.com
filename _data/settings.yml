@@ -44,17 +44,7 @@ menu:
         url:  'labalum.html'
 
         
-  - name: 'Join Our Team'
-    path: 'menu'
-    url:  'joinourteam.html'
-    submenu: 
-      - name: 'Prospective Ph.D. Students'
-        url:  'prospectivephdstudents.html'
-      - name: 'Prospective Postdocs'
-        url:  'postdocs.html'
-      - name: 'International Students'
-        url:  'internationalstudents.html'
-    
+ 
     
   - name: 'Art & Science'
     path: 'menu'
