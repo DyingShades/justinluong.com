@@ -18,7 +18,7 @@ slides:
 
 
 ---
-#Join Our Team
+# Join Our Team
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/menu/prospectivephdstudents.html' | relative_url }}">Prospective PhD Students</a>
   
