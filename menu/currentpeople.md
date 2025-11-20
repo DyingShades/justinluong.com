@@ -3,7 +3,7 @@ layout: current-research
 permalink: /menu/currentpeople.html
 
 sections: 
-    - title: "Ernesto Chavez-Velasco (M.S. Candidate)"
+    - title: "Ernesto Chavez-Velasco (Research Ecologist)"
       image:
           name: ErnestoLabPhoto.jpg
           alt: A photo of Ernesto conducting field work
@@ -57,7 +57,7 @@ sections:
             Hi, my name is Gabriel Abundis. I am a third-year majoring in rangeland resources with a minor in botany and soils. I am from southern California and although I grew up with nature, I never truly appreciated it for what it is. I fell in love with rangelands and their role in supporting ecosystems. Currently my research focuses intently on exploring the intricate dynamics between photovoltaic cells and the delicate coastal California grasslands. I am particularly interested in the forage value of species, and holistic approaches for rangeland management. When I am not in lab, I enjoy taking my dogs on adventures and eating/cooking.        
             <hr>
 
-    - title: "Claudia Alfaro Hernandez (Former Lab Assistant and Researcher Associate)"
+    - title: "Claudia Alfaro Hernandez (Former Lab Assistant and Research Associate)"
       image:
           name: ClaudiaAlfaro.jpeg
           alt: A photo of Claudia
@@ -140,15 +140,6 @@ sections:
             I am a full time student studying the management of rangelands at California Polytechnic University Humboldt. I focus on the development of sustainable rangeland management practices with an emphasis on soil health and native plant communities. I strive to restore rangeland ecosystems through native plant and soil restoration and the implementation of practices that allow the symbiotic relationship between humans and the land to return.          
             <hr>
 
-    - title: "Wendy Kornberg (Lab Assistant and Undergrad Researcher)"
-      image:
-          name: WendyKornberg.png
-          alt: A photo of Wendy
-          style: right
-      content: |
-            Wendy Kornberg runs her microfarm with her family is Southern Humboldt County, raising fruits and vegetables as well as rabbits and poultry. Kornberg is currently a student at Cal Poly Humboldt majoring in Rangeland Resource Science and is employed by the Luong Lab as a lab assistant and researcher, as well as being employed grading papers for CPH Biostatistics classes. She attended the University of California at Santa Barbara where she studied environmental science and chemistry before moving to the Hawaiian island of Maui to pursue advancement in the scuba diving industry while working in hospitality. Kornberg has a deep passion for the environment and sustainability; a passion that shows through at every level of her work. She ardently supports regenerative farms and cares intensely about people’s health and wellness and the connection to our food supply and ecosystem management. Kornberg sits on the CDFA’s Small Scale Producer Advisory Committee as well as being a board member on the Humboldt Area People’s Archive.          
-            <hr>
-
     - title: "JJ Madrigal Garcia (Lab Assistant)"
       image:
           name: JJMadrigalGarcia.jpeg
@@ -167,7 +158,7 @@ sections:
             Hi, I am Eli! I am the editor of this website and like many wonderful people around me I am finishing up my Range Resource Science degree. I have a passion for anything analytical and enjoy a healthy mix of plants on the range and electronics. I enjoy things like tissue culture, watch movement repair and audio engineering and am intrested broadly in using parallel computing, design + fabrication, and opensource concepts in areas that still rely on aging infrastructure. If you want to see more of my work you can learn more at eliengine.com - While grasses are cool carnivorous pitcher plants are my favorite especially _Nepenthesis Edwardsiana_
             <hr>
 
-    - title: "Max Shea (Former Lab Assistant and Researcher Associate)"
+    - title: "Max Shea (Former Lab Assistant and Research Associate)"
       image:
           name: maxshea.JPG
           alt: A photo of Max
