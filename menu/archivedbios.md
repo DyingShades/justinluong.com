@@ -30,12 +30,12 @@ sections:
             Hi, I am Ashley and I'm a Rangeland Resource Science major with a Minor in Botany. Some of my hobbies include enjoying anything outdoors including foraging, hiking, camping, and pressing plants. I also really enjoy journaling, scrapbooking/creating collages, and thrifting. In the future it would be really cool work in land conservation/ and or conducting plant surveys for government agencies. I have a passion for plants and I really enjoy learning new plant species everyday.          
             <hr>
           
-    - title: "Wendy Kornberg (Lab Assistant and Undergrad Researcher)"
-      image:
-          name: WendyKornberg.png
-          alt: A photo of Wendy
-          style: right
-      content: |
+     - title: "Wendy Kornberg (Lab Assistant and Undergrad Researcher)"
+       image:
+           name: WendyKornberg.png
+           alt: A photo of Wendy
+           style: right
+       content: |
             Wendy Kornberg runs her microfarm with her family is Southern Humboldt County, raising fruits and vegetables as well as rabbits and poultry. Kornberg is currently a student at Cal Poly Humboldt majoring in Rangeland Resource Science and is employed by the Luong Lab as a lab assistant and researcher, as well as being employed grading papers for CPH Biostatistics classes. She attended the University of California at Santa Barbara where she studied environmental science and chemistry before moving to the Hawaiian island of Maui to pursue advancement in the scuba diving industry while working in hospitality. Kornberg has a deep passion for the environment and sustainability; a passion that shows through at every level of her work. She ardently supports regenerative farms and cares intensely about people’s health and wellness and the connection to our food supply and ecosystem management. Kornberg sits on the CDFA’s Small Scale Producer Advisory Committee as well as being a board member on the Humboldt Area People’s Archive.          
             <hr>
             
