@@ -1,4 +1,3 @@
-/* -------------------------------------------------------
    Site CSS — UC Berkeley theme (Blue header / Gold menu)
    ------------------------------------------------------- */
 
@@ -677,8 +676,8 @@ th, td{ padding:15px; text-align:left; }
 /* Wildlife track divider — thin baseline + small prints */
 .track-mixed{
   position: relative;
-  height: 44px;              /* a bit taller so prints breathe */
-  margin: 1.5rem 0;
+  height: 28px;              /* a bit taller so prints breathe */
+  margin: 0.75rem 0;
   color: #222;               /* print color (inherits into SVG via currentColor) */
   opacity: .95;
 }
