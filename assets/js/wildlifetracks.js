@@ -12,9 +12,9 @@
     types: ['hoof','paw','duck'],
     size: 15,           // print height (px)
     stride: 60,        // distance between steps (px)
-    offset: 0.01,          // left/right step offset from center (px)
+    offset: 0.4,          // left/right step offset from center (px)
     amp: 0.15,             // sine amplitude (px)
-    waves: 0.3,         // sine waves across divider
+    waves: 0.5,         // sine waves across divider
     tilt: 6,            // small random foot tilt (deg)
     jitter: 6, 
     toe: 1,    
