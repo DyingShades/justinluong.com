@@ -691,9 +691,9 @@ th, td{ padding:15px; text-align:left; }
   background: rgba(0,0,0,.12);
   transform: translateY(-50%);
 }
-/* Hides the baseline if you add .no-line */
-.track-mixed.no-line::before{ display: none; }
-
+.track-mixed::before{
+  display: none;
+}
 .track-mixed > svg{
   display:block;
   width:100%;
