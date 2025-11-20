@@ -28,7 +28,7 @@ sections:
            style: right
        content: |
             Hi, I am Ashley and I'm a Rangeland Resource Science major with a Minor in Botany. Some of my hobbies include enjoying anything outdoors including foraging, hiking, camping, and pressing plants. I also really enjoy journaling, scrapbooking/creating collages, and thrifting. In the future it would be really cool work in land conservation/ and or conducting plant surveys for government agencies. I have a passion for plants and I really enjoy learning new plant species everyday.          
-              <hr>
+            <hr>
           
     - title: "Wendy Kornberg (Lab Assistant and Undergrad Researcher)"
       image:
