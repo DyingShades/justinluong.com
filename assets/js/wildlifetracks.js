@@ -231,7 +231,7 @@
   async function renderAll(){
     const tracks = document.querySelectorAll('.track-mixed');
     for (const el of tracks){
-      if (!el.style.height) el.style.height = '44px'; // guarantee a box
+      if (!el.style.height) el.style.height = '28px'; // guarantee a box
       await renderTrack(el);
     }
   }
