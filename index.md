@@ -39,9 +39,9 @@ slides:
       Dr. Luong's lab focuses on adapting restoration practices for changing climates, integrating management, and socio-economic perspectives to understand rangeland ecology. Lab members engage in hands-on, in-field learning opportunities in greenhouses and with practitioners that inform real-world rangeland restoration and management projects to cultivate a diverse and inclusive learning environment.
     </p>
     <ul class="intro-bullets">
-  <li>Restoration and Global Change: We study how restoration can adapt for changing climates and invasive species with field and greenhouse approaches to assist with practical management concerns and special status species.</li>
+  <li>Restoration and Global Change: We study how to adapt restoration for changing climates and invasive species with field and greenhouse approaches to assist with management concerns and special status species.</li>
       <br>
-  <li>GRASS Net: A practitioner community focused on seed sourcing, restoring diverse biodiversity and coordinating restoration of California grasslands to increase the scale and success of grassland restoration</li>
+  <li>GRASS Net: A practitioner community focused on restoring diverse biodiversity and coordinating restoration of California grasslands to increase the scale and success of grassland restoration</li>
       <br>
   <li>Rangeland multifunctionality: Our lab examines how to promote and optimize multiuse to support diverse ecosystem services on rangelands based in plant conservation.</li>
       <br>      
