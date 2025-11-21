@@ -9,14 +9,15 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:  
-  - name: 'Publications'
-    path: 'menu'   # = /menu/publications.html
-    url:  'publications.html'
- 
 
   - name: 'Current Research'
     path: 'menu'       # Blank means root | root = cv.html
     url:  'currentresearch.html'
+    submenu:
+    - name: 'Current Research'
+      url:  'currentresearch.html'
+    - name: 'Publications'
+      url:  'publications.html'
    
 
    
