@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-{{ content }}
 
 {% for section in page.sections %}
 <section class="research-section">
@@ -40,3 +39,12 @@ layout: page
   <hr class="section-divider">
 </section>
 {% endfor %}
+
+{%- comment -%}
+  Anything written after the YAML front matter in the page
+  (your note + Ecologists for Equity image)
+  will appear down here, AFTER all sections.
+{%- endcomment -%}
+<div class="page-footer-content">
+  {{ content }}
+</div>
