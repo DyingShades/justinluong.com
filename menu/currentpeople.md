@@ -151,8 +151,8 @@ sections:
 
     - title: "Julie Meyers (Lab Assistant)"
       image:
-          name: JulieMeyer.jpg
-          alt: A photo of Julie Meyer
+          name: JulieMeyers.jpg
+          alt: A photo of Julie Meyers
           style: right
       content: |
             I am a senior majoring in Environmental Science and Management with a concentration in Ecological Restoration. I’m originally from the Washington, D.C. area, but some of my fondest memories come from weekends spent at my uncle’s ranch in the scenic Blue Ridge Mountains. That’s really where my fascination with livestock care, wildlife, and habitat conservation took root. After relocating to Humboldt County, I started studying redwood ecology and, after taking a rangeland management class, I rekindled my love of ecological restoration. My research interests now focus on ecological restoration in coastal prairies and the application of climate adaptation strategies in coastal environments. Working as a Student Research Assistant in the Luong Lab, I’ve loved learning about Northern California’s unique ecosystems and being part of projects that foster conservation and restoration. In my free time, I enjoy swimming, biking, and saying hi to my favorite redwoods.          
