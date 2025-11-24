@@ -149,6 +149,15 @@ sections:
             Hello! My name is J.J. I am a senior undergraduate studying Rangeland Resource Science with a minor in Sustainable Food Systems. My interests include food sovereignty, gardening, and ethnobotany. Cooking with family was a very important aspect of my growing up and inspired my passion for sustainable food systems. One of my favorite plants recently has been one my grandma introduced me to outside her house in Michoacan, Mexico. She called it cinco llagas: Tagetes lunulata. I enjoy spending time in the sun and making fiber arts and other crafts.          
             <hr>
 
+    - title: "Julie Meyers (Lab Assistant)"
+      image:
+          name: JulieMeyer.jpg
+          alt: A photo of Julie Meyer
+          style: right
+      content: |
+            I am a senior majoring in Environmental Science and Management with a concentration in Ecological Restoration. I’m originally from the Washington, D.C. area, but some of my fondest memories come from weekends spent at my uncle’s ranch in the scenic Blue Ridge Mountains. That’s really where my fascination with livestock care, wildlife, and habitat conservation took root. After relocating to Humboldt County, I started studying redwood ecology and, after taking a rangeland management class, I rekindled my love of ecological restoration. My research interests now focus on ecological restoration in coastal prairies and the application of climate adaptation strategies in coastal environments. Working as a Student Research Assistant in the Luong Lab, I’ve loved learning about Northern California’s unique ecosystems and being part of projects that foster conservation and restoration. In my free time, I enjoy swimming, biking, and saying hi to my favorite redwoods.          
+            <hr>
+
     - title: "Elias Sandoval (Lab Assistant)"
       image:
          name: EliasS.jpg
