@@ -293,6 +293,17 @@ details.menu-collapsible[open] .menu-content{ display:flex; }
 
   /* hide socials only while the menu is open */
   .menu-collapsible[open] ~ .social-icons{ display:none !important; }
+  @media (max-width:760px){
+  
+
+ 
+  .nav-band .dropdown.is-open > .dropdown-content{
+    display: block;
+  }
+}
+
+}
+
 }
 
 /* Social icons on gold */
