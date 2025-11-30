@@ -12,7 +12,6 @@ menu:
 
   - name: 'Current Research'
     path: 'menu'       # Blank means root | root = cv.html
-    url:  'currentresearch.html'
     submenu:
     - name: 'Current Research'
       url:  'currentresearch.html'
@@ -23,7 +22,6 @@ menu:
    
   - name: 'California GRASS-Net'
     path: 'menu'
-    url:  'aboutgrassnet.html'
     submenu: 
     - name: 'About GrassNet'     #Home and first subpage
       url:  'aboutgrassnet.html'
@@ -35,7 +33,6 @@ menu:
     
   - name: 'People'
     path: 'menu'
-    url:  'currentpeople.html'
     submenu:
       - name: 'Justin Luong'
         url:  'justinluong.html'
@@ -49,7 +46,6 @@ menu:
     
   - name: 'Art & Science'
     path: 'menu'
-    url:  'illustratedsummaries.html'
     submenu:
       - name: 'Illustrated Summaries'
         url: 'illustratedsummaries.html'
