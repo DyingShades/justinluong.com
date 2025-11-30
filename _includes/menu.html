@@ -83,17 +83,18 @@
 </script>
 <script>
 (function () {
-  const isDesktop = () => window.matchMedia('(min-width: 761px)').matches &&
-                         window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  const isDesktop = () =>
+    window.matchMedia('(min-width: 761px)').matches &&
+    window.matchMedia('(hover:hover) and (pointer:fine)').matches;
 
   function measureShown(el){
     // Temporarily show the panel to measure if it's hidden
-    const prevVis = el.style.visibility;
+    const prevVis  = el.style.visibility;
     const prevDisp = el.style.display;
     el.style.visibility = 'hidden';
-    el.style.display = 'block';
+    el.style.display    = 'block';
     const rect = el.getBoundingClientRect();
-    el.style.display = prevDisp || '';
+    el.style.display    = prevDisp || '';
     el.style.visibility = prevVis || '';
     return rect;
   }
@@ -104,36 +105,37 @@
 
     // Reset alignment before measuring
     drop.classList.remove('align-right');
-    panel.style.right = ''; panel.style.left = '';
+    panel.style.right = '';
+    panel.style.left  = '';
 
     // Measure (works even if hidden)
     const rect = measureShown(panel);
-    const pad = 12; // margin from viewport edge
+    const pad  = 12; // margin from viewport edge
 
     const overflowRight = rect.right > (window.innerWidth - pad);
     const overflowLeft  = rect.left  < pad;
 
     if (overflowRight) {
-      drop.classList.add('align-right');        // CSS pins to right
+      drop.classList.add('align-right');     // CSS pins to right
     } else if (overflowLeft) {
-      drop.classList.remove('align-right');     // keep left
-      panel.style.left = pad + 'px';            // nudge inside viewport
+      drop.classList.remove('align-right');  // keep left
+      panel.style.left = pad + 'px';         // nudge inside viewport
     }
 
     // Vertical safety: if panel would go off the bottom, cap height & scroll
     const maxH = Math.min(window.innerHeight * 0.7, 520);
     if (rect.height > maxH) {
       panel.style.maxHeight = maxH + 'px';
-      panel.style.overflow = 'auto';
+      panel.style.overflow  = 'auto';
     } else {
       panel.style.maxHeight = '';
-      panel.style.overflow = '';
+      panel.style.overflow  = '';
     }
   }
 
   const DROPS = document.querySelectorAll('.nav-band .dropdown');
 
-  // Reposition right before it opens (hover/focus)
+  // Desktop: reposition on hover/focus
   DROPS.forEach(dd => {
     dd.addEventListener('mouseenter', () => positionPanel(dd));
     dd.addEventListener('focusin',    () => positionPanel(dd));
@@ -141,5 +143,48 @@
 
   // Re-check on resize/orientation change
   window.addEventListener('resize', () => DROPS.forEach(positionPanel));
+
+  // ===== Mobile: tap-to-open dropdowns =====
+  const mobileMq = window.matchMedia('(max-width: 760px)');
+
+  function closeAllDropdowns(){
+    DROPS.forEach(dd => dd.classList.remove('is-open'));
+  }
+
+  DROPS.forEach(drop => {
+    // parent with submenu: either <a.parent-link.has-sub> or <span.menu-link.has-sub>
+    const trigger = drop.querySelector('.parent-link, .menu-link.has-sub');
+    if (!trigger) return;
+
+    trigger.addEventListener('click', function (e) {
+      // Only intercept clicks when in the mobile layout
+      if (!mobileMq.matches) return;
+
+      const alreadyOpen = drop.classList.contains('is-open');
+
+      if (!alreadyOpen) {
+        // First tap: open submenu instead of navigating away
+        e.preventDefault();
+        closeAllDropdowns();
+        drop.classList.add('is-open');
+      } else {
+        // Second tap: let the normal link behavior happen
+        // Optional: close everything when leaving
+        closeAllDropdowns();
+      }
+    });
+  });
+
+  // When switching out of mobile (e.g., rotate or resize), clear mobile state
+  if (mobileMq.addEventListener) {
+    mobileMq.addEventListener('change', e => {
+      if (!e.matches) closeAllDropdowns();
+    });
+  } else if (mobileMq.addListener) {
+    // older browsers
+    mobileMq.addListener(function (e) {
+      if (!e.matches) closeAllDropdowns();
+    });
+  }
 })();
 </script>
