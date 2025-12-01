@@ -177,6 +177,17 @@ sections:
 
             <hr>
 
+    - title: "Danielle Virnoche (Lab Assistant)"
+      image:
+          name: DanielleVirnoche.JPG
+          alt: A photo of Danielle
+          style: right
+      content: |
+            Hello, my name is Danielle Virnoche, and I am a student assistant in the Luong Lab. I'm currently in my third year at Cal Poly Humboldt studying Forestry with a concentration in Forest Soils. I originally went to college to pursue a degree in psychology, but I realized a more active and outdoors career is what was going to make me happy. I appreciate what my field work and the people I've worked with taught me; the most important being that I found the right career path. I hope I can work for the Forest Service as a soil scientist in the future. In my free time, I like playing rugby, practicing logging sports, and riding my motorcycle.      
+
+            <hr>
+
+
     - title: "Kai Zerbo (Lab Assistant)"
       image:
           name: kaizerbo.jpg
