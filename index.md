@@ -121,6 +121,15 @@ _**Please excuse errors, as the website is under construction**_
   </iframe>
 </div>
 
+Looking for something or want to explore more?
+
+<nav class="btn-grid" aria-label="Site sections">
+  <a class="btn btn--primary" href="{% include href.html url='/menu/justinluong.html' %}">Website Resources</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/currentresearch.html' %}">Photos</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
+
+</nav>
+
 <style>
   /* Make the iframe keep a 16:9 aspect ratio and scale nicely */
   .yt-wrap {
