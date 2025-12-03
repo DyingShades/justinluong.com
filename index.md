@@ -146,13 +146,7 @@ _**Please excuse errors, as the website is under construction**_
     .yt-wrap iframe { position: absolute; inset: 0; height: 100%; }
   }
 </style>
-<div align="center">
-  <img src="/assets/img/KneelandDroughtNet.jpg" alt="Graduate Students and Lab Manager setting up a drought structure" width="750">
-</div>  
 
-<div align="center">
-  <img src="/assets/img/about-page.jpg" alt="Description" width="750">
-</div>  
 
 <script>
 (function () {
