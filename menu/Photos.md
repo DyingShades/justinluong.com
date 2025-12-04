@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Photo Gallery
 permalink: /menu/photos.html
 load_slideshow: true
 
