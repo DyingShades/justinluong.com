@@ -124,8 +124,8 @@ _**Please excuse errors, as the website is under construction**_
 Looking for something or want to explore more?
 
 <nav class="btn-grid" aria-label="Site sections">
-  <a class="btn btn--primary" href="{% include href.html url='/menu/justinluong.html' %}">Website Resources</a>
-  <a class="btn btn--primary" href="{% include href.html url='/menu/currentresearch.html' %}">Photos</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/contact.html' %}">Website Resources</a>
+  <a class="btn btn--primary" href="{% include href.html url='/menu/Photos.html' %}">Photos</a>
   <a class="btn btn--primary" href="{% include href.html url='/menu/publications.html' %}">Publications</a>
 
 </nav>
