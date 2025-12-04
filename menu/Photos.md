@@ -47,21 +47,23 @@ outings:
   <h1>Photo Gallery</h1>
   <p>
     A peek into our lab’s field trips, restoration projects, and everyday moments.
-    Browse by outing to see where we’ve been and what we’ve been up to.
+    Browse the featured trip, then scroll through photo highlights from across our outings.
   </p>
 </div>
 
-{% for outing in page.outings %}
-<section class="gallery-outing">
+{%- assign featured = page.outings[0] -%}
+
+<!-- Featured outing with slideshow (only one) -->
+<section class="gallery-outing gallery-outing--featured">
   <div class="container">
-    <h2 class="gallery-outing__title">{{ outing.title }}</h2>
-    {% if outing.date %}
-      <p class="gallery-outing__meta">{{ outing.date }}</p>
+    <h2 class="gallery-outing__title">{{ featured.title }}</h2>
+    {% if featured.date %}
+      <p class="gallery-outing__meta">{{ featured.date }}</p>
     {% endif %}
 
     <div class="outing-grid">
       <div class="outing-text">
-        {{ outing.blurb | markdownify }}
+        {{ featured.blurb | markdownify }}
       </div>
 
       <div class="outing-media">
@@ -71,11 +73,11 @@ outings:
           data-interval="6000"
         >
           <div class="slides">
-            {% for photo in outing.photos %}
+            {% for photo in featured.photos %}
             <figure class="slide{% if forloop.first %} is-active{% endif %}">
               <img
                 src="{{ site.baseurl }}/assets/img/{{ photo.src }}"
-                alt="{{ photo.alt | default: outing.title }}"
+                alt="{{ photo.alt | default: featured.title }}"
               >
               {% if photo.caption %}
               <figcaption>{{ photo.caption }}</figcaption>
@@ -99,12 +101,12 @@ outings:
 
           <!-- Dots -->
           <div class="dots" role="tablist" aria-label="Choose photo">
-            {% for photo in outing.photos %}
+            {% for photo in featured.photos %}
             <button
               type="button"
               role="tab"
               aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
-              aria-label="Show photo {{ forloop.index }} from {{ outing.title }}"
+              aria-label="Show photo {{ forloop.index }} from {{ featured.title }}"
             ></button>
             {% endfor %}
           </div>
@@ -113,6 +115,38 @@ outings:
     </div>
 
     <hr class="section-divider">
+  </div>
+</section>
+
+<!-- Photo panel: even square tiles from all outings -->
+<section class="gallery-mosaic">
+  <div class="container">
+    <h2 class="gallery-mosaic__title">Photo highlights</h2>
+    <p class="gallery-mosaic__intro">
+      A mix of field shots, lab moments, and favorite views from across our trips.
+    </p>
+
+    <div class="gallery-grid">
+      {% for outing in page.outings %}
+        {% for photo in outing.photos %}
+          <figure class="gallery-grid__item">
+            <div class="gallery-grid__img-wrap">
+              <img
+                src="{{ site.baseurl }}/assets/img/{{ photo.src }}"
+                alt="{{ photo.alt | default: outing.title }}"
+              >
+            </div>
+            <figcaption>
+              {% if photo.caption %}
+                {{ photo.caption }}
+              {% else %}
+                {{ outing.title }}
+              {% endif %}
+            </figcaption>
+          </figure>
+        {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 {% endfor %}
