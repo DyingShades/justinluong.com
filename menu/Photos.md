@@ -43,7 +43,6 @@ outings:
 ---
 
 <div class="container gallery-page-intro">
-  <h1>Photo Gallery</h1>
   <p>
     A peek into our lab’s field trips, restoration projects, and everyday moments.
     Browse the featured trip, then scroll through photo highlights from across our outings.
