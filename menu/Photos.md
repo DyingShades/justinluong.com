@@ -149,4 +149,4 @@ outings:
     </div>
   </div>
 </section>
-{% endfor %}
+
