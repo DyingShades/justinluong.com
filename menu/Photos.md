@@ -51,7 +51,7 @@ outings:
 
 {%- assign featured = page.outings[0] -%}
 
-<!-- Featured outing with slideshow (only one) -->
+<!-- Featured outing with slideshow  -->
 <section class="gallery-outing gallery-outing--featured">
   <div class="container">
     <h2 class="gallery-outing__title">{{ featured.title }}</h2>
@@ -116,7 +116,7 @@ outings:
   </div>
 </section>
 
-<!-- Photo panel: even square tiles from all outings -->
+<!-- Photo panel -->
 <section class="gallery-mosaic">
   <div class="container">
     <h2 class="gallery-mosaic__title">Photo highlights</h2>
