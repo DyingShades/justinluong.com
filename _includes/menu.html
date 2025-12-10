@@ -53,13 +53,22 @@
 
     <!-- Social icons -->
     <nav class="social-icons" aria-label="Social">
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" target="_blank" rel="noopener">
-          <i class="fa fa-{{ item.icon }}" aria-hidden="false"></i>
-          <span class="sr-only">{{ item.icon }}</span>
-        </a>
-      {% endfor %}
-    </nav>
+  {% for item in site.data.settings.social %}
+    <a href="{{ item.link }}" target="_blank" rel="noopener">
+      {% if item.type == "svg" %}
+        <img
+          src="{{ '/assets/img/researchgatelogo.png' | relative_url }}"
+          alt="ResearchGate"
+          class="social-icon-svg"
+        >
+      {% else %}
+        <i class="fa fa-{{ item.icon }}" aria-hidden="true"></i>
+        <span class="sr-only">{{ item.icon }}</span>
+      {% endif %}
+    </a>
+  {% endfor %}
+</nav>
+
 
   </div>
 </div>
