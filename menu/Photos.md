@@ -22,15 +22,6 @@ outings:
       - src: dyecreek baby cow.jpg
         alt: "Baby cow at Dye Creek"
         caption: "Bonus baby cow from a related rangeland visit."
-
-  - title: "Arcata Marsh Sunset Walk"
-    date: "October 2024"
-    blurb: |
-      An evening walk at the Arcata Marsh & Wildlife Sanctuary to unwind after
-      a busy week in the lab. We looked at restored wetlands, tidal channels, and
-      chatted about blue carbon, birds, and future project ideas.
-
-    photos:
       - src: ArcataMarshSunset.jpg
         alt: "Sunset at Arcata Marsh"
         caption: "Sunset over the restored marsh."
