@@ -248,6 +248,12 @@ header.masthead .menu{ margin-left:auto; }
 details.menu-collapsible .menu-content{ display:none; }
 details.menu-collapsible[open] .menu-content{ display:flex; }
 
+.social-icons .social-icon-svg {
+  height: 1.1em;          /* match icon size */
+  vertical-align: -0.1em; /* nudge down to align baseline */
+  fill: currentColor;     /* if it’s an SVG using fill="currentColor" */
+}
+
 
 /* ===== Mobile menu (<=760px): FULL-WIDTH, LEFT-ALIGNED ===== */
 @media (max-width:760px){
