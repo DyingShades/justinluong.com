@@ -966,6 +966,19 @@ nav.btn-grid a.btn.btn--soft:hover{
   background: rgba(0,50,98,.14);
   color: var(--ucb-blue);
 }
+
+.fa-researchgate:before {
+  content: "";
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  background-image: url("/assets/img/researchgate.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: -0.1em;
+}
+
 /* ========================================================
    Photo Gallery page
    ======================================================== */
