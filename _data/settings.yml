@@ -23,16 +23,14 @@ menu:
   - name: 'California GRASS-Net'
     path: 'menu'
     submenu: 
-    - name: 'About GrassNet'     #Home and first subpage
+    - name: 'About GrassNet'    
       url:  'aboutgrassnet.html'
-    - name: 'Get Involved'       #Middle subpage
-      url:  'getinvolved.html'
-    - name: 'Resources'          #Last subpage
-      url:  'resources.html'
     - name: 'Grass Land Restoration Practitioners'
       url:  'Grasslandrestorationpractitioners.html'
     - name: 'Restoration Projects'
       url:  'Restorationprojects.html'
+    - name: 'Connect With Us'       
+      url:  'getinvolved.html'
 
     
   - name: 'People'
