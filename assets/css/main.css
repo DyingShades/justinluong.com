@@ -966,7 +966,7 @@ nav.btn-grid a.btn.btn--soft:hover{
   background: rgba(0,50,98,.14);
   color: var(--ucb-blue);
 }
-
+/* Fake fontawesaome for reserch gate */
 .fa-researchgate:before {
   content: "";
   display: inline-block;
