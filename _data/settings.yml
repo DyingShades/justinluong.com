@@ -31,6 +31,8 @@ menu:
       url:  'resources.html'
     - name: 'Grass Land Restoration Practitioners'
       url:  'Grasslandrestorationpractitioners.html'
+    - name: 'Restoration Projects'
+      url:  'Restorationprojects.html'
 
     
   - name: 'People'
