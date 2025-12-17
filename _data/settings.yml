@@ -29,8 +29,7 @@ menu:
       url:  'Grasslandrestorationpractitioners.html'
     - name: 'Restoration Projects'
       url:  'Restorationprojects.html'
-    - name: 'Connect With Us'       
-      url:  'getinvolved.html'
+  
 
     
   - name: 'People'
