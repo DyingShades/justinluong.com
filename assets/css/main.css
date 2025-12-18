@@ -1107,6 +1107,137 @@ nav.btn-grid a.btn.btn--soft:hover{
   color: var(--muted);
   line-height: 1.3;
 }
+/* ========================================================
+   Grassland Restoration Practitioners
+   (headshot + bio + mosaic photo library)
+   ======================================================== */
+
+.practitioners-intro{
+  margin: 1.25rem auto 2rem;
+  max-width: 58rem;
+}
+
+.practitioner{
+  margin: 2.25rem 0;
+  padding: 1.25rem clamp(14px, 2vw, 22px);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,.05);
+}
+
+.practitioner__name{
+  margin: 0 0 .15rem 0;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 900;
+}
+
+.practitioner__kicker{
+  margin: 0 0 .9rem 0;
+  color: var(--muted);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: .95rem;
+  line-height: 1.35;
+}
+
+.practitioner-grid{
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(220px, .95fr);
+  gap: clamp(14px, 2.2vw, 28px);
+  align-items: start;
+}
+
+.practitioner__headshot{
+  justify-self: end;
+  margin: 0;
+}
+
+.practitioner__headshot img{
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 340px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.10);
+}
+
+.practitioner__headshot figcaption{
+  margin-top: .45rem;
+  text-align: center;
+  font-size: .85rem;
+  color: var(--muted);
+}
+
+.practitioner__bio p:first-child{ margin-top: 0; }
+
+.practitioner-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: .75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.practitioner-tags .tag{
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.08);
+  background: var(--accent-bg);
+  color: var(--ucb-blue);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 800;
+  font-size: .82rem;
+  line-height: 1.2;
+}
+
+.practitioner-actions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .95rem 0 0;
+}
+
+.practitioner-actions a{
+  text-decoration: none !important;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 900;
+  padding: .45rem .65rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.10);
+  background: #fff;
+  color: var(--text);
+  box-shadow: 0 6px 14px rgba(0,0,0,.06);
+}
+
+.practitioner-actions a:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0,0,0,.10);
+}
+
+.practitioner-actions a.is-primary{
+  background: var(--ucb-blue);
+  color: #fff;
+  border-color: rgba(0,0,0,.06);
+}
+.practitioner-actions a.is-primary:hover{
+  background: var(--ucb-blue-600);
+  color: #fff;
+}
+
+/* Stack on smaller screens */
+@media (max-width: 960px){
+  .practitioner-grid{
+    grid-template-columns: 1fr;
+  }
+  .practitioner__headshot{
+    justify-self: center;
+    max-width: min(420px, 100%);
+    margin-top: .5rem;
+  }
+}
 
 /* === Current Research: better tablet/phone layout === */
 
