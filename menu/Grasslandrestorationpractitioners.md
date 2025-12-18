@@ -13,10 +13,7 @@ practitioners:
     headshot_caption: "Optional caption (e.g., Field site, year)"
 
     bio: |
-      **Placeholder bio.** Add 2–5 sentences describing what this person does,
-      their focus areas, and the kinds of projects they work on.
-
-      You can add a second paragraph here if needed.
+      **Placeholder bio.** 
 
     tags:
       - "Seed collection"
@@ -25,9 +22,6 @@ practitioners:
       - "Invasive management"
 
     links:
-      - label: "Email"
-        url: "mailto:example@domain.edu"
-        primary: false
       - label: "Website"
         url: "https://example.com"
         primary: true
