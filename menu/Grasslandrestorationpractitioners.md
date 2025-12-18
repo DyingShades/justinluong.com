@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grassland Restoration Practitioners
-permalink: /menu/grassland-restoration-practitioners.html
+permalink: /menu/Grasslandrestorationpractitioners.html
 
 # Copy/paste a new block under practitioners: to add another person.
 practitioners:
