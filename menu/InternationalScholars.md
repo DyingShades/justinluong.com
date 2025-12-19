@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visiting International Scholars
-permalink: /menu/internationalstudents.html
+permalink: /menu/internationalscholars.html
 ---
 
 Dear Prospective International Visitor,
