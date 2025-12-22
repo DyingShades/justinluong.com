@@ -20,7 +20,7 @@ menu:
    
 
    
-  - name: 'California GRASS-Net'
+  - name: 'California GrassNet'
     path: 'menu'
     submenu: 
     - name: 'About GrassNet'    
