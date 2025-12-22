@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About California GRASS-NET
+title: About California GrassNet
 permalink: /menu/aboutgrassnet.html
 ---
 <hr>
