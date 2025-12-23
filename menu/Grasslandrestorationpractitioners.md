@@ -6,8 +6,8 @@ permalink: /menu/Grasslandrestorationpractitioners.html
 # Copy/paste a new block under practitioners: to add another person.
 practitioners:
   - name: "Scott Butterfield"
-    role: "Lead Scientist at The Nature Conservancy in California (e.g., Land Program)"
-    location: "Organization • Region"
+    role: "Lead Scientist at The Nature Conservancy in California"
+    location: "Land Program"
     headshot: "placeholder-headshot.jpg"
     headshot_alt: "H. Scott Butterfield"
     headshot_caption: "Optional caption (e.g., Field site, year)"
