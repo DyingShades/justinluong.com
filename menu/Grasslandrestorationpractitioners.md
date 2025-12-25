@@ -8,7 +8,7 @@ practitioners:
   - name: "Scott Butterfield"
     role: "Lead Scientist at The Nature Conservancy in California"
     location: "Land Program"
-    headshot: "placeholder-headshot.jpg"
+    headshot: "ScottButterfield.jpg"
     headshot_alt: "H. Scott Butterfield"
     headshot_caption: "Optional caption (e.g., Field site, year)"
 
