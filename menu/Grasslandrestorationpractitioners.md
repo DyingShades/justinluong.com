@@ -10,10 +10,9 @@ practitioners:
     location: "Land Program"
     headshot: "ScottButterfield-bio-tb.jpg"
     headshot_alt: "H. Scott Butterfield"
-    headshot_caption: "Optional caption (e.g., Field site, year)"
 
     bio: |
-      In The Nature Conservancy's California Chapter, Scott is a Lead Scientist in the Land Program, helping to oversee science, stewardship, including cattle grazing, and land protection across TNC's more than 400,000 acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monumnet. Read more here (https://www.scienceforconservation.org/our-team/scott-butterfield)
+      In The Nature Conservancy's California Chapter, Scott is a Lead Scientist in the Land Program, helping to oversee science, stewardship, including cattle grazing, and land protection across TNC's more than 400,000 acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monumnet. 
 
     tags:
       - "Rangeland Restoration"
@@ -22,6 +21,10 @@ practitioners:
 
     links:
       - label: "Website"
+        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
+        primary: true
+        
+      - label: "Biography"
         url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
         primary: true
 
