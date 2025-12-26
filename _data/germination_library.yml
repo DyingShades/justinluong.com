@@ -1,5 +1,28 @@
 # Add new species entries here (one block per species)
 
+- common_name: "California Oatgrass"
+  scientific_name: "Danthonia Cal"
+  family: "Poaceae"
+  photo: "seedlibrary/elymus-glaucus.jpg"   # put image in /assets/img/seedlibrary/
+  photo_alt: "Danthonia Californica seedling"
+  short_bio: "Placeholder"
+  region: "CA, OR, WA"
+  habitat: "Placeholder"
+
+  # Quick germination facts (keep these short)
+  pretreatment: "Cold moist stratification"
+  stratification: "2–4 weeks @ ~1–5°C"
+  light: "Tolerates dark; light can help"
+  temp: "15–20°C (room temp)"
+  days_to_germinate: "7–21 days"
+  germination_rate: "40–80% (variable)"
+
+  sowing_notes: "Surface to 0.5 cm; keep evenly moist. Avoid waterlogging."
+  sources:
+    - label: "USDA PLANTS profile"
+      url: "https://plants.usda.gov/"
+    - label: "Local protocol (placeholder)"
+      url: ""
 - common_name: "Blue wildrye"
   scientific_name: "Elymus glaucus"
   family: "Poaceae"
