@@ -1,0 +1,42 @@
+# Add new species entries here (one block per species)
+
+- common_name: "Blue wildrye"
+  scientific_name: "Elymus glaucus"
+  family: "Poaceae"
+  photo: "seedlibrary/elymus-glaucus.jpg"   # put image in /assets/img/seedlibrary/
+  photo_alt: "Elymus glaucus seedling"
+  short_bio: "Cool-season native bunchgrass common in coastal and foothill systems."
+  region: "CA, OR, WA"
+  habitat: "Open woodland, grassland edges, coastal scrub"
+
+  # Quick germination facts (keep these short)
+  pretreatment: "Cold moist stratification"
+  stratification: "2–4 weeks @ ~1–5°C"
+  light: "Tolerates dark; light can help"
+  temp: "15–20°C (room temp)"
+  days_to_germinate: "7–21 days"
+  germination_rate: "40–80% (variable)"
+
+  sowing_notes: "Surface to 0.5 cm; keep evenly moist. Avoid waterlogging."
+  sources:
+    - label: "USDA PLANTS profile"
+      url: "https://plants.usda.gov/"
+    - label: "Local protocol (placeholder)"
+      url: ""
+
+- common_name: "California poppy"
+  scientific_name: "Eschscholzia californica"
+  family: "Papaveraceae"
+  photo: "seedlibrary/eschscholzia-californica.jpg"
+  photo_alt: "California poppy flower"
+  short_bio: "Annual/perennial forb; easy starter species for restoration mixes."
+  region: "CA"
+  habitat: "Grasslands, disturbed sites, coastal bluffs"
+  pretreatment: "None"
+  stratification: "Not required"
+  light: "Light preferred"
+  temp: "15–22°C"
+  days_to_germinate: "7–14 days"
+  germination_rate: "60–90%"
+  sowing_notes: "Sow shallow; do not bury deeply. Let soil surface dry slightly between mistings."
+  sources: []
