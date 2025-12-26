@@ -3,7 +3,7 @@ layout: current-research
 permalink: /menu/currentpeople.html
 
 sections: 
-    - title: "Ernesto Chavez-Velasco (Research Ecologist)"
+    - title: "Ernesto Chavez-Velasco, M.S. (Research Ecologist)"
       image:
           name: ErnestoLabPhoto.jpg
           alt: A photo of Ernesto conducting field work
@@ -179,7 +179,7 @@ sections:
 
     - title: "Danielle Virnoche (Lab Assistant)"
       image:
-          name: DanielleVirnoche.JPG
+          name: DanielleVirnoche.jpg
           alt: A photo of Danielle
           style: right
       content: |
