@@ -29,8 +29,10 @@ menu:
       url:  'Grasslandrestorationpractitioners.html'
     - name: 'Restoration Projects'
       url:  'Restorationprojects.html'
+    - name: 'Resources for Grassland Restoration'
+      url:  'Resourcesforgrasslandrestoration.html'
     - name: 'Library for Germination Protocalls'
-      url:  'Libraryforgerminationprotocalls.html'
+      url:  'libraryforgerminationprotocalls.html'
   
 
     
