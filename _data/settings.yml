@@ -25,7 +25,7 @@ menu:
     submenu: 
     - name: 'About GrassNet'    
       url:  'aboutgrassnet.html'
-    - name: 'Grass Land Restoration Practitioners'
+    - name: 'Grassland Restoration Practitioners'
       url:  'Grasslandrestorationpractitioners.html'
     - name: 'Restoration Projects'
       url:  'Restorationprojects.html'
