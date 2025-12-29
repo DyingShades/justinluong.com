@@ -6,6 +6,17 @@
     {% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | default: "Site" | escape }}
   </title>
   
+  <!-- Google Analytics 4 -->
+  {% if jekyll.environment == "production" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  {% endif %}
+  
   <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
