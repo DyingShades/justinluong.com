@@ -1,5 +1,102 @@
 # Add new species entries here (one block per species)
 
+- common_name: "Prairie Junegrass"
+  scientific_name: "Koeleria macrantha"
+  family: "Poaceae"
+  photo: "seedlibrary/koeleria-macrantha.jpg"
+  photo_alt: "Koeleria macrantha seedlings"
+  short_bio: "Fine-textured bunchgrass for dry prairies and open sites; tidy look and drought tolerant."
+  region: "CA, OR, WA"
+  habitat: "Dry grasslands, open slopes, sandy or well-drained soils"
+
+  pretreatment: "Cold moist stratification (optional)"
+  stratification: "0–4 weeks @ ~1–5°C (optional)"
+  light: "Light can help (shallow sow)"
+  temp: "15–20°C"
+  days_to_germinate: "7–21 days"
+  germination_rate: "Moderate; variable"
+
+  sowing_notes: "Surface to 0.5 cm; avoid burying deep. Likes well-drained seed beds."
+  sources: []
+
+- common_name: "California Brome"
+  scientific_name: "Bromus carinatus"
+  family: "Poaceae"
+  photo: "seedlibrary/bromus-carinatus.jpg"
+  photo_alt: "Bromus carinatus seedlings"
+  short_bio: "Quick-growing native brome used for erosion control and cover; good in restoration mixes."
+  region: "CA, OR, WA"
+  habitat: "Grasslands, open woodlands, roadsides, disturbed areas"
+
+  pretreatment: "None"
+  stratification: "Not required"
+  light: "Not required"
+  temp: "15–22°C"
+  days_to_germinate: "3–10 days"
+  germination_rate: "High with fresh seed"
+
+  sowing_notes: "Sow 0.5–1 cm; easy starter species. Great as a “nurse grass” with slower natives."
+  sources: []
+  
+- common_name: "Tufted Hairgrass"
+  scientific_name: "Deschampsia cespitosa"
+  family: "Poaceae"
+  photo: "seedlibrary/deschampsia-cespitosa.jpg"
+  photo_alt: "Deschampsia cespitosa seedlings"
+  short_bio: "Clump-forming grass of moist meadows and stream edges; stays greener longer than many natives."
+  region: "CA, OR, WA"
+  habitat: "Wet meadows, seeps, riparian margins, montane openings"
+
+  pretreatment: "Cold moist stratification (helps)"
+  stratification: "2–8 weeks @ ~1–5°C"
+  light: "Light can help (surface sow)"
+  temp: "12–18°C"
+  days_to_germinate: "10–30 days"
+  germination_rate: "Moderate; can be slow"
+
+  sowing_notes: "Surface sow or barely cover; keep consistently moist. Best for wetter seed beds."
+  sources: []
+
+- common_name: "Purple Needlegrass"
+  scientific_name: "Nassella pulchra"
+  family: "Poaceae"
+  photo: "seedlibrary/nassella-pulchra.jpg"
+  photo_alt: "Nassella pulchra seedlings"
+  short_bio: "Iconic California bunchgrass of valleys and foothills; deep-rooted and drought-tough once established."
+  region: "CA (widespread)"
+  habitat: "Grasslands, open foothills, well-drained soils"
+
+  pretreatment: "None to light stratification (helps uniformity)"
+  stratification: "0–4 weeks @ ~1–5°C (optional)"
+  light: "Not required"
+  temp: "15–22°C"
+  days_to_germinate: "5–21 days"
+  germination_rate: "Moderate to high with fresh seed"
+
+  sowing_notes: "Sow shallow (0–0.5 cm). Fall sowing mimics natural rains; avoid soggy soils."
+  sources: []
+
+
+- common_name: "Creeping Wildrye"
+  scientific_name: "Leymus triticoides"
+  family: "Poaceae"
+  photo: "seedlibrary/leymus-triticoides.jpg"
+  photo_alt: "Leymus triticoides shoots"
+  short_bio: "Spreading native grass that forms dense cover; excellent for stabilizing soils and wetter spots."
+  region: "CA, OR"
+  habitat: "Wet meadows, swales, riparian areas, seasonally moist flats"
+
+  pretreatment: "Cold moist stratification (recommended)"
+  stratification: "2–6 weeks @ ~1–5°C"
+  light: "Not required"
+  temp: "15–22°C"
+  days_to_germinate: "7–21 days"
+  germination_rate: "Moderate; improves with stratification"
+
+  sowing_notes: "Sow shallow; tolerates heavier soils. Good where moisture lingers into spring."
+  sources: []
+
+
 - common_name: "California Oatgrass"
   scientific_name: "Danthonia Cal"
   family: "Poaceae"
@@ -23,6 +120,8 @@
       url: "https://plants.usda.gov/"
     - label: "Local protocol (placeholder)"
       url: ""
+
+      
 - common_name: "Blue wildrye"
   scientific_name: "Elymus glaucus"
   family: "Poaceae"
