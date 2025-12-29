@@ -125,7 +125,7 @@
 - common_name: "Blue wildrye"
   scientific_name: "Elymus glaucus"
   family: "Poaceae"
-  photo: "seedlibrary/elymus-glaucus.jpg"   # put image in /assets/img/seedlibrary/
+  photo: "seedlibrary/1.jpg"   # put image in /assets/img/seedlibrary/
   photo_alt: "Elymus glaucus seedling"
   short_bio: "Cool-season native bunchgrass common in coastal and foothill systems."
   region: "CA, OR, WA"
