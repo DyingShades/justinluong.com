@@ -80,7 +80,7 @@
 - common_name: "Creeping Wildrye"
   scientific_name: "Leymus triticoides"
   family: "Poaceae"
-  photo: "seedlibrary/leymus-triticoides.jpg"      # put image in /assets/img/seedlibrary/
+  photo: "seedlibrary/0996.jpg"      # put image in /assets/img/seedlibrary/
   photo_alt: "Leymus triticoides shoots"
   short_bio: "Spreading native grass that forms dense cover; excellent for stabilizing soils and wetter spots."
   region: "CA, OR"
