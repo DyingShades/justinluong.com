@@ -2,6 +2,15 @@
 Lab Website for Luong Restoration and Rangeland Ecology Lab
 
 # Site Map
+# Important Pages
+index.md is the home page
+<br>
+CSS is the code backbone for this site any rendering, color, sizing issues are generally thoguh this
+<br>
+_data/settings is where menu paths are set
+<br>
+_data/germination_library is the data set for the GRASSNet germination library page
+<br>
 # Want to add data to the Seed Germination Library?
 Path -> _data/germination_library.yml
 Copy and Paste entire block and Apply Changes
