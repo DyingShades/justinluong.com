@@ -26,6 +26,9 @@ at the top portion of the YAML address (see existing pages for example) and chan
 Copy and paste this 
 {% include slideshow.html interval=6000 %}
 
+# Analytics
+I have run google analytics through my own accounts so I can see user metrics. There are many ways to do usere metrics so look around but I would like to keep the block in /head there. Thx!
+
 
 
 Uses https://jekyllrb.com/
