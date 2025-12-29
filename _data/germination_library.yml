@@ -22,7 +22,7 @@
 - common_name: "California Brome"
   scientific_name: "Bromus carinatus"
   family: "Poaceae"
-  photo: "seedlibrary/bromus-carinatus.jpg"          # put image in /assets/img/seedlibrary/
+  photo: "seedlibrary/BROM-CARIN-1.jpg.webp"          # put image in /assets/img/seedlibrary/
   photo_alt: "Bromus carinatus seedlings"
   short_bio: "Quick-growing native brome used for erosion control and cover; good in restoration mixes."
   region: "CA, OR, WA"
