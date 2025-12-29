@@ -100,7 +100,7 @@
 - common_name: "California Oatgrass"
   scientific_name: "Danthonia Cal"
   family: "Poaceae"
-  photo: "seedlibrary/elymus-glaucus.jpg"   # put image in /assets/img/seedlibrary/
+  photo: "seedlibrary/0000_0000_0716.jpeg"   # put image in /assets/img/seedlibrary/
   photo_alt: "Danthonia Californica seedling"
   short_bio: "Placeholder"
   region: "CA, OR, WA"
