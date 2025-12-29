@@ -3,7 +3,7 @@
 - common_name: "Prairie Junegrass"
   scientific_name: "Koeleria macrantha"
   family: "Poaceae"
-  photo: "seedlibrary/koeleria-macrantha.jpg"
+  photo: "seedlibrary/koeleria-macrantha.jpg"      # put image in /assets/img/seedlibrary/
   photo_alt: "Koeleria macrantha seedlings"
   short_bio: "Fine-textured bunchgrass for dry prairies and open sites; tidy look and drought tolerant."
   region: "CA, OR, WA"
@@ -22,7 +22,7 @@
 - common_name: "California Brome"
   scientific_name: "Bromus carinatus"
   family: "Poaceae"
-  photo: "seedlibrary/bromus-carinatus.jpg"
+  photo: "seedlibrary/bromus-carinatus.jpg"          # put image in /assets/img/seedlibrary/
   photo_alt: "Bromus carinatus seedlings"
   short_bio: "Quick-growing native brome used for erosion control and cover; good in restoration mixes."
   region: "CA, OR, WA"
@@ -41,7 +41,7 @@
 - common_name: "Tufted Hairgrass"
   scientific_name: "Deschampsia cespitosa"
   family: "Poaceae"
-  photo: "seedlibrary/deschampsia-cespitosa.jpg"
+  photo: "seedlibrary/deschampsia-cespitosa.jpg"         # put image in /assets/img/seedlibrary/
   photo_alt: "Deschampsia cespitosa seedlings"
   short_bio: "Clump-forming grass of moist meadows and stream edges; stays greener longer than many natives."
   region: "CA, OR, WA"
@@ -60,7 +60,7 @@
 - common_name: "Purple Needlegrass"
   scientific_name: "Nassella pulchra"
   family: "Poaceae"
-  photo: "seedlibrary/nassella-pulchra.jpg"
+  photo: "seedlibrary/nassella-pulchra.jpg"       # put image in /assets/img/seedlibrary/
   photo_alt: "Nassella pulchra seedlings"
   short_bio: "Iconic California bunchgrass of valleys and foothills; deep-rooted and drought-tough once established."
   region: "CA (widespread)"
@@ -80,7 +80,7 @@
 - common_name: "Creeping Wildrye"
   scientific_name: "Leymus triticoides"
   family: "Poaceae"
-  photo: "seedlibrary/leymus-triticoides.jpg"
+  photo: "seedlibrary/leymus-triticoides.jpg"      # put image in /assets/img/seedlibrary/
   photo_alt: "Leymus triticoides shoots"
   short_bio: "Spreading native grass that forms dense cover; excellent for stabilizing soils and wetter spots."
   region: "CA, OR"
