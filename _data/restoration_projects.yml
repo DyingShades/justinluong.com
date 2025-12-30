@@ -1,0 +1,17 @@
+- name: "Bobcat Ranch Riparian Restoration"
+  lat: 38.5142
+  lon: -122.2791
+  region: "Sonoma County, CA"
+  status: "Active"
+  year: 2025
+  link: "/menu/restoration/bobcat-ranch.html"
+  summary: "Willow planting + bank stabilization + monitoring."
+
+- name: "Arcata Marsh Native Planting"
+  lat: 40.8679
+  lon: -124.0971
+  region: "Humboldt County, CA"
+  status: "Planning"
+  year: 2026
+  link: "/menu/restoration/arcata-marsh.html"
+  summary: "Coastal wetland edge restoration and invasives removal."
