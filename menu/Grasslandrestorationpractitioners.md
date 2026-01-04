@@ -32,7 +32,7 @@ practitioners:
   - name: "Joshua Scoggin"
     role: "Associate Ecologist"
     location: "Hedgerow Farms / Pacific Coast Seed"
-    headshot: "/Grasslandrestoration/Joshua Scoggin.JPG"
+    headshot: "Grasslandrestoration/Joshua Scoggin.JPG"
     headshot_alt: "Joshua Scoggin"
 
     bio: |
