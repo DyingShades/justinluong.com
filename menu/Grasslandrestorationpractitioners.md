@@ -132,7 +132,7 @@ practitioners:
   </div>
   {% endif %}
 
-  <div class="track-mixed" aria-hidden="true"></div>
+ 
 </article>
 {% endfor %}
 
