@@ -12,7 +12,7 @@ practitioners:
     headshot_alt: "H. Scott Butterfield"
 
     bio: |
-      In The Nature Conservancy's California Chapter, Scott is a Lead Scientist in the Land Program, helping to oversee science, stewardship, including cattle grazing, and land protection across TNC's more than 400,000 acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monumnet. 
+      In The Nature Conservancy's California Chapter, Scott serves as a Lead Scientist in the Land Program, overseeing science, stewardship, including, cattle grazing, and land protection across TNC's more than 400,000-acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monument. 
 
     tags:
       - "Rangeland Restoration"
@@ -28,18 +28,30 @@ practitioners:
         url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
         primary: true
 
-    gallery_title: "Fieldwork & Projects"
-    gallery_intro: "A few images showing typical restoration activities and sites."
-    gallery:
-      - src: "placeholder-1.jpg"
-        alt: "Placeholder image showing restoration work"
-        caption: "Short caption (optional)"
-      - src: "placeholder-2.jpg"
-        alt: "Placeholder image showing monitoring"
-        caption: "Short caption (optional)"
-      - src: "placeholder-3.jpg"
-        alt: "Placeholder image showing native plant work"
-        caption: "Short caption (optional)"
+        practitioners:
+  - name: "Joshua Scoggin"
+    role: "Associate Ecologist"
+    location: "Hedgerow Farms / Pacific Coast Seed"
+    headshot: "/Grasslandrestoration/Joshua Scoggin.JPG"
+    headshot_alt: "Joshua Scoggin"
+
+    bio: |
+      Joshua Scoggin is a production and collections data manager with NativeSeed Group, Supporting Hedgerow Farms' natice seed production and wildland collections. Hedgerow Farms supplies native seed for large-scale conservation, habatitat restoration, His work focuses on managing production and collection data so that restoration teams recieve genetically appropriate, source identifies seed matched to project needs.
+
+    tags:
+      - "Rangeland Restoration"
+      - "Remote Sensing"
+      - "Wildlife Monitoring"
+
+    links:
+      - label: "Website"
+        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
+        primary: true
+        
+      - label: "Biography"
+        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
+        primary: true
+
 ---
 
 <div class="practitioners-intro">
