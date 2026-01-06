@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Survey"
-permalink: /survey/
+permalink: /menu/survey.html
 ---
 
 <div class="container post-container">
