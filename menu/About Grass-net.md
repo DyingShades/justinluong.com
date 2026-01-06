@@ -10,8 +10,8 @@ The Grassland Restoration Action, Science and Stewardship Network (GRASS-Net) --
   <a class="btn btn--primary" href="{{ '/menu/getinvolved.html' | relative_url }}">Connect With Us!</a>
   <a class="btn btn--primary" href="{{ '/menu/survey.html' | relative_url }}">Practitioner Survey</a>
 
-  <a class="btn btn--soft"
-     href="https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0"
+  <a class="btn btn--primary"
+     href="https://www.reddit.com/r/cagrasslands/"
      target="_blank" rel="noopener noreferrer" data-external="true">
     GrassNet Reddit ↗
   </a>
