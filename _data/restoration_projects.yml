@@ -1,0 +1,105 @@
+# Restoration Project Reference Database
+# Add more entries by copying a block and updating fields.
+
+- id: dangermond-preserve
+  type: ["planting", "soil"]
+  title: "Jack and Laura Dangermond Preserve"
+  org: "The Nature Conservancy"
+  location: "Point Conception, Central Coast, CA"
+  year: "2017 (donated)"
+  summary: "24,364-acre preserve managed as a living laboratory with diverse habitats (grasslands, chaparral, oak woodlands, coast)."
+  methods:
+    - "Landscape-scale conservation + research access"
+    - "Rangeland management (e.g., grazing and prescribed fire used in related research)"
+  keywords: ["preserve", "living laboratory", "Central Coast", "grasslands"]
+  url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/dangermond-preserve/"
+  links:
+    - label: "TNC page"
+      url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/dangermond-preserve/"
+
+- id: randall-preserve
+  type: ["planting", "soil"]
+  title: "Randall Preserve"
+  org: "The Nature Conservancy"
+  location: "Tehachapi Mountains (southern Sierra Nevada), CA"
+  year: "1992 (acquired)"
+  summary: "3,172-acre preserve emphasizing habitat connectivity at a major ecological crossroads."
+  methods:
+    - "Land protection + connectivity planning"
+    - "Stewardship / long-term management"
+  keywords: ["connectivity", "wildlife corridor", "Tehachapi"]
+  url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/randall-preserve/"
+  links:
+    - label: "TNC page"
+      url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/randall-preserve/"
+
+- id: camatta-canyon-amole-kqed
+  type: ["seed", "planting", "soil"]
+  title: "Rare purple California flowers are blooming more than ever (Camatta Canyon amole)"
+  org: "KQED"
+  location: "Camatta Canyon area, Central Coast, CA"
+  year: "2023-02-16"
+  summary: "Story on a rare wildflower bloom; highlights how conservation, management, and restoration actions intersect (including seed work and monitoring tools)."
+  methods:
+    - "Field observation + conservation reporting"
+    - "Mentions restoration/management context (seed collection + tech-enabled monitoring)"
+  keywords: ["wildflowers", "rare plant", "seed collection", "Central Coast"]
+  url: "https://www.kqed.org/science/1997262/rare-purple-californian-flowers-are-blooming-more-than-ever"
+  links:
+    - label: "Article"
+      url: "https://www.kqed.org/science/1997262/rare-purple-californian-flowers-are-blooming-more-than-ever"
+
+- id: tnc-cattle-grazing-white-paper
+  type: ["soil"]
+  title: "Cattle Grazing Across TNC’s Conservation Estate (CA)"
+  org: "Science for Conservation (TNC California)"
+  location: "California (multiple preserves + easements)"
+  year: "2022"
+  summary: "White paper summarizing cattle grazing as a conservation tool across ~400,000 acres; goals include biodiversity and fire-risk reduction; uses RDM monitoring + remote sensing tools."
+  methods:
+    - "Conservative stocking rates + rotational grazing"
+    - "Residual Dry Matter (RDM) monitoring"
+    - "Remote sensing (RDMapper / Rangeland Lens)"
+  keywords: ["grazing", "RDM", "fire risk", "biodiversity", "monitoring"]
+  url: "https://www.scienceforconservation.org/products/cattle-grazing-TNC-CA-conservation-estate"
+  links:
+    - label: "Science for Conservation page"
+      url: "https://www.scienceforconservation.org/products/cattle-grazing-TNC-CA-conservation-estate"
+    - label: "PDF (2-pager)"
+      url: "https://www.scienceforconservation.org/assets/downloads/Cattle_Grazing_2pager_2022.pdf"
+
+- id: uav-lidar-rdm-remote-sensing-2025
+  type: ["soil"]
+  title: "UAV LiDAR + Field Spectroscopy for Residual Dry Matter (RDM)"
+  org: "Science for Conservation / Remote Sensing (journal)"
+  location: "Dangermond Preserve (Santa Barbara County, CA) + rangeland monitoring context"
+  year: "2025-07-09"
+  summary: "Evaluates LiDAR and spectroscopy for estimating RDM; LiDAR canopy height models outperform spectral indices in this study."
+  methods:
+    - "UAV LiDAR (canopy height models)"
+    - "Field spectroscopy"
+    - "Modeling / regression evaluation"
+  keywords: ["LiDAR", "spectroscopy", "RDM", "rangelands"]
+  url: "https://www.scienceforconservation.org/products/uav-lidar-field-spectroscopy-rdm-grazing-lands"
+  links:
+    - label: "Science for Conservation page"
+      url: "https://www.scienceforconservation.org/products/uav-lidar-field-spectroscopy-rdm-grazing-lands"
+    - label: "DOI"
+      url: "https://doi.org/10.3390/rs17142352"
+
+- id: rdmapper-monitoring-grazed-lands
+  type: ["soil"]
+  title: "RDMapper: Remote sensing-based interactive system for monitoring grazed conservation lands"
+  org: "Science for Conservation"
+  location: "California grasslands / easement lands (tool applied across large areas)"
+  year: ""
+  summary: "RDMapper uses satellite productivity, rainfall records, and compliance history to flag risk; reported successful prediction across ~47,000 ha with 42% lower monitoring costs."
+  methods:
+    - "Satellite productivity estimates"
+    - "Risk screening + compliance prediction"
+    - "Integrates monitoring history + rainfall"
+  keywords: ["RDMapper", "remote sensing", "compliance", "RDM"]
+  url: "https://www.scienceforconservation.org/products/remote-sensing-monitoring-grazed-conservation-lands"
+  links:
+    - label: "Science for Conservation page"
+      url: "https://www.scienceforconservation.org/products/remote-sensing-monitoring-grazed-conservation-lands"
