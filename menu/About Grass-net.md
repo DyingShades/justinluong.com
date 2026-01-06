@@ -8,6 +8,9 @@ The Grassland Restoration Action, Science and Stewardship Network (GRASS-Net) --
 
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/menu/getinvolved.html' | relative_url }}">Connect With Us!</a>
+
+  <a class="btn btn--primary" href="{{ '/menu/survey.html' | relative_url }}">Practitioner Survey</a>
+  
 </nav>
 
 ![Preview]({{site.baseurl}}/assets/img/GRASS Net Flyer_April2025.png)  
