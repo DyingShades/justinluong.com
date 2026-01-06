@@ -1,0 +1,79 @@
+# Resource Library (Soil / Planting / Seed)
+
+- id: dangermond
+  categories: ["planting"]
+  title: "Dangermond Preserve"
+  org: "The Nature Conservancy"
+  resource_type: "Place / Preserve"
+  location: "California"
+  summary: "Overview page for a protected area; useful background context for restoration and stewardship conversations."
+  highlights:
+    - "Conservation context"
+    - "Stewardship + research framing"
+  tags: ["preserve", "conservation", "stewardship"]
+  url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/dangermond-preserve/"
+
+- id: randall
+  categories: ["planting"]
+  title: "Randall Preserve"
+  org: "The Nature Conservancy"
+  resource_type: "Place / Preserve"
+  location: "California"
+  summary: "Overview page for a protected area; useful for examples of land protection and restoration context."
+  highlights:
+    - "Conservation context"
+    - "Land protection + management"
+  tags: ["preserve", "habitat", "management"]
+  url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/randall-preserve/"
+
+- id: kqed-purple-flowers
+  categories: ["seed", "planting"]
+  title: "Rare purple Californian flowers are blooming more than ever"
+  org: "KQED"
+  resource_type: "News / Article"
+  location: "California"
+  summary: "Story-style piece that can be used as outreach context around rare plants, blooms, and restoration relevance."
+  highlights:
+    - "Public-facing communication example"
+    - "Rare plant / wildflower context"
+  tags: ["rare plants", "outreach", "wildflowers"]
+  url: "https://www.kqed.org/science/1997262/rare-purple-californian-flowers-are-blooming-more-than-ever"
+
+- id: grazing-tnc
+  categories: ["soil"]
+  title: "Cattle grazing (TNC CA conservation estate)"
+  org: "Science for Conservation"
+  resource_type: "Report / Summary"
+  location: "California"
+  summary: "Resource on grazing as a management tool; good for soil/vegetation outcomes framing and monitoring concepts."
+  highlights:
+    - "Grazing management framing"
+    - "Monitoring + stewardship"
+  tags: ["grazing", "monitoring", "rangelands"]
+  url: "https://www.scienceforconservation.org/products/cattle-grazing-TNC-CA-conservation-estate"
+
+- id: uav-lidar-rdm
+  categories: ["soil"]
+  title: "UAV LiDAR + field spectroscopy (RDM on grazing lands)"
+  org: "Science for Conservation"
+  resource_type: "Research / Methods"
+  location: "California"
+  summary: "Methods-forward resource on remote sensing for rangeland monitoring; useful for tech + data examples."
+  highlights:
+    - "Remote sensing methods"
+    - "Monitoring metrics example"
+  tags: ["LiDAR", "spectroscopy", "remote sensing", "RDM"]
+  url: "https://www.scienceforconservation.org/products/uav-lidar-field-spectroscopy-rdm-grazing-lands"
+
+- id: remote-sensing-monitoring
+  categories: ["soil"]
+  title: "Remote sensing for monitoring grazed conservation lands"
+  org: "Science for Conservation"
+  resource_type: "Tool / Approach"
+  location: "California"
+  summary: "Resource describing an approach/tool for monitoring; good reference for scalable management workflows."
+  highlights:
+    - "Scalable monitoring workflow"
+    - "Decision support framing"
+  tags: ["tool", "remote sensing", "monitoring"]
+  url: "https://www.scienceforconservation.org/products/remote-sensing-monitoring-grazed-conservation-lands"
