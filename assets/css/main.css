@@ -1512,6 +1512,51 @@ table.rp-table tbody tr:hover{
     margin-top: .5rem;
   }
 }
+/* ===== Qualtrics embed (matches your card styles) ===== */
+.survey-card{
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,.05);
+  overflow: hidden;
+  margin: 1.25rem 0 2rem;
+}
+
+.survey-iframe{
+  width: 100%;
+  height: clamp(780px, 85vh, 1500px); /* tall enough to feel native */
+  border: 0;
+  display: block;
+  background: #fff;
+}
+
+.survey-footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem .9rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: .75rem .85rem;
+  border-top: 1px solid rgba(0,0,0,.06);
+}
+
+.survey-btn{
+  text-decoration: none !important;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 900;
+  padding: .45rem .65rem;
+  border-radius: 10px;
+  background: var(--ucb-blue);
+  color: #fff;
+}
+
+.survey-btn:hover{ background: var(--ucb-blue-600); color:#fff; }
+
+.survey-hint{
+  color: var(--muted);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: .9rem;
+}
 
 /* === Current Research: better tablet/phone layout === */
 
