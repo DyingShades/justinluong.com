@@ -36,7 +36,7 @@ practitioners:
     headshot_alt: "Joshua Scoggin"
 
     bio: |
-      Joshua Scoggin is a production and collections data manager with NativeSeed Group, Supporting Hedgerow Farms' natice seed production and wildland collections. Hedgerow Farms supplies native seed for large-scale conservation, habatitat restoration, His work focuses on managing production and collection data so that restoration teams recieve genetically appropriate, source identifies seed matched to project needs.
+      Joshua Scoggin is a production and collections data manager with NativeSeed Group, Supporting Hedgerow Farms' natice seed production and wildland collections. Hedgerow Farms supplies native seed for large-scale conservation, habatitat restoration, His work focuses on managing production and collection data so that restoration teams recieve genetically appropriate and source-identified seeds matched to project needs.
 
     tags:
       - "Seed Supply & Logistics"
