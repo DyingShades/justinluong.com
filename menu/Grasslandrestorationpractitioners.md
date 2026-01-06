@@ -3,7 +3,6 @@ layout: page
 title: Grassland Restoration Practitioners
 permalink: /menu/Grasslandrestorationpractitioners.html
 
-# Copy/paste a new block under practitioners: to add another person.
 practitioners:
   - name: "Scott Butterfield"
     role: "Lead Scientist at The Nature Conservancy in California"
@@ -12,7 +11,7 @@ practitioners:
     headshot_alt: "H. Scott Butterfield"
 
     bio: |
-      In The Nature Conservancy's California Chapter, Scott serves as a Lead Scientist in the Land Program, overseeing science, stewardship, including, cattle grazing, and land protection across TNC's more than 400,000-acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monument. 
+      In The Nature Conservancy's California Chapter, Scott serves as a Lead Scientist in the Land Program, overseeing science, stewardship, including, cattle grazing, and land protection across TNC's more than 400,000-acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monument.
 
     tags:
       - "Rangeland Restoration"
@@ -23,12 +22,11 @@ practitioners:
       - label: "Website"
         url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
         primary: true
-        
+
       - label: "Biography"
         url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
         primary: true
 
-        practitioners:
   - name: "Joshua Scoggin"
     role: "Associate Ecologist"
     location: "Hedgerow Farms / Pacific Coast Seed"
@@ -36,7 +34,7 @@ practitioners:
     headshot_alt: "Joshua Scoggin"
 
     bio: |
-      Joshua Scoggin is a production and collections data manager with NativeSeed Group, Supporting Hedgerow Farms' natice seed production and wildland collections. Hedgerow Farms supplies native seed for large-scale conservation, habatitat restoration, His work focuses on managing production and collection data so that restoration teams recieve genetically appropriate and source-identified seeds matched to project needs.
+      Joshua Scoggin is a production and collections data manager with NativeSeed Group, supporting Hedgerow Farms' native seed production and wildland collections. Hedgerow Farms supplies native seed for large-scale conservation and habitat restoration. His work focuses on managing production and collection data so that restoration teams receive genetically appropriate and source-identified seeds matched to project needs.
 
     tags:
       - "Seed Supply & Logistics"
@@ -46,14 +44,13 @@ practitioners:
     links:
       - label: "Pacific Coast Seed"
         url: "https://nativeseedgroup.com/who-we-are/pacific-coast-seed?utm_source=google&utm_medium=cpc&utm_campaign=22424039451&utm_content=179259462218&utm_term=pacific%20coast%20seed&hsa_acc=6596752727&hsa_cam=22424039451&hsa_grp=179259462218&hsa_ad=747376715984&hsa_src=g&hsa_tgt=kwd-1639578945243&hsa_kw=pacific%20coast%20seed&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22424039451&gbraid=0AAAAA_S0bXvCAF4QuuK_YtxPRucgdJkk0&gclid=CjwKCAiAmePKBhAfEiwAU3Ko3M8VcxASCk1fWXEpyfNIv9_TxWFByT1548j3zY4PqqcQK5m_iac-JRoCsBwQAvD_BwE"
-           primary: true
+        primary: true
 
       - label: "Hedgerow Farms"
         url: "https://nativeseedgroup.com/who-we-are/hedgerow-farms"
         primary: true
-        
-     
 ---
+
 
 <div class="practitioners-intro">
   <p>
