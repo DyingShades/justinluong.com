@@ -8,16 +8,15 @@ The Grassland Restoration Action, Science and Stewardship Network (GRASS-Net) --
 
 <nav class="btn-grid" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/menu/getinvolved.html' | relative_url }}">Connect With Us!</a>
-
   <a class="btn btn--primary" href="{{ '/menu/survey.html' | relative_url }}">Practitioner Survey</a>
-  
-   <a class="btn btn--soft"
-     href="{% include href.html url=' <a class="btn btn--soft"
-     href="{% include href.html url='https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0' %}"
-     target="_blank" rel="noopener noreferrer" data-external="true">GrassNet Reddit ↗</a>'"
-     
 
+  <a class="btn btn--soft"
+     href="https://docs.google.com/document/d/1RVHRP_jJqwDWBOIRaE78yCK5Q4iO7_UxVKMFNqwbh6c/edit?tab=t.0"
+     target="_blank" rel="noopener noreferrer" data-external="true">
+    GrassNet Reddit ↗
+  </a>
 </nav>
+
 
 ![Preview]({{site.baseurl}}/assets/img/GRASS Net Flyer_April2025.png)  
 
