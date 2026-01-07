@@ -42,7 +42,7 @@ permalink: menu/Resourcesforgrasslandrestoration.html
 
   <!-- Cards -->
   <div class="reslib-grid" id="reslibGrid">
-    {% assign items = site.data.resources %}
+    {% assign items = site.data.restoration_resources %}
     {% for r in items %}
       <article
         class="rescard"
