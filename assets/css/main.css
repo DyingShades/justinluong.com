@@ -1196,6 +1196,10 @@ nav.btn-grid a.btn.btn--soft:hover{
 }
 
 .rescard-actions{ margin-top: .75rem; }
+.reslib-searchbar select.rp-filter{
+  background: #fff;
+  cursor: pointer;
+}
 
 /* ========================================================
    Photo Gallery page
