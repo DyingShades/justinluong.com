@@ -1136,6 +1136,66 @@ nav.btn-grid a.btn.btn--soft:hover{
   background-position: center;
   vertical-align: -0.1em;
 }
+/* ========================================================
+   Resource Library (filters + cards)
+   ======================================================== */
+.reslib{ margin-top: 1rem; }
+.reslib-intro{ max-width: 58rem; margin: .75rem auto 1.25rem; }
+
+.reslib-searchbar{
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,.05);
+}
+
+/* Card grid */
+.reslib-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2.2vw, 22px);
+}
+@media (max-width: 900px){
+  .reslib-grid{ grid-template-columns: 1fr; }
+}
+
+.rescard{
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,.05);
+  padding: 14px 16px;
+}
+
+.rescard-title{
+  margin: 0 0 .25rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 900;
+}
+.rescard-title a{ text-decoration:none; }
+.rescard-title a:hover{ text-decoration:underline; }
+
+.rescard-meta{
+  margin: 0 0 .6rem;
+  color: var(--muted);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: .92rem;
+  line-height: 1.35;
+}
+
+.rescard-chips{
+  display:flex; flex-wrap:wrap; gap:.4rem;
+  margin: 0 0 .75rem; padding: 0; list-style:none;
+}
+
+.rescard-summary{ margin: 0 0 .75rem; }
+
+.rescard-bullets{
+  margin: 0 0 .75rem;
+  padding-left: 1.15rem;
+}
+
+.rescard-actions{ margin-top: .75rem; }
 
 /* ========================================================
    Photo Gallery page
