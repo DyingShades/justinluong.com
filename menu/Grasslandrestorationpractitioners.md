@@ -3,7 +3,6 @@ layout: page
 title: Grassland Restoration Practitioners
 permalink: /menu/Grasslandrestorationpractitioners.html
 
-
 practitioners:
   - name: "Marcela Tayaba"
     role: "Habitat Restoration Specialist"
@@ -11,7 +10,7 @@ practitioners:
     headshot: "Grasslandrestoration/Scottbutterfield.jpeg"
     headshot_alt: "Marcela Tayaba"
 
-   bio: |
+    bio: |
       Marcela Resultay-Tayaba is a member of the Shingle Springs Band of Miwok Indians
       and serves as the Habitat Restoration Specialist for her tribe. After serving as a youth
       intern for the tribe’s Environmental Department for five years Marcela went on to obtain
