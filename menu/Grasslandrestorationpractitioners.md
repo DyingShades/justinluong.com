@@ -7,7 +7,7 @@ practitioners:
   - name: "Marcela Tayaba"
     role: "Habitat Restoration Specialist"
     location: "Enviromental Department"
-    headshot: "Grasslandrestoration/Scottbutterfield.jpeg"
+    headshot: "Grasslandrestoration/MarcelaTayaba.jpg"
     headshot_alt: "Marcela Tayaba"
 
     bio: |
