@@ -3,7 +3,51 @@ layout: page
 title: Grassland Restoration Practitioners
 permalink: /menu/Grasslandrestorationpractitioners.html
 
+
 practitioners:
+  - name: "Marcela Tayaba"
+    role: "Habitat Restoration Specialist"
+    location: "Enviromental Department"
+    headshot: "Grasslandrestoration/Scottbutterfield.jpeg"
+    headshot_alt: "Marcela Tayaba"
+
+    bio: |
+     Marcela Resultay-Tayaba is a member of the Shingle Springs Band of Miwok Indians
+and serves as the Habitat Restoration Specialist for her tribe. After serving as a youth
+intern for the tribe’s Environmental Department for five years Marcela went on to obtain
+a bachelor’s degree in environmental sciences with an emphasis on Ecological
+Restoration as well as minors in Forestry and Natural Resources from Cal Poly
+Humboldt.
+Since graduating she has returned to work for her tribe’s Environmental Department
+and has dedicated her efforts to the revitalization of her ancestral language and
+traditional food practices. She hopes to inspire tribal youth and others to connect and
+honor nature through traditional practices and bringing tribal community together for
+cultural burning, and land/water conservation.
+Marcela’s main role is to oversee the implementation of restoration projects lead by
+state, federal, and private agencies both on and off Tribal Lands. Her main duties
+include creating restoration plans and managing the tribal nursery, including collecting
+seeds and growing plants to be used in restoration projects. She is also responsible for
+grant management, overseeing the tribal community garden and managing various
+Clean Water Act projects on tribal land.
+It is important to her that every project incorporates culture, revitalizes traditional
+practices, provides education to the public, and provides Native youth the opportunity to
+learn and take ownership and pride in restoring our lands.
+
+    tags:
+      - "Tribal Restoration"
+      - "Nursery Operations"
+      - "Land and Water Conservation"
+      - "Interagency Projects"
+
+    links:
+      - label: "Website"
+        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
+        primary: true
+
+      - label: "Biography"
+        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
+        primary: true
+        
   - name: "Scott Butterfield"
     role: "Lead Scientist at The Nature Conservancy in California"
     location: "Land Program"
