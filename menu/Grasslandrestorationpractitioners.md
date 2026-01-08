@@ -12,7 +12,7 @@ practitioners:
     headshot_alt: "Marcela Tayaba"
 
     bio: |
-     Marcela Resultay-Tayaba is a member of the Shingle Springs Band of Miwok Indians
+    Marcela Resultay-Tayaba is a member of the Shingle Springs Band of Miwok Indians
 and serves as the Habitat Restoration Specialist for her tribe. After serving as a youth
 intern for the tribe’s Environmental Department for five years Marcela went on to obtain
 a bachelor’s degree in environmental sciences with an emphasis on Ecological
