@@ -5,8 +5,8 @@ permalink: /menu/Grasslandrestorationpractitioners.html
 
 practitioners:
   - name: "Marcela Tayaba"
-    role: "Habitat Restoration Specialist"
-    location: "Enviromental Department"
+    role: "Habitat Restoration Specialist - Enviromental Department"
+    location: "Shingle Springs Band of Miwok Indians"
     headshot: "Grasslandrestoration/MarcelaTayaba.jpg"
     headshot_alt: "Marcela Tayaba"
 
@@ -38,14 +38,7 @@ practitioners:
       - "Land and Water Conservation"
       - "Interagency Projects"
 
-    links:
-      - label: "Website"
-        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
-        primary: true
-
-      - label: "Biography"
-        url: "https://www.scienceforconservation.org/our-team/scott-butterfield"
-        primary: true
+   
         
   - name: "Scott Butterfield"
     role: "Lead Scientist at The Nature Conservancy in California"
