@@ -107,72 +107,150 @@ permalink: menu/Resourcesforgrasslandrestoration.html
 </div>
 
 <script>
-(function(){
+(() => {
   const grid = document.getElementById("reslibGrid");
-  const cards = Array.from(grid.querySelectorAll(".rescard"));
+  if (!grid) return;
 
-  const catButtons = Array.from(document.querySelectorAll(".reslib-filters a[data-filter-cat]"));
+  const cards = Array.from(grid.querySelectorAll(".rescard"));
+  const catButtons = Array.from(document.querySelectorAll('.reslib-filters a[data-filter-cat]'));
   const typeSelect = document.getElementById("resType");
   const searchInput = document.getElementById("resSearch");
   const resetBtn = document.getElementById("resReset");
   const empty = document.getElementById("reslibEmpty");
 
-  let state = { cat: "all", type: "all", q: "" };
+  const state = { cat: "all", type: "all", q: "" };
 
-  function normalize(s){ return (s || "").toLowerCase().trim(); }
+  const normalize = (s) => (s || "").toString().toLowerCase().trim();
 
-  function setActiveCatButton(cat){
-    catButtons.forEach(b => {
+  function setActiveCatButton(cat) {
+    catButtons.forEach((b) => {
       const on = b.dataset.filterCat === cat;
       b.classList.toggle("btn--primary", on);
       b.classList.toggle("btn--soft", !on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
     });
   }
 
-  function cardMatches(card){
+  function cardMatches(card) {
     // Category
-    if(state.cat !== "all"){
-      const cats = (card.getAttribute("data-cats") || "").split(/\s+/).map(normalize);
-      if(!cats.includes(state.cat)) return false;
+    if (state.cat !== "all") {
+      const cats = normalize(card.getAttribute("data-cats"))
+        .split(/\s+/)
+        .filter(Boolean);
+      if (!cats.includes(state.cat)) return false;
     }
 
     // Resource type
-    if(state.type !== "all"){
+    if (state.type !== "all") {
       const t = normalize(card.getAttribute("data-type"));
-      if(!t.includes(state.type)) return false;
+      if (!t.includes(state.type)) return false;
     }
 
     // Search
-    if(state.q){
-      const text = normalize(card.innerText);
-      if(!text.includes(state.q)) return false;
+    if (state.q) {
+      // textContent is safer + faster than innerText for this use
+      const text = normalize(card.textContent);
+      if (!text.includes(state.q)) return false;
     }
 
     return true;
   }
 
-  function apply(){
+  function apply() {
     let shown = 0;
-    cards.forEach(card => {
+
+    cards.forEach((card) => {
       const ok = cardMatches(card);
-      card.style.display = ok ? "" : "none";
-      if(ok) shown++;
+      // hidden avoids layout weirdness vs display toggles
+      card.hidden = !ok;
+      if (ok) shown++;
     });
-    if(empty) empty.style.display = shown ? "none" : "";
+
+    if (empty) empty.style.display = shown ? "none" : "";
   }
 
-  // Optional: keep filters in the URL hash so users can share filtered views.
-  function writeHash(){
+  // Keep filters in URL hash (shareable filtered views)
+  function writeHash() {
     const params = new URLSearchParams();
-    if(state.cat !== "all") params.set("cat", state.cat);
-    if(state.type !== "all") params.set("type", state.type);
-    if(state.q) params.set("q", state.q);
+    if (state.cat !== "all") params.set("cat", state.cat);
+    if (state.type !== "all") params.set("type", state.type);
+    if (state.q) params.set("q", state.q);
+
     const s = params.toString();
-    history.replaceState(null, "", s ? ("#" + s) : " ");
+    const newUrl = location.pathname + location.search + (s ? "#" + s : "");
+    history.replaceState(null, "", newUrl);
   }
 
-  function readHash(){
+  function readHash() {
     const h = location.hash.replace(/^#/, "");
-    if(!h) return;
+    if (!h) return;
+
     const params = new URLSearchParams(h);
-    state.cat =
+    state.cat = normalize(params.get("cat")) || "all";
+    state.type = normalize(params.get("type")) || "all";
+    state.q = normalize(params.get("q")) || "";
+  }
+
+  function syncControlsFromState() {
+    setActiveCatButton(state.cat);
+    if (typeSelect) typeSelect.value = state.type;
+    if (searchInput) searchInput.value = state.q;
+  }
+
+  // --- Event wiring ---
+
+  catButtons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      state.cat = normalize(btn.dataset.filterCat) || "all";
+      setActiveCatButton(state.cat);
+      apply();
+      writeHash();
+    });
+  });
+
+  if (typeSelect) {
+    typeSelect.addEventListener("change", () => {
+      state.type = normalize(typeSelect.value) || "all";
+      apply();
+      writeHash();
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      state.q = normalize(searchInput.value);
+      apply();
+      writeHash();
+    });
+  }
+
+  if (resetBtn) {
+    resetBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      state.cat = "all";
+      state.type = "all";
+      state.q = "";
+      syncControlsFromState();
+      apply();
+      writeHash();
+    });
+  }
+
+  // If user manually edits the hash / uses back-forward
+  window.addEventListener("hashchange", () => {
+    // reset first so removing a param restores defaults
+    state.cat = "all";
+    state.type = "all";
+    state.q = "";
+    readHash();
+    syncControlsFromState();
+    apply();
+  });
+
+  // --- Init ---
+  readHash();
+  syncControlsFromState();
+  apply();
+})();
+</script>
