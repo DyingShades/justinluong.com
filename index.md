@@ -18,14 +18,10 @@ slides:
     alt: Students working in the Lab
   - src: /assets/img/IMG_7271.jpeg
     alt: Justin Identifying a Plant
-  - src: /assets/img/LastLabMeeting2025.jpg
-    alt: Bromus sitchensis flower close-up
   - src: "/assets/img/BRCA Flower.jpg"
     alt: Group photo after the last lab meeting of the year
   - src: /assets/img/ChicoGHTeam.jpg
     alt: Luong lab meet up with Griffin-Nolan Lab
-  - src: /assets/img/DyeCreekTeam2025.jpg
-    alt: Lab after field work at Dye Creek 2025
   - src: /assets/img/RussellRanchTeam2025.jpg
     alt: Lab Photo after secondary invasions field work
   - src: /assets/img/JenniferJanine.jpg
@@ -51,8 +47,8 @@ slides:
   </div>
 
   <figure class="intro-media">
-    <img src="/assets/img/LabPhoto2025.jpg"
-         alt="Luong Lab Potluck Spring 2025">
+    <img src="/assets/img/Luong UCB Lab Logo.png"
+         alt="Lab Logo by Sean Dillon">
     <!-- <figcaption>Justin using a LI-COR instrument during field work</figcaption> -->
   </figure>
 </div>
