@@ -12,8 +12,7 @@ practitioners:
 
     bio: |
       Marcela Resultay-Tayaba is a member of the Shingle Springs Band of Miwok Indians
-      and serves as the Habitat Restoration Specialist for her tribe. After serving as a youth
-      intern for the tribe’s Environmental Department for five years Marcela went on to obtain
+      and serves as the Habitat Restoration Specialist for her tribe. Marcela obtained
       a bachelor’s degree in environmental sciences with an emphasis on Ecological
       Restoration as well as minors in Forestry and Natural Resources from Cal Poly
       Humboldt.
@@ -23,9 +22,7 @@ practitioners:
       honor nature through traditional practices and bringing tribal community together for
       cultural burning, and land/water conservation.
       Marcela’s main role is to oversee the implementation of restoration projects lead by
-      state, federal, and private agencies both on and off Tribal Lands. Her main duties
-      include creating restoration plans and managing the tribal nursery, including collecting
-      seeds and growing plants to be used in restoration projects. She is also responsible for
+      state, federal, and private agencies. She is also responsible for
       grant management, overseeing the tribal community garden and managing various
       Clean Water Act projects on tribal land.
       It is important to her that every project incorporates culture, revitalizes traditional
