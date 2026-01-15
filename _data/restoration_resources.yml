@@ -1,4 +1,16 @@
 # Resource Library (Soil / Planting / Seed)
+- id: The nature conservency
+  categories: ["planting"]
+  title: "Dangermond Preserve"
+  org: "The Nature Conservancy"
+  resource_type: "Place / Preserve"
+  location: "California"
+  summary: "Overview page for a protected area; useful background context for restoration and stewardship conversations."
+  highlights:
+    - "Conservation context"
+    - "Stewardship + research framing"
+  tags: ["preserve", "conservation", "stewardship"]
+  url: "https://www.scienceforconservation.org/products/remote-sensing-monitoring-grazed-conservation-lands"
 
 - id: dangermond
   categories: ["planting"]
