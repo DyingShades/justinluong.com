@@ -42,8 +42,8 @@ practitioners:
       - label: "Wiyot Tribe Natural Resources"
         url: "https://www.wiyot.us/101/Natural-Resources"
         primary: true
-        
-- name: "Wayne Chapman"
+
+  - name: "Wayne Chapman"
     role: "Nursery/Project manager"
     location: "Cheadle Center - UCSB"
     headshot: "Grasslandrestoration/Wayne Chapman.png"
