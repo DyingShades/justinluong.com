@@ -4,15 +4,13 @@ title: Grassland Restoration Practitioners
 permalink: /menu/Grasslandrestorationpractitioners.html
 
 practitioners:
-  
   - name: "Scott Butterfield"
     role: "Lead Scientist at The Nature Conservancy in California"
     location: "Land Program"
     headshot: "Grasslandrestoration/Scottbutterfield.jpeg"
     headshot_alt: "H. Scott Butterfield"
 
-    bio: |
-      In The Nature Conservancy's California Chapter, Scott serves as a Lead Scientist in the Land Program, overseeing science, stewardship, including, cattle grazing, and land protection across TNC's more than 400,000-acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monument.
+    bio: In The Nature Conservancy's California Chapter, Scott serves as a Lead Scientist in the Land Program, overseeing science, stewardship, including, cattle grazing, and land protection across TNC's more than 400,000-acre grassland and oak woodland conservation estate. Scott is also the lead scientist for the Strategic Restoration Scientist in the San Joaquin Valley and TNC's lead for participation as a management partner at the Carrizo Plain National Monument.
 
     tags:
       - "Rangeland Restoration"
